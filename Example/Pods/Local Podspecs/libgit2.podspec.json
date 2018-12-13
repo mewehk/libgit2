@@ -1,9 +1,9 @@
 {
   "name": "libgit2",
   "version": "0.1.0",
-  "summary": "A short description of libgit2.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Movie/libgit2",
+  "summary": "libgit2 for iOS",
+  "description": "libgit2 iOS pod.",
+  "homepage": "https://github.com/mewehk/libgit2",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,15 @@
     "Movie": "100992222@qq.com"
   },
   "source": {
-    "git": "https://github.com/Movie/libgit2.git",
+    "git": "https://github.com/mewehk/libgit2.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "libgit2/**/*",
-  "vendored_libraries": "libgit2/libgit2-ios.a",
+  "source_files": "libgit2/**/*.{swift,h}",
+  "ios": {
+    "vendored_libraries": "libgit2/libgit2-ios.a"
+  },
   "public_header_files": "libgit2/**/*.h"
 }

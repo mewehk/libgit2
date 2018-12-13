@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-libgit2 iOS
+libgit2 iOS pod.
                        DESC
 
   s.homepage         = 'https://github.com/mewehk/libgit2'
@@ -30,8 +30,8 @@ libgit2 iOS
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'libgit2/**/*'
-  s.vendored_libraries = 'libgit2/libgit2-ios.a'
+  s.source_files = 'libgit2/**/*.{swift,h}'
+  s.ios.vendored_library = 'libgit2/libgit2-ios.a'
   # s.resource_bundles = {
   #   'libgit2' => ['libgit2/Assets/*.png']
   # }

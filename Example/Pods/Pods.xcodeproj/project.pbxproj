@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04DA80A2A5390E4B6E65342D163B8A49 /* strarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 23140E6919A39D1122A9BC6F54B95488 /* strarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04DA80A2A5390E4B6E65342D163B8A49 /* strarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 655E9D2FB693466BB3BC871C71036135 /* strarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C5CC34F55CA64774320DFEE6579BA43 /* Pods-libgit2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 950616C54B3038941EDF246457AF7965 /* Pods-libgit2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		100FB2754AF3C86BF7CD15676442FAE7 /* describe.h in Headers */ = {isa = PBXBuildFile; fileRef = D238B3EA0A202CC379534DF9B5583E97 /* describe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1069AACD16411EBAC392404B102F68F9 /* cred_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F2DF986C74F710BBC3E5F9CD33B174 /* cred_helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13D1326BBACEE0E187BEBC0500744D7B /* odb.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB619A4494DE456EE49FAF66D45E395 /* odb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B054EDCD47F544F4E3869D0A675EB7E /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6389447B9485F6E64AB891F2A612E637 /* refs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B2A0590D26C479F431093AB8EAE6C4B /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 783B916B2F686FE82F286708C946DBA1 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100FB2754AF3C86BF7CD15676442FAE7 /* describe.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EE7A377CAA7B14D0C0EFFF9951CFAF /* describe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1069AACD16411EBAC392404B102F68F9 /* cred_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF4A82BD01CE41E9CCC29E0E5D1B40B /* cred_helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D1326BBACEE0E187BEBC0500744D7B /* odb.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC2DB68F3BD8BE804BBEE68178F11D5 /* odb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B054EDCD47F544F4E3869D0A675EB7E /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D5A09F0CAC62CB336DDCD5A758439C /* refs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B2A0590D26C479F431093AB8EAE6C4B /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8771819A4FA9AB35368A45DACBA086 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24C2965F51E184F04ADD2C72D8212E49 /* Pods-libgit2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C65E9D58AC28981220519D46F4B2843 /* Pods-libgit2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323212EE23DB85A42C6CD69510C349A6 /* trace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3239D46F246AE23AD19F8BD35D089C /* trace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCE2638327858C56A852E85649504F7 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656A1945117959121F797C5480E3EC2 /* Placeholder.swift */; };
+		323212EE23DB85A42C6CD69510C349A6 /* trace.h in Headers */ = {isa = PBXBuildFile; fileRef = F39C45BAA1307194D3A48991A4CF0675 /* trace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36962D783FFAB5294C27003620D03DBB /* Pods-libgit2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0E3F63BD772EFCE4CA7609FDD9A59 /* Pods-libgit2_Example-dummy.m */; };
 		390B02A2298E0A8BD8DE7BDB2C5765C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3D4B692AB803A07BE14A4A2CE19FC2AB /* libgit2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B368DBAC63A13470D8313A027916DCD /* libgit2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D92B562D47A8378ABB57DAA9E151DD9 /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D99A5B8DBD34CDF27C37679C008330 /* status.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		415DDC6423495A8C2AE244FE5AF0681A /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 6861A95DF32C4EC1F25FCF1F732CB791 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		458EA6B2C3396EF3930465C825D78449 /* blame.h in Headers */ = {isa = PBXBuildFile; fileRef = F6617263E3103F757C1E1E344A511352 /* blame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		477601B095607B3B09FAD42D485E28F7 /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB02FF5BCC8B45E34051D5A98F8B3EB /* pack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		495D548A30DD904048502B903750608F /* indexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 306635EF43E8BF8077A382A68A5862E9 /* indexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49F4A86B6E9B0B077AEBFC69D51C280B /* signature.h in Headers */ = {isa = PBXBuildFile; fileRef = B445A3576545F9FA1EE36D705D8D18CD /* signature.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D471F45203AECF76C6B4F9D271304E7 /* reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE5561422DFB24A87C31FF9D4835B9F /* reset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54838A5ADC0DDC92D81E48015A47F70D /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D46A6709D9388DFDF06A0D8A6BDF97 /* filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54FE3107DD00B05E3EC41CE073CD56FF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD596BF5222A253224D66AAB403EA8A /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5782FA6D4B1FA94A69B0E105E56E6C77 /* revparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9641FE2EEE83044761BE00A27A972EF1 /* revparse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AB50F6FA07647EB6F07B695C7715F8D /* pathspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 4981645B90F0682D2E3B43241FFFA4AA /* pathspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B5076E387367E2CB1F7F6416A7E8212 /* checkout.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F2B34187A321C31F3E110A4462322C /* checkout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FEB636B629B66D561D6B99016ACED8A /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BC13BBA308259670F0C7890F284F32 /* global.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6831B01D06A2C833AEE088EEE995AEC1 /* oidarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B4E39166091C1D2A4C0E90C16C143C /* oidarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6981AB6DF29E51E09DF4CC83040B6335 /* notes.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2F9EE87CC277515CA4AE17ACB3651C /* notes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AFC0C68C5BCC2F2CA48D4AD7404AC5A /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 180F494DC30A0655FF8015317ADA204D /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CB4F756FB586B62A41AEC413BD9BD01 /* libgit2-ios.a in Sources */ = {isa = PBXBuildFile; fileRef = E6B301C13CC3CD067FF139A8586BDBCD /* libgit2-ios.a */; };
-		70BA77E770C947534D74E45B87E31A33 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AD33F96C21C15591403C2D5BD2D25F /* reflog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		750DC086B670C5D9FF3CA13A7E1CD474 /* worktree.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E4C72087874E1DD71249E684960567 /* worktree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75D186A9F6F83FDB62D9A3CD296DAD03 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEA7FBFB2945FB06DCE1B3099AD55A8 /* transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8108604759793B358CBCC0FE9743BEFA /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0E437BB8F99765BE65A81F3B305FDA /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83059AEA772BFC83DADCAF373468720A /* revert.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED19A5DFC76D35ACE0F89EDB8F8E18C /* revert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83556689F71CE80CD5629FEEE407BE51 /* clone.h in Headers */ = {isa = PBXBuildFile; fileRef = EF684B65671BD6D48A04C0A38B8C7B9A /* clone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		850E59A3CC5D5C41B0A6FD8CE3B01767 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4532EE307B428B1290FB0FC26FA56D6 /* commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D959CF5A94804FBF277D26DA1A97D04 /* patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 101C4C164F8E76EB358CE77A56748FF4 /* patch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DE8AE1142F0FE4CC2EA670756046A75 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 386BB7C3276A0AD67D3196A70BCAF1DE /* proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		937E1ACB3C51BA01293EBE73C4D7600D /* ignore.h in Headers */ = {isa = PBXBuildFile; fileRef = 968F978580528DB2ECF107A4ADA73EF6 /* ignore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99E11E97614F3BF884907CE91CCA881E /* remote.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CB5438066F67B87E0784CD1D1478EF /* remote.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BC4A7525A983C39FE44FABB4B021980 /* libgit2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 213E9FFF76DA5C9E1D3510872E0C4405 /* libgit2-dummy.m */; };
-		A153E587D7FFD377D7BFA24DA51F2174 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFE6605558E9F49475E80A71B0B6BB8 /* diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1D53D9E563AC5DF86A97B124161A0E3 /* branch.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF7848FAF8A98A2FDEAAE2B6E10066B /* branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9A1573F2EB4E36B742719A0E38E20E2 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F7CDD990A9E10F47EEADB23CDDCCA1 /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB20FF1BC8CA2911E761666DE2B91906 /* graph.h in Headers */ = {isa = PBXBuildFile; fileRef = CD200F372637F8498220A0A82FF7FD69 /* graph.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD3520A7490FD25C5349FEE518516872 /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = B16705678744CB04F59E6CF916299748 /* tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B40F5FD70C97BD9E37A98BF2479FDC18 /* errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEB175680C1FE89E5D15D26E78755E0 /* errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B778987E1733B850E9546BE5AD56C103 /* merge.h in Headers */ = {isa = PBXBuildFile; fileRef = D41290DFC7D242B46DB56A5B8CEA1618 /* merge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9BCE05BD748B3575295271E04A9935E /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = 68354F211DE0B2599462AAFAD1560056 /* object.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF6ECDAF1A692DFA57E4CB7628764541 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FBA660D6614133A405691DE4669943 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF95776AB0083E87583054A20FFA8C2A /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = B787943F8EE261D2F331194401553C04 /* blob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4B692AB803A07BE14A4A2CE19FC2AB /* libgit2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0BD255E88DD62079DA8FEA85773D99 /* libgit2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D92B562D47A8378ABB57DAA9E151DD9 /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1C6426D799EEA44E7E7E835CF11576 /* status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		415DDC6423495A8C2AE244FE5AF0681A /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8334B8037F6D5F860E3719CFA03A170A /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		458EA6B2C3396EF3930465C825D78449 /* blame.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F1D2D5FA69DD7D7352C6CF973A9866 /* blame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		477601B095607B3B09FAD42D485E28F7 /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBAB8872AA484449838E7FA759ACB1C /* pack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495D548A30DD904048502B903750608F /* indexer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D12F3C8FFE0C7313B1F1885EF27FCB /* indexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F4A86B6E9B0B077AEBFC69D51C280B /* signature.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E0161BBCE09BFBFCAA7E3464CF77FB /* signature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D471F45203AECF76C6B4F9D271304E7 /* reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A0939C2322383237EA6A49EC451589 /* reset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54838A5ADC0DDC92D81E48015A47F70D /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A465F433E5CAE8DCB0577AB7C890B0 /* filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FE3107DD00B05E3EC41CE073CD56FF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D1118CEBAEEEC8955A0CDB1880137B /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5782FA6D4B1FA94A69B0E105E56E6C77 /* revparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 335E2616588FF0EF34B95BF412BADE20 /* revparse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB50F6FA07647EB6F07B695C7715F8D /* pathspec.h in Headers */ = {isa = PBXBuildFile; fileRef = C65BAA278B01D7B39105A709A7C884EF /* pathspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B5076E387367E2CB1F7F6416A7E8212 /* checkout.h in Headers */ = {isa = PBXBuildFile; fileRef = 353B3E202064BC577A9A78A1189491D9 /* checkout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEB636B629B66D561D6B99016ACED8A /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = DE02C484F7E4B30977354C023DF2396B /* global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6831B01D06A2C833AEE088EEE995AEC1 /* oidarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 434A23857D425AC1635A687C172A6943 /* oidarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6981AB6DF29E51E09DF4CC83040B6335 /* notes.h in Headers */ = {isa = PBXBuildFile; fileRef = 984924FDD3A38740C92ECA93C9FC969B /* notes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFC0C68C5BCC2F2CA48D4AD7404AC5A /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CEBCA9BC88735922433E2F890C99D5 /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70BA77E770C947534D74E45B87E31A33 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = 464EB02F294653A706D80CCE5F7E1236 /* reflog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750DC086B670C5D9FF3CA13A7E1CD474 /* worktree.h in Headers */ = {isa = PBXBuildFile; fileRef = 682F7C6804DFCD4E1A41984F6E9E5B47 /* worktree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D186A9F6F83FDB62D9A3CD296DAD03 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F65D6F1285DEB04173A6DD5FCA90C4B /* transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8108604759793B358CBCC0FE9743BEFA /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 55979B2DF356FD2BC2E48F7A09F5A996 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83059AEA772BFC83DADCAF373468720A /* revert.h in Headers */ = {isa = PBXBuildFile; fileRef = 9264AEC15EF4C53114AEDD9977E74C27 /* revert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83556689F71CE80CD5629FEEE407BE51 /* clone.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2A1064C1FFA8CF245B7192DA9A90F2 /* clone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		850E59A3CC5D5C41B0A6FD8CE3B01767 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFDF86288B6B35ED9695F4AECFDB126 /* commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D959CF5A94804FBF277D26DA1A97D04 /* patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED50F4910E075B607A886E9D7A13A22 /* patch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE8AE1142F0FE4CC2EA670756046A75 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F874DEBAEB4FC1AF37CBEFC139D81B0E /* proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937E1ACB3C51BA01293EBE73C4D7600D /* ignore.h in Headers */ = {isa = PBXBuildFile; fileRef = CF114017D8BC7ADCEF619C5722B39F73 /* ignore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E11E97614F3BF884907CE91CCA881E /* remote.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAD36CE64B7F1BB8649D2B99341C72F /* remote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A153E587D7FFD377D7BFA24DA51F2174 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD7607895769AB780B202F8AA6C05C6 /* diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D53D9E563AC5DF86A97B124161A0E3 /* branch.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F94A30CDDE11294B629AAEB69AA52E /* branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3BCC34AD439DB5FE434B61743CB0CDE /* libgit2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D20FAAFCFBC49867E2C668E63DA5EDFD /* libgit2-dummy.m */; };
+		A9A1573F2EB4E36B742719A0E38E20E2 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9145D4397E2A0E00D380222A5459249D /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB20FF1BC8CA2911E761666DE2B91906 /* graph.h in Headers */ = {isa = PBXBuildFile; fileRef = 375B84FF813701281E69314336835F55 /* graph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3520A7490FD25C5349FEE518516872 /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = B53559FFE3C252140D9CA4620B334447 /* tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40F5FD70C97BD9E37A98BF2479FDC18 /* errors.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BCB184D954AB512CEF3C74C2E7F795 /* errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B778987E1733B850E9546BE5AD56C103 /* merge.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC1BF8273D56A82EE0D97CCCA1F9937 /* merge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9BCE05BD748B3575295271E04A9935E /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = 676708C9D19EC64A14E0B777A0D05134 /* object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6ECDAF1A692DFA57E4CB7628764541 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = E61C2C25875474FD4FA9DA85A54FC3CA /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF95776AB0083E87583054A20FFA8C2A /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = A3952E8ADCF8A5EBFEC27E4F1A492309 /* blob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFB9CA81958E3A32BB97EC4BFD7BE002 /* Pods-libgit2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2700A590F2B432D9931ABFC3DE40E /* Pods-libgit2_Tests-dummy.m */; };
-		C0D685A7F1C0EF5C50F7607D82A94841 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA859832B642D0EA5BF9C450B72926D /* index.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0EEEA75F688C564836DA2EC56897B2C /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C7CB126EC4F934B9E4B10CAB513C62 /* repository.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C306EC4E229A97B4B842799CC4B4AC80 /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF2E664EAA4FE796CC95657B32EED41 /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D064427EE9CD9AA8E073A8BED4480F /* refdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 628D0DE241F9C70ED3403D92804A8678 /* refdb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC6ED1CBF183305CCE0A2917A76D8662 /* rebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD7DE38BB371C85F351FC22719EDAFE /* rebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D20FF25CD84AA16280F2679081990574 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF7B214DED577282FB956AA6506825B /* odb_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3739458A765D6DD0CD92017D497A4D9 /* transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = A760B55346AF0853564B21DA5332F935 /* transaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D60870996301A003F882BAF5B68B8BE9 /* refspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE476975312D751193564C9335AAE6A /* refspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D70D23B09DB3301EEEC62B6A1D23360C /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = CA036C53CE7F40FEDEC7A60515C1062F /* net.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D685A7F1C0EF5C50F7607D82A94841 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C111C6B383C60A85880FF0DE489EA8 /* index.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0EEEA75F688C564836DA2EC56897B2C /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = 47742509615B6713BE43C96B8BA976EE /* repository.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C306EC4E229A97B4B842799CC4B4AC80 /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9EAD863D909E8AF02AEBF6D99E86FB /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D064427EE9CD9AA8E073A8BED4480F /* refdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAAADA1AF3D34DCCFF4F64F52C28329 /* refdb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6ED1CBF183305CCE0A2917A76D8662 /* rebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FE10E35E2F6D93EB6CD767F25A5323 /* rebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D20FF25CD84AA16280F2679081990574 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3402137E14DEA9D86778C3CF36C718 /* odb_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3739458A765D6DD0CD92017D497A4D9 /* transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = A0576FED5233EA3FA980A4F07652192C /* transaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D60870996301A003F882BAF5B68B8BE9 /* refspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BF8F4FA87C750B874AE9941914D094 /* refspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D70D23B09DB3301EEEC62B6A1D23360C /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = A09958DDB86A2D285C499D5522D30084 /* net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8C7CACB97B423AD67DBD079A5AD2204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D9B4FAB71B06E6537497A5114C1D3F02 /* submodule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D87C797F77D25AAE71CAB345C1A4CFD /* submodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B4FAB71B06E6537497A5114C1D3F02 /* submodule.h in Headers */ = {isa = PBXBuildFile; fileRef = D279D775BE78A983B2E6AF044C8EB53D /* submodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9C8978458EC3BA7C18A0F8A47FFC8AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EB40BE1A5CCADFBD5F96384AD9984D45 /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = 656EE598CA3BC7AE228BA23324935436 /* oid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEC2A84B4A0098C85043D9511344DBA5 /* revwalk.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B087CC49601261D01B13F25F3B126C /* revwalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6072A7DF123B8F518BAE849F9DF85E7 /* stash.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CFE6A0B2E118EFE33E67B833F92D25 /* stash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F850143779F49E5E06A85B464DA25B5F /* cherrypick.h in Headers */ = {isa = PBXBuildFile; fileRef = EE822B38828C6B26A1B6108F3ED7FAA9 /* cherrypick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA2F7B9ECDE08EEC9F83C3A90EAF9B58 /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = 4411170CA8E3DFFB839B197A67F81078 /* message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB40BE1A5CCADFBD5F96384AD9984D45 /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = 30075B7EE8FC11FC7D0D85A7B942FE21 /* oid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC2A84B4A0098C85043D9511344DBA5 /* revwalk.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C28E8AE2A0013FA2A5A6C3410F8FAB1 /* revwalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6072A7DF123B8F518BAE849F9DF85E7 /* stash.h in Headers */ = {isa = PBXBuildFile; fileRef = 33402D9358DAAD946CCF5AABD9C6ED15 /* stash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F850143779F49E5E06A85B464DA25B5F /* cherrypick.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4C0E08BED3EAD684230953457119AE /* cherrypick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2F7B9ECDE08EEC9F83C3A90EAF9B58 /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFACB003CA684FD74231429FE8788B3 /* message.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,100 +96,101 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01FBA660D6614133A405691DE4669943 /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		04F2DF986C74F710BBC3E5F9CD33B174 /* cred_helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cred_helpers.h; sourceTree = "<group>"; };
+		06A0939C2322383237EA6A49EC451589 /* reset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reset.h; sourceTree = "<group>"; };
 		07F4B00BF132EA5B5C27BA87A17C2A77 /* Pods-libgit2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2_Tests.modulemap"; sourceTree = "<group>"; };
-		0B368DBAC63A13470D8313A027916DCD /* libgit2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2-umbrella.h"; sourceTree = "<group>"; };
-		0CEB175680C1FE89E5D15D26E78755E0 /* errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
-		101C4C164F8E76EB358CE77A56748FF4 /* patch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = patch.h; sourceTree = "<group>"; };
+		13EE7A377CAA7B14D0C0EFFF9951CFAF /* describe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = describe.h; sourceTree = "<group>"; };
 		1702345826C6CEB3C02D93665A4AA9C0 /* Pods-libgit2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		180F494DC30A0655FF8015317ADA204D /* annotated_commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = annotated_commit.h; sourceTree = "<group>"; };
-		1DE476975312D751193564C9335AAE6A /* refspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refspec.h; sourceTree = "<group>"; };
-		20881CCA9D499DE3B4F1638A309AC16B /* libgit2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libgit2.xcconfig; sourceTree = "<group>"; };
-		20CB5438066F67B87E0784CD1D1478EF /* remote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = remote.h; sourceTree = "<group>"; };
-		20F2B34187A321C31F3E110A4462322C /* checkout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = checkout.h; sourceTree = "<group>"; };
-		213E9FFF76DA5C9E1D3510872E0C4405 /* libgit2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libgit2-dummy.m"; sourceTree = "<group>"; };
-		23140E6919A39D1122A9BC6F54B95488 /* strarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = strarray.h; sourceTree = "<group>"; };
-		25F7CDD990A9E10F47EEADB23CDDCCA1 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		295B865CB072541FB0167CB1B162CED8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2A02406C5A2B583FE6DDA5673506AB31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2F3239D46F246AE23AD19F8BD35D089C /* trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = trace.h; sourceTree = "<group>"; };
-		2FF2E664EAA4FE796CC95657B32EED41 /* attr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = attr.h; sourceTree = "<group>"; };
-		2FFE6605558E9F49475E80A71B0B6BB8 /* diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = diff.h; sourceTree = "<group>"; };
-		306635EF43E8BF8077A382A68A5862E9 /* indexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = indexer.h; sourceTree = "<group>"; };
-		386BB7C3276A0AD67D3196A70BCAF1DE /* proxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
-		3AE5561422DFB24A87C31FF9D4835B9F /* reset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reset.h; sourceTree = "<group>"; };
-		4411170CA8E3DFFB839B197A67F81078 /* message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
-		4981645B90F0682D2E3B43241FFFA4AA /* pathspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pathspec.h; sourceTree = "<group>"; };
-		4BD7DE38BB371C85F351FC22719EDAFE /* rebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rebase.h; sourceTree = "<group>"; };
-		54B4E39166091C1D2A4C0E90C16C143C /* oidarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oidarray.h; sourceTree = "<group>"; };
+		1AAAADA1AF3D34DCCFF4F64F52C28329 /* refdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refdb.h; sourceTree = "<group>"; };
+		1C0BD255E88DD62079DA8FEA85773D99 /* libgit2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2-umbrella.h"; sourceTree = "<group>"; };
+		20CEBCA9BC88735922433E2F890C99D5 /* annotated_commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = annotated_commit.h; sourceTree = "<group>"; };
+		2BF4A82BD01CE41E9CCC29E0E5D1B40B /* cred_helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cred_helpers.h; sourceTree = "<group>"; };
+		2CC2DB68F3BD8BE804BBEE68178F11D5 /* odb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb.h; sourceTree = "<group>"; };
+		2E4C0E08BED3EAD684230953457119AE /* cherrypick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cherrypick.h; sourceTree = "<group>"; };
+		30075B7EE8FC11FC7D0D85A7B942FE21 /* oid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
+		33402D9358DAAD946CCF5AABD9C6ED15 /* stash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stash.h; sourceTree = "<group>"; };
+		335E2616588FF0EF34B95BF412BADE20 /* revparse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revparse.h; sourceTree = "<group>"; };
+		353B3E202064BC577A9A78A1189491D9 /* checkout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = checkout.h; sourceTree = "<group>"; };
+		375B84FF813701281E69314336835F55 /* graph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		3EFACB003CA684FD74231429FE8788B3 /* message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		434A23857D425AC1635A687C172A6943 /* oidarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oidarray.h; sourceTree = "<group>"; };
+		464EB02F294653A706D80CCE5F7E1236 /* reflog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reflog.h; sourceTree = "<group>"; };
+		47742509615B6713BE43C96B8BA976EE /* repository.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = repository.h; sourceTree = "<group>"; };
+		4937C3EA326E3CB5CF8EB2C38458CE6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4C28E8AE2A0013FA2A5A6C3410F8FAB1 /* revwalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revwalk.h; sourceTree = "<group>"; };
+		55979B2DF356FD2BC2E48F7A09F5A996 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		61C7CB126EC4F934B9E4B10CAB513C62 /* repository.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = repository.h; sourceTree = "<group>"; };
-		628D0DE241F9C70ED3403D92804A8678 /* refdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refdb.h; sourceTree = "<group>"; };
+		5A1C6426D799EEA44E7E7E835CF11576 /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
+		5C8771819A4FA9AB35368A45DACBA086 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		5ED50F4910E075B607A886E9D7A13A22 /* patch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = patch.h; sourceTree = "<group>"; };
+		5F9EAD863D909E8AF02AEBF6D99E86FB /* attr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = attr.h; sourceTree = "<group>"; };
+		5FB7FB43804B30DFE3C01EABC82DAE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6360EADDED52CC319A77DF6465F8539D /* Pods-libgit2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6389447B9485F6E64AB891F2A612E637 /* refs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refs.h; sourceTree = "<group>"; };
-		656EE598CA3BC7AE228BA23324935436 /* oid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
-		68354F211DE0B2599462AAFAD1560056 /* object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
-		6861A95DF32C4EC1F25FCF1F732CB791 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		696D60D607E96F098B94B71EC8D35D90 /* libgit2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2-prefix.pch"; sourceTree = "<group>"; };
-		69AC0C4288463E7568B85EC6FF743B64 /* Pods_libgit2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2_Example.framework; path = "Pods-libgit2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D1118CEBAEEEC8955A0CDB1880137B /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		655E9D2FB693466BB3BC871C71036135 /* strarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = strarray.h; sourceTree = "<group>"; };
+		676708C9D19EC64A14E0B777A0D05134 /* object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		682F7C6804DFCD4E1A41984F6E9E5B47 /* worktree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = worktree.h; sourceTree = "<group>"; };
+		69AC0C4288463E7568B85EC6FF743B64 /* Pods_libgit2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libgit2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D896B0B25FC3B2EA54BCAE85F7B1BB /* Pods-libgit2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2_Example.modulemap"; sourceTree = "<group>"; };
-		6ED19A5DFC76D35ACE0F89EDB8F8E18C /* revert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revert.h; sourceTree = "<group>"; };
+		71D5A09F0CAC62CB336DDCD5A758439C /* refs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refs.h; sourceTree = "<group>"; };
+		74FE10E35E2F6D93EB6CD767F25A5323 /* rebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rebase.h; sourceTree = "<group>"; };
 		77BB9DD472B722A13BBA69D0DEB8DFBC /* Pods-libgit2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Tests-resources.sh"; sourceTree = "<group>"; };
-		77D99A5B8DBD34CDF27C37679C008330 /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
-		783B916B2F686FE82F286708C946DBA1 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		784753D3B33F8C7768D15F8EC48EDA8A /* libgit2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2-prefix.pch"; sourceTree = "<group>"; };
 		78A4FA40FEB79314F2933E08CDF40729 /* Pods-libgit2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		79BF8F4FA87C750B874AE9941914D094 /* refspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refspec.h; sourceTree = "<group>"; };
+		7CFDF86288B6B35ED9695F4AECFDB126 /* commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = commit.h; sourceTree = "<group>"; };
 		7D79CF2B9507CC299B034EE0473F0D28 /* Pods-libgit2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7DF2700A590F2B432D9931ABFC3DE40E /* Pods-libgit2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2_Tests-dummy.m"; sourceTree = "<group>"; };
+		7E2A1064C1FFA8CF245B7192DA9A90F2 /* clone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = clone.h; sourceTree = "<group>"; };
+		7F65D6F1285DEB04173A6DD5FCA90C4B /* transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transport.h; sourceTree = "<group>"; };
 		7F8A48151F3EA7A3667929D49185806E /* Pods-libgit2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80F94A30CDDE11294B629AAEB69AA52E /* branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = branch.h; sourceTree = "<group>"; };
+		8334B8037F6D5F860E3719CFA03A170A /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		86671F3C71E6E61F935B032A3001E8F6 /* Pods-libgit2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		86A0E3F63BD772EFCE4CA7609FDD9A59 /* Pods-libgit2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2_Example-dummy.m"; sourceTree = "<group>"; };
-		86BC13BBA308259670F0C7890F284F32 /* global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
-		8A0E437BB8F99765BE65A81F3B305FDA /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
-		8AEA7FBFB2945FB06DCE1B3099AD55A8 /* transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transport.h; sourceTree = "<group>"; };
-		8D87C797F77D25AAE71CAB345C1A4CFD /* submodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = submodule.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9145D4397E2A0E00D380222A5459249D /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		9264AEC15EF4C53114AEDD9977E74C27 /* revert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revert.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9472ACB835AFD23B3E5786E296359042 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		950616C54B3038941EDF246457AF7965 /* Pods-libgit2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2_Example-umbrella.h"; sourceTree = "<group>"; };
-		95EEF257C39932C87E7231B0C355332A /* libgit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libgit2.framework; path = libgit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9641FE2EEE83044761BE00A27A972EF1 /* revparse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revparse.h; sourceTree = "<group>"; };
-		968F978580528DB2ECF107A4ADA73EF6 /* ignore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ignore.h; sourceTree = "<group>"; };
-		987ECC2B5F798926E195D261E6B3BB58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A465F433E5CAE8DCB0577AB7C890B0 /* filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		95EEF257C39932C87E7231B0C355332A /* libgit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libgit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984924FDD3A38740C92ECA93C9FC969B /* notes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = notes.h; sourceTree = "<group>"; };
+		98E0161BBCE09BFBFCAA7E3464CF77FB /* signature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
 		9B0D27A8037712D0869C6B5BCAD161C4 /* Pods-libgit2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Example-resources.sh"; sourceTree = "<group>"; };
+		9B3402137E14DEA9D86778C3CF36C718 /* odb_backend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb_backend.h; sourceTree = "<group>"; };
 		9C65E9D58AC28981220519D46F4B2843 /* Pods-libgit2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9DD596BF5222A253224D66AAB403EA8A /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		9FA859832B642D0EA5BF9C450B72926D /* index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = index.h; sourceTree = "<group>"; };
-		A760B55346AF0853564B21DA5332F935 /* transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
-		B16705678744CB04F59E6CF916299748 /* tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
-		B445A3576545F9FA1EE36D705D8D18CD /* signature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
-		B5B087CC49601261D01B13F25F3B126C /* revwalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revwalk.h; sourceTree = "<group>"; };
-		B787943F8EE261D2F331194401553C04 /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
-		B99EB3122CA4F055D1C1D9AC18342132 /* libgit2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libgit2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B9CFE6A0B2E118EFE33E67B833F92D25 /* stash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stash.h; sourceTree = "<group>"; };
-		B9D9F7295AF3033E586A1B38004FD7C2 /* libgit2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libgit2.modulemap; sourceTree = "<group>"; };
+		A0576FED5233EA3FA980A4F07652192C /* transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
+		A09958DDB86A2D285C499D5522D30084 /* net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		A3952E8ADCF8A5EBFEC27E4F1A492309 /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
+		AADB840362665488C7A9C2C02DF17ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC1BF8273D56A82EE0D97CCCA1F9937 /* merge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = merge.h; sourceTree = "<group>"; };
+		B0C111C6B383C60A85880FF0DE489EA8 /* index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = index.h; sourceTree = "<group>"; };
+		B4F1D2D5FA69DD7D7352C6CF973A9866 /* blame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blame.h; sourceTree = "<group>"; };
+		B506E6D9FF17DD38F068BA05CFB6C533 /* libgit2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = libgit2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B53559FFE3C252140D9CA4620B334447 /* tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		BBAD36CE64B7F1BB8649D2B99341C72F /* remote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = remote.h; sourceTree = "<group>"; };
+		BDD7607895769AB780B202F8AA6C05C6 /* diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = diff.h; sourceTree = "<group>"; };
 		C23D20AE3E7EF0FB5706C205AF65C9AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6E4C72087874E1DD71249E684960567 /* worktree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = worktree.h; sourceTree = "<group>"; };
-		C8D46A6709D9388DFDF06A0D8A6BDF97 /* filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
-		C9AD33F96C21C15591403C2D5BD2D25F /* reflog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reflog.h; sourceTree = "<group>"; };
-		CA036C53CE7F40FEDEC7A60515C1062F /* net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
-		CD200F372637F8498220A0A82FF7FD69 /* graph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		C656A1945117959121F797C5480E3EC2 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = libgit2/Placeholder.swift; sourceTree = "<group>"; };
+		C65BAA278B01D7B39105A709A7C884EF /* pathspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pathspec.h; sourceTree = "<group>"; };
 		CE2E1F9B15FC9B6ABDFD40B9B621DAD5 /* Pods-libgit2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D238B3EA0A202CC379534DF9B5583E97 /* describe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = describe.h; sourceTree = "<group>"; };
-		D41290DFC7D242B46DB56A5B8CEA1618 /* merge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = merge.h; sourceTree = "<group>"; };
-		D9AFFD6B229682F1C4F798F079422FAE /* Pods_libgit2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2_Tests.framework; path = "Pods-libgit2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF114017D8BC7ADCEF619C5722B39F73 /* ignore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ignore.h; sourceTree = "<group>"; };
+		D20FAAFCFBC49867E2C668E63DA5EDFD /* libgit2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libgit2-dummy.m"; sourceTree = "<group>"; };
+		D279D775BE78A983B2E6AF044C8EB53D /* submodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = submodule.h; sourceTree = "<group>"; };
+		D2BCB184D954AB512CEF3C74C2E7F795 /* errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		D79B4869A16A84B26CB7893C4890967D /* libgit2-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libgit2-ios.a"; path = "libgit2/libgit2-ios.a"; sourceTree = "<group>"; };
+		D9AFFD6B229682F1C4F798F079422FAE /* Pods_libgit2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libgit2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7C4F55BC06DFAFA104328DBF463637 /* Pods-libgit2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E6B301C13CC3CD067FF139A8586BDBCD /* libgit2-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libgit2-ios.a"; path = "libgit2/libgit2-ios.a"; sourceTree = "<group>"; };
-		EB2F9EE87CC277515CA4AE17ACB3651C /* notes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = notes.h; sourceTree = "<group>"; };
-		EBB619A4494DE456EE49FAF66D45E395 /* odb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb.h; sourceTree = "<group>"; };
-		EE822B38828C6B26A1B6108F3ED7FAA9 /* cherrypick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cherrypick.h; sourceTree = "<group>"; };
-		EEF7B214DED577282FB956AA6506825B /* odb_backend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb_backend.h; sourceTree = "<group>"; };
-		EF684B65671BD6D48A04C0A38B8C7B9A /* clone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = clone.h; sourceTree = "<group>"; };
+		DD6AB13A22315F8ABC96291EDF253C1B /* libgit2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libgit2.modulemap; sourceTree = "<group>"; };
+		DE02C484F7E4B30977354C023DF2396B /* global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		E5D12F3C8FFE0C7313B1F1885EF27FCB /* indexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = indexer.h; sourceTree = "<group>"; };
+		E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libgit2.xcconfig; sourceTree = "<group>"; };
+		E61C2C25875474FD4FA9DA85A54FC3CA /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		F00420BD992A7B8576D26CA6BA8ECB28 /* Pods-libgit2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4532EE307B428B1290FB0FC26FA56D6 /* commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = commit.h; sourceTree = "<group>"; };
-		F6617263E3103F757C1E1E344A511352 /* blame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blame.h; sourceTree = "<group>"; };
+		F39C45BAA1307194D3A48991A4CF0675 /* trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = trace.h; sourceTree = "<group>"; };
+		F874DEBAEB4FC1AF37CBEFC139D81B0E /* proxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
 		F8DFC601C5439442732C3C8E06403BE7 /* Pods-libgit2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCF7848FAF8A98A2FDEAAE2B6E10066B /* branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = branch.h; sourceTree = "<group>"; };
-		FFB02FF5BCC8B45E34051D5A98F8B3EB /* pack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
+		FBBAB8872AA484449838E7FA759ACB1C /* pack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,71 +221,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55219C293BF91568C2584D06BEAB84F5 /* git2 */ = {
+		037A7EA1C2B4FA40B7A08810243417E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				180F494DC30A0655FF8015317ADA204D /* annotated_commit.h */,
-				2FF2E664EAA4FE796CC95657B32EED41 /* attr.h */,
-				F6617263E3103F757C1E1E344A511352 /* blame.h */,
-				B787943F8EE261D2F331194401553C04 /* blob.h */,
-				FCF7848FAF8A98A2FDEAAE2B6E10066B /* branch.h */,
-				783B916B2F686FE82F286708C946DBA1 /* buffer.h */,
-				20F2B34187A321C31F3E110A4462322C /* checkout.h */,
-				EE822B38828C6B26A1B6108F3ED7FAA9 /* cherrypick.h */,
-				EF684B65671BD6D48A04C0A38B8C7B9A /* clone.h */,
-				F4532EE307B428B1290FB0FC26FA56D6 /* commit.h */,
-				25F7CDD990A9E10F47EEADB23CDDCCA1 /* common.h */,
-				6861A95DF32C4EC1F25FCF1F732CB791 /* config.h */,
-				04F2DF986C74F710BBC3E5F9CD33B174 /* cred_helpers.h */,
-				D238B3EA0A202CC379534DF9B5583E97 /* describe.h */,
-				2FFE6605558E9F49475E80A71B0B6BB8 /* diff.h */,
-				0CEB175680C1FE89E5D15D26E78755E0 /* errors.h */,
-				C8D46A6709D9388DFDF06A0D8A6BDF97 /* filter.h */,
-				86BC13BBA308259670F0C7890F284F32 /* global.h */,
-				CD200F372637F8498220A0A82FF7FD69 /* graph.h */,
-				968F978580528DB2ECF107A4ADA73EF6 /* ignore.h */,
-				9FA859832B642D0EA5BF9C450B72926D /* index.h */,
-				306635EF43E8BF8077A382A68A5862E9 /* indexer.h */,
-				D41290DFC7D242B46DB56A5B8CEA1618 /* merge.h */,
-				4411170CA8E3DFFB839B197A67F81078 /* message.h */,
-				CA036C53CE7F40FEDEC7A60515C1062F /* net.h */,
-				EB2F9EE87CC277515CA4AE17ACB3651C /* notes.h */,
-				68354F211DE0B2599462AAFAD1560056 /* object.h */,
-				EBB619A4494DE456EE49FAF66D45E395 /* odb.h */,
-				EEF7B214DED577282FB956AA6506825B /* odb_backend.h */,
-				656EE598CA3BC7AE228BA23324935436 /* oid.h */,
-				54B4E39166091C1D2A4C0E90C16C143C /* oidarray.h */,
-				FFB02FF5BCC8B45E34051D5A98F8B3EB /* pack.h */,
-				101C4C164F8E76EB358CE77A56748FF4 /* patch.h */,
-				4981645B90F0682D2E3B43241FFFA4AA /* pathspec.h */,
-				386BB7C3276A0AD67D3196A70BCAF1DE /* proxy.h */,
-				4BD7DE38BB371C85F351FC22719EDAFE /* rebase.h */,
-				628D0DE241F9C70ED3403D92804A8678 /* refdb.h */,
-				C9AD33F96C21C15591403C2D5BD2D25F /* reflog.h */,
-				6389447B9485F6E64AB891F2A612E637 /* refs.h */,
-				1DE476975312D751193564C9335AAE6A /* refspec.h */,
-				20CB5438066F67B87E0784CD1D1478EF /* remote.h */,
-				61C7CB126EC4F934B9E4B10CAB513C62 /* repository.h */,
-				3AE5561422DFB24A87C31FF9D4835B9F /* reset.h */,
-				6ED19A5DFC76D35ACE0F89EDB8F8E18C /* revert.h */,
-				9641FE2EEE83044761BE00A27A972EF1 /* revparse.h */,
-				B5B087CC49601261D01B13F25F3B126C /* revwalk.h */,
-				B445A3576545F9FA1EE36D705D8D18CD /* signature.h */,
-				B9CFE6A0B2E118EFE33E67B833F92D25 /* stash.h */,
-				77D99A5B8DBD34CDF27C37679C008330 /* status.h */,
-				23140E6919A39D1122A9BC6F54B95488 /* strarray.h */,
-				8D87C797F77D25AAE71CAB345C1A4CFD /* submodule.h */,
-				B16705678744CB04F59E6CF916299748 /* tag.h */,
-				2F3239D46F246AE23AD19F8BD35D089C /* trace.h */,
-				A760B55346AF0853564B21DA5332F935 /* transaction.h */,
-				8AEA7FBFB2945FB06DCE1B3099AD55A8 /* transport.h */,
-				8A0E437BB8F99765BE65A81F3B305FDA /* tree.h */,
-				01FBA660D6614133A405691DE4669943 /* types.h */,
-				9DD596BF5222A253224D66AAB403EA8A /* version.h */,
-				C6E4C72087874E1DD71249E684960567 /* worktree.h */,
+				D79B4869A16A84B26CB7893C4890967D /* libgit2-ios.a */,
 			);
-			name = git2;
-			path = libgit2/git2;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E275A1BE2A240B923942D3F014623B3 /* libgit2 */ = {
+			isa = PBXGroup;
+			children = (
+				C656A1945117959121F797C5480E3EC2 /* Placeholder.swift */,
+				037A7EA1C2B4FA40B7A08810243417E4 /* Frameworks */,
+				7272952F9962E9D8D4070B38AE8EF0A6 /* git2 */,
+				9E76B2669DC8B8210FB36CB5C2D88B38 /* Pod */,
+				51782DA3F65756F1CAEE0B8B97A329FD /* Support Files */,
+			);
+			name = libgit2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51782DA3F65756F1CAEE0B8B97A329FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AADB840362665488C7A9C2C02DF17ABD /* Info.plist */,
+				DD6AB13A22315F8ABC96291EDF253C1B /* libgit2.modulemap */,
+				E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */,
+				D20FAAFCFBC49867E2C668E63DA5EDFD /* libgit2-dummy.m */,
+				784753D3B33F8C7768D15F8EC48EDA8A /* libgit2-prefix.pch */,
+				1C0BD255E88DD62079DA8FEA85773D99 /* libgit2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libgit2";
 			sourceTree = "<group>";
 		};
 		5BEFAD4715121969A5EBCD75D2A5A672 /* Pods-libgit2_Tests */ = {
@@ -313,6 +282,73 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7272952F9962E9D8D4070B38AE8EF0A6 /* git2 */ = {
+			isa = PBXGroup;
+			children = (
+				20CEBCA9BC88735922433E2F890C99D5 /* annotated_commit.h */,
+				5F9EAD863D909E8AF02AEBF6D99E86FB /* attr.h */,
+				B4F1D2D5FA69DD7D7352C6CF973A9866 /* blame.h */,
+				A3952E8ADCF8A5EBFEC27E4F1A492309 /* blob.h */,
+				80F94A30CDDE11294B629AAEB69AA52E /* branch.h */,
+				5C8771819A4FA9AB35368A45DACBA086 /* buffer.h */,
+				353B3E202064BC577A9A78A1189491D9 /* checkout.h */,
+				2E4C0E08BED3EAD684230953457119AE /* cherrypick.h */,
+				7E2A1064C1FFA8CF245B7192DA9A90F2 /* clone.h */,
+				7CFDF86288B6B35ED9695F4AECFDB126 /* commit.h */,
+				9145D4397E2A0E00D380222A5459249D /* common.h */,
+				8334B8037F6D5F860E3719CFA03A170A /* config.h */,
+				2BF4A82BD01CE41E9CCC29E0E5D1B40B /* cred_helpers.h */,
+				13EE7A377CAA7B14D0C0EFFF9951CFAF /* describe.h */,
+				BDD7607895769AB780B202F8AA6C05C6 /* diff.h */,
+				D2BCB184D954AB512CEF3C74C2E7F795 /* errors.h */,
+				95A465F433E5CAE8DCB0577AB7C890B0 /* filter.h */,
+				DE02C484F7E4B30977354C023DF2396B /* global.h */,
+				375B84FF813701281E69314336835F55 /* graph.h */,
+				CF114017D8BC7ADCEF619C5722B39F73 /* ignore.h */,
+				B0C111C6B383C60A85880FF0DE489EA8 /* index.h */,
+				E5D12F3C8FFE0C7313B1F1885EF27FCB /* indexer.h */,
+				ABC1BF8273D56A82EE0D97CCCA1F9937 /* merge.h */,
+				3EFACB003CA684FD74231429FE8788B3 /* message.h */,
+				A09958DDB86A2D285C499D5522D30084 /* net.h */,
+				984924FDD3A38740C92ECA93C9FC969B /* notes.h */,
+				676708C9D19EC64A14E0B777A0D05134 /* object.h */,
+				2CC2DB68F3BD8BE804BBEE68178F11D5 /* odb.h */,
+				9B3402137E14DEA9D86778C3CF36C718 /* odb_backend.h */,
+				30075B7EE8FC11FC7D0D85A7B942FE21 /* oid.h */,
+				434A23857D425AC1635A687C172A6943 /* oidarray.h */,
+				FBBAB8872AA484449838E7FA759ACB1C /* pack.h */,
+				5ED50F4910E075B607A886E9D7A13A22 /* patch.h */,
+				C65BAA278B01D7B39105A709A7C884EF /* pathspec.h */,
+				F874DEBAEB4FC1AF37CBEFC139D81B0E /* proxy.h */,
+				74FE10E35E2F6D93EB6CD767F25A5323 /* rebase.h */,
+				1AAAADA1AF3D34DCCFF4F64F52C28329 /* refdb.h */,
+				464EB02F294653A706D80CCE5F7E1236 /* reflog.h */,
+				71D5A09F0CAC62CB336DDCD5A758439C /* refs.h */,
+				79BF8F4FA87C750B874AE9941914D094 /* refspec.h */,
+				BBAD36CE64B7F1BB8649D2B99341C72F /* remote.h */,
+				47742509615B6713BE43C96B8BA976EE /* repository.h */,
+				06A0939C2322383237EA6A49EC451589 /* reset.h */,
+				9264AEC15EF4C53114AEDD9977E74C27 /* revert.h */,
+				335E2616588FF0EF34B95BF412BADE20 /* revparse.h */,
+				4C28E8AE2A0013FA2A5A6C3410F8FAB1 /* revwalk.h */,
+				98E0161BBCE09BFBFCAA7E3464CF77FB /* signature.h */,
+				33402D9358DAAD946CCF5AABD9C6ED15 /* stash.h */,
+				5A1C6426D799EEA44E7E7E835CF11576 /* status.h */,
+				655E9D2FB693466BB3BC871C71036135 /* strarray.h */,
+				D279D775BE78A983B2E6AF044C8EB53D /* submodule.h */,
+				B53559FFE3C252140D9CA4620B334447 /* tag.h */,
+				F39C45BAA1307194D3A48991A4CF0675 /* trace.h */,
+				A0576FED5233EA3FA980A4F07652192C /* transaction.h */,
+				7F65D6F1285DEB04173A6DD5FCA90C4B /* transport.h */,
+				55979B2DF356FD2BC2E48F7A09F5A996 /* tree.h */,
+				E61C2C25875474FD4FA9DA85A54FC3CA /* types.h */,
+				63D1118CEBAEEEC8955A0CDB1880137B /* version.h */,
+				682F7C6804DFCD4E1A41984F6E9E5B47 /* worktree.h */,
+			);
+			name = git2;
+			path = libgit2/git2;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -327,7 +363,7 @@
 		8D067FB373F359C6DC7A70814562A5CD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F58E2F50C2976383F7C8ECFC441448A0 /* libgit2 */,
+				1E275A1BE2A240B923942D3F014623B3 /* libgit2 */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -339,6 +375,16 @@
 				5BEFAD4715121969A5EBCD75D2A5A672 /* Pods-libgit2_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E76B2669DC8B8210FB36CB5C2D88B38 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B506E6D9FF17DD38F068BA05CFB6C533 /* libgit2.podspec */,
+				4937C3EA326E3CB5CF8EB2C38458CE6C /* LICENSE */,
+				5FB7FB43804B30DFE3C01EABC82DAE43 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A28043DB3242CAE03F429F5B555BA404 /* Products */ = {
@@ -359,30 +405,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEF9E6CEB5BCAA12FE3C61CDDC196505 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B99EB3122CA4F055D1C1D9AC18342132 /* libgit2.podspec */,
-				2A02406C5A2B583FE6DDA5673506AB31 /* LICENSE */,
-				295B865CB072541FB0167CB1B162CED8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D99B3BFDE72BF7B1FA5D907A2469337A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				987ECC2B5F798926E195D261E6B3BB58 /* Info.plist */,
-				B9D9F7295AF3033E586A1B38004FD7C2 /* libgit2.modulemap */,
-				20881CCA9D499DE3B4F1638A309AC16B /* libgit2.xcconfig */,
-				213E9FFF76DA5C9E1D3510872E0C4405 /* libgit2-dummy.m */,
-				696D60D607E96F098B94B71EC8D35D90 /* libgit2-prefix.pch */,
-				0B368DBAC63A13470D8313A027916DCD /* libgit2-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/libgit2";
-			sourceTree = "<group>";
-		};
 		E7007712BA8683079F2B5633F5D3AE2B /* Pods-libgit2_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,26 +421,6 @@
 			);
 			name = "Pods-libgit2_Example";
 			path = "Target Support Files/Pods-libgit2_Example";
-			sourceTree = "<group>";
-		};
-		F26382A4E19C485DF7753F47CE5D502C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F58E2F50C2976383F7C8ECFC441448A0 /* libgit2 */ = {
-			isa = PBXGroup;
-			children = (
-				E6B301C13CC3CD067FF139A8586BDBCD /* libgit2-ios.a */,
-				F26382A4E19C485DF7753F47CE5D502C /* Frameworks */,
-				55219C293BF91568C2584D06BEAB84F5 /* git2 */,
-				CEF9E6CEB5BCAA12FE3C61CDDC196505 /* Pod */,
-				D99B3BFDE72BF7B1FA5D907A2469337A /* Support Files */,
-			);
-			name = libgit2;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -553,7 +555,7 @@
 			buildConfigurationList = 26E69BF0788034084EC6A0556E4B7021 /* Build configuration list for PBXNativeTarget "libgit2" */;
 			buildPhases = (
 				36CF6F6962860C2001EDCB959213DD43 /* Headers */,
-				8AE20D08BC84C59DF7EDB7D8745E841B /* Sources */,
+				F7FB43C403C5E8019B8AAFC8D9BC1A6C /* Sources */,
 				8A330874FABEB4DDFC2DD327B5E7552D /* Frameworks */,
 				75E4E49F122005E20B2F9CB040C384FC /* Resources */,
 			);
@@ -573,7 +575,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					E9AD83D7ED67A8240D21665AF306C793 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -619,15 +626,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AE20D08BC84C59DF7EDB7D8745E841B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BC4A7525A983C39FE44FABB4B021980 /* libgit2-dummy.m in Sources */,
-				6CB4F756FB586B62A41AEC413BD9BD01 /* libgit2-ios.a in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		93FD0F55242FE36386C5FA3724526F71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -641,6 +639,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				36962D783FFAB5294C27003620D03DBB /* Pods-libgit2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FB43C403C5E8019B8AAFC8D9BC1A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BCC34AD439DB5FE434B61743CB0CDE /* libgit2-dummy.m in Sources */,
+				2DCE2638327858C56A852E85649504F7 /* Placeholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,38 +669,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2649313F1EBC9B17E59BA1F520519B09 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20881CCA9D499DE3B4F1638A309AC16B /* libgit2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libgit2/libgit2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libgit2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libgit2/libgit2.modulemap";
-				PRODUCT_MODULE_NAME = libgit2;
-				PRODUCT_NAME = libgit2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		27312640D80DA3928BDD0FAEAC3005B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78A4FA40FEB79314F2933E08CDF40729 /* Pods-libgit2_Tests.release.xcconfig */;
@@ -721,6 +696,73 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A99818315FD2C786FEDFA652A9A552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libgit2/libgit2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libgit2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libgit2/libgit2.modulemap";
+				PRODUCT_MODULE_NAME = libgit2;
+				PRODUCT_NAME = libgit2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D9D044B7EEF872D9ECD084C9128E27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00420BD992A7B8576D26CA6BA8ECB28 /* Pods-libgit2_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Example/Pods-libgit2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -783,9 +825,45 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		5F808E189145290CCC7FBA994987CC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8A48151F3EA7A3667929D49185806E /* Pods-libgit2_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Example/Pods-libgit2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		630604A4E848A2789E153C11BE0296B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -820,9 +898,9 @@
 			};
 			name = Debug;
 		};
-		8C4FF744D2FF6FE3C720F9902F9E27C0 /* Debug */ = {
+		B158AA75BCC55B3AFE0C9A0089B1CF05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20881CCA9D499DE3B4F1638A309AC16B /* libgit2.xcconfig */;
+			baseConfigurationReference = E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -844,45 +922,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		B34F89B0772DA67C0226350E4BCBE9CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F8A48151F3EA7A3667929D49185806E /* Pods-libgit2_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Example/Pods-libgit2_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -948,48 +995,14 @@
 			};
 			name = Debug;
 		};
-		FF2A683A33635FCC6205E66C275EC57F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F00420BD992A7B8576D26CA6BA8ECB28 /* Pods-libgit2_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Example/Pods-libgit2_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		26E69BF0788034084EC6A0556E4B7021 /* Build configuration list for PBXNativeTarget "libgit2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C4FF744D2FF6FE3C720F9902F9E27C0 /* Debug */,
-				2649313F1EBC9B17E59BA1F520519B09 /* Release */,
+				4A99818315FD2C786FEDFA652A9A552D /* Debug */,
+				B158AA75BCC55B3AFE0C9A0089B1CF05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1006,8 +1019,8 @@
 		40DB43F77EEC49AF4C3C7812005462C6 /* Build configuration list for PBXNativeTarget "Pods-libgit2_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B34F89B0772DA67C0226350E4BCBE9CE /* Debug */,
-				FF2A683A33635FCC6205E66C275EC57F /* Release */,
+				5F808E189145290CCC7FBA994987CC78 /* Debug */,
+				4D9D044B7EEF872D9ECD084C9128E27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
