@@ -1,0 +1,16 @@
+PODS:
+  - libgit2 (0.1.0)
+
+DEPENDENCIES:
+  - libgit2 (from `../`)
+
+EXTERNAL SOURCES:
+  libgit2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libgit2: ef06c9e623f9b1878a3ad01af8cf441bf71592d3
+
+PODFILE CHECKSUM: 12d663fa3738dd924d9ba608fcfc78237ca4d78a
+
+COCOAPODS: 1.5.3

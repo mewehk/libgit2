@@ -30,13 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'libgit2/Classes/**/*'
-  
+  s.source_files = 'libgit2/**/*'
+  s.vendored_libraries = 'libgit2/libgit2-ios.a'
   # s.resource_bundles = {
   #   'libgit2' => ['libgit2/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'libgit2/**/*.h'
+  #s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(POD_ROOT)/libgit2/git2', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  #s.user_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(POD_ROOT)/libgit2/git2', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

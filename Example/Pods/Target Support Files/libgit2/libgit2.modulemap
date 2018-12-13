@@ -1,0 +1,6 @@
+framework module libgit2 {
+  umbrella header "libgit2-umbrella.h"
+
+  export *
+  module * { export * }
+}
