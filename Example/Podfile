@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libgit2_Example' do
+  pod 'libgit2', :path => '../'
+
+  target 'libgit2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
