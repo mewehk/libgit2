@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'libgit2_Example' do
-  pod 'libgit2', :path => '../'
+target 'libgit2iOS_Example' do
+  pod 'libgit2iOS', :path => '../'
 
-  target 'libgit2_Tests' do
+  target 'libgit2iOS_Tests' do
     inherit! :search_paths
 
     

@@ -1,0 +1,6 @@
+framework module libgit2iOS {
+  umbrella header "libgit2iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

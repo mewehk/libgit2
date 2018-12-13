@@ -7,271 +7,258 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04DA80A2A5390E4B6E65342D163B8A49 /* strarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 655E9D2FB693466BB3BC871C71036135 /* strarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C5CC34F55CA64774320DFEE6579BA43 /* Pods-libgit2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 950616C54B3038941EDF246457AF7965 /* Pods-libgit2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		100FB2754AF3C86BF7CD15676442FAE7 /* describe.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EE7A377CAA7B14D0C0EFFF9951CFAF /* describe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1069AACD16411EBAC392404B102F68F9 /* cred_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF4A82BD01CE41E9CCC29E0E5D1B40B /* cred_helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13D1326BBACEE0E187BEBC0500744D7B /* odb.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC2DB68F3BD8BE804BBEE68178F11D5 /* odb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B054EDCD47F544F4E3869D0A675EB7E /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D5A09F0CAC62CB336DDCD5A758439C /* refs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B2A0590D26C479F431093AB8EAE6C4B /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8771819A4FA9AB35368A45DACBA086 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24C2965F51E184F04ADD2C72D8212E49 /* Pods-libgit2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C65E9D58AC28981220519D46F4B2843 /* Pods-libgit2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DCE2638327858C56A852E85649504F7 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656A1945117959121F797C5480E3EC2 /* Placeholder.swift */; };
-		323212EE23DB85A42C6CD69510C349A6 /* trace.h in Headers */ = {isa = PBXBuildFile; fileRef = F39C45BAA1307194D3A48991A4CF0675 /* trace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36962D783FFAB5294C27003620D03DBB /* Pods-libgit2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0E3F63BD772EFCE4CA7609FDD9A59 /* Pods-libgit2_Example-dummy.m */; };
-		390B02A2298E0A8BD8DE7BDB2C5765C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3D4B692AB803A07BE14A4A2CE19FC2AB /* libgit2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0BD255E88DD62079DA8FEA85773D99 /* libgit2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D92B562D47A8378ABB57DAA9E151DD9 /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1C6426D799EEA44E7E7E835CF11576 /* status.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		415DDC6423495A8C2AE244FE5AF0681A /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8334B8037F6D5F860E3719CFA03A170A /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		458EA6B2C3396EF3930465C825D78449 /* blame.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F1D2D5FA69DD7D7352C6CF973A9866 /* blame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		477601B095607B3B09FAD42D485E28F7 /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBAB8872AA484449838E7FA759ACB1C /* pack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		495D548A30DD904048502B903750608F /* indexer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D12F3C8FFE0C7313B1F1885EF27FCB /* indexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49F4A86B6E9B0B077AEBFC69D51C280B /* signature.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E0161BBCE09BFBFCAA7E3464CF77FB /* signature.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D471F45203AECF76C6B4F9D271304E7 /* reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A0939C2322383237EA6A49EC451589 /* reset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54838A5ADC0DDC92D81E48015A47F70D /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A465F433E5CAE8DCB0577AB7C890B0 /* filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54FE3107DD00B05E3EC41CE073CD56FF /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D1118CEBAEEEC8955A0CDB1880137B /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5782FA6D4B1FA94A69B0E105E56E6C77 /* revparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 335E2616588FF0EF34B95BF412BADE20 /* revparse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AB50F6FA07647EB6F07B695C7715F8D /* pathspec.h in Headers */ = {isa = PBXBuildFile; fileRef = C65BAA278B01D7B39105A709A7C884EF /* pathspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B5076E387367E2CB1F7F6416A7E8212 /* checkout.h in Headers */ = {isa = PBXBuildFile; fileRef = 353B3E202064BC577A9A78A1189491D9 /* checkout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FEB636B629B66D561D6B99016ACED8A /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = DE02C484F7E4B30977354C023DF2396B /* global.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6831B01D06A2C833AEE088EEE995AEC1 /* oidarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 434A23857D425AC1635A687C172A6943 /* oidarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6981AB6DF29E51E09DF4CC83040B6335 /* notes.h in Headers */ = {isa = PBXBuildFile; fileRef = 984924FDD3A38740C92ECA93C9FC969B /* notes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AFC0C68C5BCC2F2CA48D4AD7404AC5A /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CEBCA9BC88735922433E2F890C99D5 /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70BA77E770C947534D74E45B87E31A33 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = 464EB02F294653A706D80CCE5F7E1236 /* reflog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		750DC086B670C5D9FF3CA13A7E1CD474 /* worktree.h in Headers */ = {isa = PBXBuildFile; fileRef = 682F7C6804DFCD4E1A41984F6E9E5B47 /* worktree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75D186A9F6F83FDB62D9A3CD296DAD03 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F65D6F1285DEB04173A6DD5FCA90C4B /* transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8108604759793B358CBCC0FE9743BEFA /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 55979B2DF356FD2BC2E48F7A09F5A996 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83059AEA772BFC83DADCAF373468720A /* revert.h in Headers */ = {isa = PBXBuildFile; fileRef = 9264AEC15EF4C53114AEDD9977E74C27 /* revert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83556689F71CE80CD5629FEEE407BE51 /* clone.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2A1064C1FFA8CF245B7192DA9A90F2 /* clone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		850E59A3CC5D5C41B0A6FD8CE3B01767 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFDF86288B6B35ED9695F4AECFDB126 /* commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D959CF5A94804FBF277D26DA1A97D04 /* patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED50F4910E075B607A886E9D7A13A22 /* patch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DE8AE1142F0FE4CC2EA670756046A75 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F874DEBAEB4FC1AF37CBEFC139D81B0E /* proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		937E1ACB3C51BA01293EBE73C4D7600D /* ignore.h in Headers */ = {isa = PBXBuildFile; fileRef = CF114017D8BC7ADCEF619C5722B39F73 /* ignore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99E11E97614F3BF884907CE91CCA881E /* remote.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAD36CE64B7F1BB8649D2B99341C72F /* remote.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A153E587D7FFD377D7BFA24DA51F2174 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD7607895769AB780B202F8AA6C05C6 /* diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1D53D9E563AC5DF86A97B124161A0E3 /* branch.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F94A30CDDE11294B629AAEB69AA52E /* branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3BCC34AD439DB5FE434B61743CB0CDE /* libgit2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D20FAAFCFBC49867E2C668E63DA5EDFD /* libgit2-dummy.m */; };
-		A9A1573F2EB4E36B742719A0E38E20E2 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9145D4397E2A0E00D380222A5459249D /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB20FF1BC8CA2911E761666DE2B91906 /* graph.h in Headers */ = {isa = PBXBuildFile; fileRef = 375B84FF813701281E69314336835F55 /* graph.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD3520A7490FD25C5349FEE518516872 /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = B53559FFE3C252140D9CA4620B334447 /* tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B40F5FD70C97BD9E37A98BF2479FDC18 /* errors.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BCB184D954AB512CEF3C74C2E7F795 /* errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B778987E1733B850E9546BE5AD56C103 /* merge.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC1BF8273D56A82EE0D97CCCA1F9937 /* merge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9BCE05BD748B3575295271E04A9935E /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = 676708C9D19EC64A14E0B777A0D05134 /* object.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF6ECDAF1A692DFA57E4CB7628764541 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = E61C2C25875474FD4FA9DA85A54FC3CA /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF95776AB0083E87583054A20FFA8C2A /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = A3952E8ADCF8A5EBFEC27E4F1A492309 /* blob.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFB9CA81958E3A32BB97EC4BFD7BE002 /* Pods-libgit2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2700A590F2B432D9931ABFC3DE40E /* Pods-libgit2_Tests-dummy.m */; };
-		C0D685A7F1C0EF5C50F7607D82A94841 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C111C6B383C60A85880FF0DE489EA8 /* index.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0EEEA75F688C564836DA2EC56897B2C /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = 47742509615B6713BE43C96B8BA976EE /* repository.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C306EC4E229A97B4B842799CC4B4AC80 /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9EAD863D909E8AF02AEBF6D99E86FB /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D064427EE9CD9AA8E073A8BED4480F /* refdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAAADA1AF3D34DCCFF4F64F52C28329 /* refdb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC6ED1CBF183305CCE0A2917A76D8662 /* rebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FE10E35E2F6D93EB6CD767F25A5323 /* rebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D20FF25CD84AA16280F2679081990574 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3402137E14DEA9D86778C3CF36C718 /* odb_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3739458A765D6DD0CD92017D497A4D9 /* transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = A0576FED5233EA3FA980A4F07652192C /* transaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D60870996301A003F882BAF5B68B8BE9 /* refspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BF8F4FA87C750B874AE9941914D094 /* refspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D70D23B09DB3301EEEC62B6A1D23360C /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = A09958DDB86A2D285C499D5522D30084 /* net.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8C7CACB97B423AD67DBD079A5AD2204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D9B4FAB71B06E6537497A5114C1D3F02 /* submodule.h in Headers */ = {isa = PBXBuildFile; fileRef = D279D775BE78A983B2E6AF044C8EB53D /* submodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C8978458EC3BA7C18A0F8A47FFC8AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EB40BE1A5CCADFBD5F96384AD9984D45 /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = 30075B7EE8FC11FC7D0D85A7B942FE21 /* oid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEC2A84B4A0098C85043D9511344DBA5 /* revwalk.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C28E8AE2A0013FA2A5A6C3410F8FAB1 /* revwalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6072A7DF123B8F518BAE849F9DF85E7 /* stash.h in Headers */ = {isa = PBXBuildFile; fileRef = 33402D9358DAAD946CCF5AABD9C6ED15 /* stash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F850143779F49E5E06A85B464DA25B5F /* cherrypick.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4C0E08BED3EAD684230953457119AE /* cherrypick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA2F7B9ECDE08EEC9F83C3A90EAF9B58 /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFACB003CA684FD74231429FE8788B3 /* message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7687C17C6E50C8A3F8C7A6FB457E47 /* Pods-libgit2iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D368B137C0273F33F541B92D600696D /* Pods-libgit2iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C9CBCF31314AE2B3517F712C882D66F /* rebase.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E7BD00F810A3EDABD2860E3B359B85 /* rebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DFB498ACEBF68BC2E01EDE60FA88EF1 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E55882EA42AD712A3D1EB598B21F9D /* net.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1055D0A811A268157EB2B1D4AF6B8B57 /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E268FAF7C1F2112DBBAAF6464A3EA11 /* oid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C7219226C6C81B73911256203FF091 /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA47399BF2DF2D54C01A48094D3C1EB5 /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F5085F0F377E34339F3F105BA6EE94 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4881A3B66C2348DCFD220CEC78A94114 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABBE7AF7C1F0A0EF3222868601435C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1B1BE3B83479BAA1F6458D53D0B42480 /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8BCE783278B1908CA0572DB7D88472 /* status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB8DC257B837385F8D2C0AE57FD0B27 /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = D54F7A23EB293C3B940F3598D414F0C7 /* refs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2171BC8FA63DB87C303AF1C11355E347 /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = F39315C3B82F9B772312D786AD0D4301 /* object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255B66DA23AC07C1CF16962417E64FD7 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 300D2DF772E171963B69A5B7D4CF1EE8 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		298FB5DE70B7DF098DC590DD0508998E /* odb.h in Headers */ = {isa = PBXBuildFile; fileRef = 0059335556DAC9218B609701F53D3678 /* odb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D53E1F760CFBC00F1D0F9AF3E318AC8 /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = C1035A14925A9A53AC497C369602634E /* tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DAE3EE3060AE0376539851A12D1A6D7 /* global.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DC5EFC50A80703E963727DE7D01BFD /* global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE63C13A16CF7283C9A2EFC21854ABE /* Pods-libgit2iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC91BEBF38D3BA0FD6637B6B366D6B2 /* Pods-libgit2iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3576AF9A0AD5175293F7EDA1D74C3CF6 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 160C5C00AC2420A1859BFD12E31234B7 /* filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399EC272E9DB1E594D90EB67A43FF9D4 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E83393A5F492CB38C63B9D12D0392E /* diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F925B224D4B1950C73C7E9932B97E46 /* errors.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C5D44E5900FD8801269B01609C2DDA /* errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C4593C4552D4BF533A0526BFA16CA1 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 445E2627A086F0C6BD4F89A58A06ACD4 /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42248BC633738BBBADB2BA7C3C14ABA7 /* ignore.h in Headers */ = {isa = PBXBuildFile; fileRef = E22B117802F39F8BCBC0FB907921BBFB /* ignore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		480191AB3CE7354D6D2547E94CB1D9F9 /* cred_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A28B90007A5F2245E13774FEED01E65 /* cred_helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		491FD8D691D6EECFBB7E8E2D7BD35D8D /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E8AB175CEB1C2B033588F34AFF6A4F /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A54C869C75BAA8DF8E4E604488F38A4 /* attr.h in Headers */ = {isa = PBXBuildFile; fileRef = B81F5DA23C173EE3333A35ACCBC47101 /* attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C296C75FC39204E6DD83996EFED137F /* graph.h in Headers */ = {isa = PBXBuildFile; fileRef = 0540948BC3386F9196B331CD0EF83FB8 /* graph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50536A0B7E5DE3E25E90F96BE22C85B1 /* revwalk.h in Headers */ = {isa = PBXBuildFile; fileRef = 48875B0619C5CCE7904C492DD207F775 /* revwalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52EDB5F1A2E70610EF6FCCF6445F021F /* remote.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9DA3FC4F57F5E17E1C9EC3AC5DA614 /* remote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533D8021DC5E3109AA8D71B3118580C1 /* branch.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2F36404661DAE157327363020C0ED9 /* branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53AC88AD1CEBA36444750CE418D6270D /* refdb.h in Headers */ = {isa = PBXBuildFile; fileRef = BD89ED42DC5B0E6563E0C1356E2DB839 /* refdb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541B6FC39028AF31AE8700007C7D2857 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE09CF45AA9E482261C747908D74FB0 /* reflog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56AED5B990125C0DF4B2BDF839475FCB /* Pods-libgit2iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D52E6022C66727BF9AC12F24AD36CF /* Pods-libgit2iOS_Example-dummy.m */; };
+		5B6330C46734BC39D60DFCE61F1273B5 /* submodule.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A8331E7C9C6B95F08F6DCA4E74AF9C /* submodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EFA8ACED096E6E6870DB98B32F50EE4 /* revert.h in Headers */ = {isa = PBXBuildFile; fileRef = 45075BDE6402EC3267EC317B48448A41 /* revert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A76716EFBF837D8B6B2B6CA070F299E /* notes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC19EC97CC8F712E3D08B9A8EE93F98D /* notes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FA50FC88DE4692BCFB573EF3BBE0F30 /* cherrypick.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C6F74B79D2F26F6F023318E322F5D0 /* cherrypick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FD2D9BA34A1F4B83A6AEEAEA9CFDCF9 /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6F17FDD9BA3E858FC491F0776E92A8 /* blob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7194B23704127D8A1F3A12CB886502D7 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B959561EC3B68C4FCBE27D6E04DADA8 /* odb_backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77F8844BD287FDBCBF57846EE7E62348 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8448131E29765F569563CED6C4D8D9 /* commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DCCB25A80370C03CA42AAADDEEA9246 /* describe.h in Headers */ = {isa = PBXBuildFile; fileRef = E7053720707ABC7147E5FB750E8841F3 /* describe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC78D783D6E2D5F3D6FAD6D7660A734 /* transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 819A720784B20CC702CB6F5FF4D605A0 /* transaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8138D64A1F5208357B4F32B9FF2F7B99 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = E40456B2854E23A058B3398E9F6537B6 /* transport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		815CF8C3006432EA285B82EB08C6464A /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = EF82B10912E0A5D3DA76EEC122342E8F /* message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		816CCB270220FEC0B580BD9799FA1EC7 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EB28E34E6E22A982B0A79CB6362A5A /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86798B6FCCDA537006DF8CF8F7D91F11 /* refspec.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F5C9F8D173EAB5683D158D9ABAA475 /* refspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885DFCDD24B03E4F61D0800E4F893B65 /* blame.h in Headers */ = {isa = PBXBuildFile; fileRef = 90EBA161FDC1F9780CFC935BDCE39D40 /* blame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3A754577C560B4DE8AB24C6F0F36A9 /* libgit2iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5032DE89154E7537586F28A71E3C121 /* libgit2iOS-dummy.m */; };
+		8C61137E7E18D8F93C377CAE939E141E /* pathspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 362FD8072CDD3210D9B58630776ECDAE /* pathspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F55EB84F5DE8326B693881010363144 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A8BD39A0F21E1C33A461E793296FB2 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA4055D7480FD8D19A0913D5DF1548C /* merge.h in Headers */ = {isa = PBXBuildFile; fileRef = EC34720B701C5397674286E6A8EC0548 /* merge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		931DFC93D1D1785B62A402D08DE3D58A /* indexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 87615D6922A0D46B9F8E8192E403699B /* indexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99795BE266388BDB82B282F013EB8596 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D7B6A6C25BE64BD5E3588EEEB6810E /* Placeholder.swift */; };
+		A462EE5F214FC446417474CF9D3A450D /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC6EDC19D04851202A37E50491D38A7 /* index.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE60FA7EF720CBADD7E7E0619A7CEE9F /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = 15758A66AB7683CC7E32270F797C2827 /* pack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEFE3DC689CB981C48E376EB6AE07978 /* patch.h in Headers */ = {isa = PBXBuildFile; fileRef = B1ED3F2DB6FB27D0B43FF731346F9C53 /* patch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B09AEA78D5D218BCDA9B5D6C50525006 /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = EED5DB687AD16B4AEF535427D4B186B5 /* repository.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15213C834FC4E5233D3B33C1A72E3CB /* trace.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD0AD1232852AABAD7BC33C574DFFAB /* trace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B884085E1E9500EBDC8A6D9468D5F3 /* reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C6D39C1BC7F0B591F634D63A1D942F /* reset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6ED6457ED688786984B97EB3643CD8 /* signature.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4A588AB71FDDFA5C44409DF864D014 /* signature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9256D630327F9901C1E01C6D2083C5B /* worktree.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AEC06E1E6C257EF0D7006AD310396E /* worktree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD15EFF912151971B27E745F2494DB0 /* oidarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 761521651974C330A0384768C53BB1EA /* oidarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC6BB1B2D454CDB4A69C861E54A0ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E46150DC507941683E16E18511366DEA /* libgit2iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B41AB80358E679922F73AB5EB55ECF /* libgit2iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E474B9709C8A75BD4873029728C3A67A /* checkout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D037BDD1B0E03115C3275D2EBBCD9F7 /* checkout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E512AD724CAE993A665AC6F7A1F45A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E5547940FD1AC8E576C7824D8246DAED /* stash.h in Headers */ = {isa = PBXBuildFile; fileRef = 351355CE46F62C3F039895C8CFD9A35F /* stash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E777FA1006D2EF269B9366691EB6A6FD /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BBFE58813C937B5B206FA9789037D7 /* proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E83678D341D1D4599E00F0F939099375 /* Pods-libgit2iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97465C80F4FB129C38F16975D53C6742 /* Pods-libgit2iOS_Tests-dummy.m */; };
+		E9A6EEEC9F396F826B0AE1D157963269 /* clone.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7293274BF17D455BCCD6A8FD714BD2 /* clone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A65AC3B07D68E8E8CE854D68CC7899 /* revparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B89968B46ACA51B4D53BABDAF809E0B /* revparse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8EDC5E2F51F5FC9B963CED22B4C031C /* strarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 00645EB6AE80930D46A977BC2E604AC9 /* strarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3175066B37C4B3055493FB77035519F2 /* PBXContainerItemProxy */ = {
+		32F41E0277AF6F9575A49A716F4AA445 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3CC56E42201FEDDE99EC6650C96DD938;
-			remoteInfo = "Pods-libgit2_Example";
+			remoteGlobalIDString = BE3DB82E5DCED57BCC477A5ED45BF855;
+			remoteInfo = libgit2iOS;
 		};
-		53405D3FC9063EF2EE6D732439C9EF8C /* PBXContainerItemProxy */ = {
+		6AE5CAAA96DE9BB5C087C0A22E68AC08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9AD83D7ED67A8240D21665AF306C793;
-			remoteInfo = libgit2;
+			remoteGlobalIDString = 1A667C81C408897DB221E9B465EE3D28;
+			remoteInfo = "Pods-libgit2iOS_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06A0939C2322383237EA6A49EC451589 /* reset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reset.h; sourceTree = "<group>"; };
-		07F4B00BF132EA5B5C27BA87A17C2A77 /* Pods-libgit2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2_Tests.modulemap"; sourceTree = "<group>"; };
-		13EE7A377CAA7B14D0C0EFFF9951CFAF /* describe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = describe.h; sourceTree = "<group>"; };
-		1702345826C6CEB3C02D93665A4AA9C0 /* Pods-libgit2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1AAAADA1AF3D34DCCFF4F64F52C28329 /* refdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refdb.h; sourceTree = "<group>"; };
-		1C0BD255E88DD62079DA8FEA85773D99 /* libgit2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2-umbrella.h"; sourceTree = "<group>"; };
-		20CEBCA9BC88735922433E2F890C99D5 /* annotated_commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = annotated_commit.h; sourceTree = "<group>"; };
-		2BF4A82BD01CE41E9CCC29E0E5D1B40B /* cred_helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cred_helpers.h; sourceTree = "<group>"; };
-		2CC2DB68F3BD8BE804BBEE68178F11D5 /* odb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb.h; sourceTree = "<group>"; };
-		2E4C0E08BED3EAD684230953457119AE /* cherrypick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cherrypick.h; sourceTree = "<group>"; };
-		30075B7EE8FC11FC7D0D85A7B942FE21 /* oid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
-		33402D9358DAAD946CCF5AABD9C6ED15 /* stash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stash.h; sourceTree = "<group>"; };
-		335E2616588FF0EF34B95BF412BADE20 /* revparse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revparse.h; sourceTree = "<group>"; };
-		353B3E202064BC577A9A78A1189491D9 /* checkout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = checkout.h; sourceTree = "<group>"; };
-		375B84FF813701281E69314336835F55 /* graph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
-		3EFACB003CA684FD74231429FE8788B3 /* message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
-		434A23857D425AC1635A687C172A6943 /* oidarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oidarray.h; sourceTree = "<group>"; };
-		464EB02F294653A706D80CCE5F7E1236 /* reflog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reflog.h; sourceTree = "<group>"; };
-		47742509615B6713BE43C96B8BA976EE /* repository.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = repository.h; sourceTree = "<group>"; };
-		4937C3EA326E3CB5CF8EB2C38458CE6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4C28E8AE2A0013FA2A5A6C3410F8FAB1 /* revwalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revwalk.h; sourceTree = "<group>"; };
-		55979B2DF356FD2BC2E48F7A09F5A996 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		0059335556DAC9218B609701F53D3678 /* odb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb.h; sourceTree = "<group>"; };
+		00645EB6AE80930D46A977BC2E604AC9 /* strarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = strarray.h; sourceTree = "<group>"; };
+		02C8746D6C152B25B6C4B79747148F92 /* libgit2iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libgit2iOS.modulemap; sourceTree = "<group>"; };
+		03C6D39C1BC7F0B591F634D63A1D942F /* reset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reset.h; sourceTree = "<group>"; };
+		0540948BC3386F9196B331CD0EF83FB8 /* graph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		09E83393A5F492CB38C63B9D12D0392E /* diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = diff.h; sourceTree = "<group>"; };
+		0B7293274BF17D455BCCD6A8FD714BD2 /* clone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = clone.h; sourceTree = "<group>"; };
+		0C9323BEDBBABACCFE7162AAF6444285 /* Pods-libgit2iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D62353392F5685A2E0F1148DC1A04A9 /* libgit2iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libgit2iOS.framework; path = libgit2iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD0AD1232852AABAD7BC33C574DFFAB /* trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = trace.h; sourceTree = "<group>"; };
+		15758A66AB7683CC7E32270F797C2827 /* pack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
+		160C5C00AC2420A1859BFD12E31234B7 /* filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		1E268FAF7C1F2112DBBAAF6464A3EA11 /* oid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
+		27EC3C48EDBD913AF25A6069CC0FF67D /* Pods_libgit2iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2iOS_Example.framework; path = "Pods-libgit2iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B89968B46ACA51B4D53BABDAF809E0B /* revparse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revparse.h; sourceTree = "<group>"; };
+		2C2F36404661DAE157327363020C0ED9 /* branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = branch.h; sourceTree = "<group>"; };
+		2D1FC96710E7477C4DF807D8902767D4 /* Pods_libgit2iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2iOS_Tests.framework; path = "Pods-libgit2iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D368B137C0273F33F541B92D600696D /* Pods-libgit2iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		300D2DF772E171963B69A5B7D4CF1EE8 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		351355CE46F62C3F039895C8CFD9A35F /* stash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stash.h; sourceTree = "<group>"; };
+		362FD8072CDD3210D9B58630776ECDAE /* pathspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pathspec.h; sourceTree = "<group>"; };
+		36E52F6555F63C8B5B4FC41E1A9BA9BF /* Pods-libgit2iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3FA97CF67E392D0A69F3A3C7A0ECA307 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		445E2627A086F0C6BD4F89A58A06ACD4 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		45075BDE6402EC3267EC317B48448A41 /* revert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revert.h; sourceTree = "<group>"; };
+		46E8AB175CEB1C2B033588F34AFF6A4F /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		4881A3B66C2348DCFD220CEC78A94114 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		48875B0619C5CCE7904C492DD207F775 /* revwalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revwalk.h; sourceTree = "<group>"; };
+		49B0A48A55F7E9AF712E3046EA860A41 /* Pods-libgit2iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		4AE09CF45AA9E482261C747908D74FB0 /* reflog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = reflog.h; sourceTree = "<group>"; };
+		4F0EED8B9B0F8FACD7111E737C5DCCD8 /* Pods-libgit2iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F9DA3FC4F57F5E17E1C9EC3AC5DA614 /* remote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = remote.h; sourceTree = "<group>"; };
+		51F6A0092DD69D7C16BB6968DCA9C114 /* Pods-libgit2iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		552DDEE614C1583AD880C2CAC0017256 /* Pods-libgit2iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		59C6F74B79D2F26F6F023318E322F5D0 /* cherrypick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cherrypick.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5A1C6426D799EEA44E7E7E835CF11576 /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
-		5C8771819A4FA9AB35368A45DACBA086 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
-		5ED50F4910E075B607A886E9D7A13A22 /* patch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = patch.h; sourceTree = "<group>"; };
-		5F9EAD863D909E8AF02AEBF6D99E86FB /* attr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = attr.h; sourceTree = "<group>"; };
-		5FB7FB43804B30DFE3C01EABC82DAE43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6360EADDED52CC319A77DF6465F8539D /* Pods-libgit2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63D1118CEBAEEEC8955A0CDB1880137B /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		655E9D2FB693466BB3BC871C71036135 /* strarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = strarray.h; sourceTree = "<group>"; };
-		676708C9D19EC64A14E0B777A0D05134 /* object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
-		682F7C6804DFCD4E1A41984F6E9E5B47 /* worktree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = worktree.h; sourceTree = "<group>"; };
-		69AC0C4288463E7568B85EC6FF743B64 /* Pods_libgit2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libgit2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D896B0B25FC3B2EA54BCAE85F7B1BB /* Pods-libgit2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2_Example.modulemap"; sourceTree = "<group>"; };
-		71D5A09F0CAC62CB336DDCD5A758439C /* refs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refs.h; sourceTree = "<group>"; };
-		74FE10E35E2F6D93EB6CD767F25A5323 /* rebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rebase.h; sourceTree = "<group>"; };
-		77BB9DD472B722A13BBA69D0DEB8DFBC /* Pods-libgit2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Tests-resources.sh"; sourceTree = "<group>"; };
-		784753D3B33F8C7768D15F8EC48EDA8A /* libgit2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2-prefix.pch"; sourceTree = "<group>"; };
-		78A4FA40FEB79314F2933E08CDF40729 /* Pods-libgit2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		79BF8F4FA87C750B874AE9941914D094 /* refspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refspec.h; sourceTree = "<group>"; };
-		7CFDF86288B6B35ED9695F4AECFDB126 /* commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = commit.h; sourceTree = "<group>"; };
-		7D79CF2B9507CC299B034EE0473F0D28 /* Pods-libgit2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7DF2700A590F2B432D9931ABFC3DE40E /* Pods-libgit2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2_Tests-dummy.m"; sourceTree = "<group>"; };
-		7E2A1064C1FFA8CF245B7192DA9A90F2 /* clone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = clone.h; sourceTree = "<group>"; };
-		7F65D6F1285DEB04173A6DD5FCA90C4B /* transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transport.h; sourceTree = "<group>"; };
-		7F8A48151F3EA7A3667929D49185806E /* Pods-libgit2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		80F94A30CDDE11294B629AAEB69AA52E /* branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = branch.h; sourceTree = "<group>"; };
-		8334B8037F6D5F860E3719CFA03A170A /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		86671F3C71E6E61F935B032A3001E8F6 /* Pods-libgit2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		86A0E3F63BD772EFCE4CA7609FDD9A59 /* Pods-libgit2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2_Example-dummy.m"; sourceTree = "<group>"; };
-		9145D4397E2A0E00D380222A5459249D /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		9264AEC15EF4C53114AEDD9977E74C27 /* revert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = revert.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9472ACB835AFD23B3E5786E296359042 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		950616C54B3038941EDF246457AF7965 /* Pods-libgit2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2_Example-umbrella.h"; sourceTree = "<group>"; };
-		95A465F433E5CAE8DCB0577AB7C890B0 /* filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
-		95EEF257C39932C87E7231B0C355332A /* libgit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libgit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		984924FDD3A38740C92ECA93C9FC969B /* notes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = notes.h; sourceTree = "<group>"; };
-		98E0161BBCE09BFBFCAA7E3464CF77FB /* signature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
-		9B0D27A8037712D0869C6B5BCAD161C4 /* Pods-libgit2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Example-resources.sh"; sourceTree = "<group>"; };
-		9B3402137E14DEA9D86778C3CF36C718 /* odb_backend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb_backend.h; sourceTree = "<group>"; };
-		9C65E9D58AC28981220519D46F4B2843 /* Pods-libgit2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A0576FED5233EA3FA980A4F07652192C /* transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
-		A09958DDB86A2D285C499D5522D30084 /* net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
-		A3952E8ADCF8A5EBFEC27E4F1A492309 /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
-		AADB840362665488C7A9C2C02DF17ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC1BF8273D56A82EE0D97CCCA1F9937 /* merge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = merge.h; sourceTree = "<group>"; };
-		B0C111C6B383C60A85880FF0DE489EA8 /* index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = index.h; sourceTree = "<group>"; };
-		B4F1D2D5FA69DD7D7352C6CF973A9866 /* blame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blame.h; sourceTree = "<group>"; };
-		B506E6D9FF17DD38F068BA05CFB6C533 /* libgit2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = libgit2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B53559FFE3C252140D9CA4620B334447 /* tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
-		BBAD36CE64B7F1BB8649D2B99341C72F /* remote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = remote.h; sourceTree = "<group>"; };
-		BDD7607895769AB780B202F8AA6C05C6 /* diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = diff.h; sourceTree = "<group>"; };
-		C23D20AE3E7EF0FB5706C205AF65C9AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C656A1945117959121F797C5480E3EC2 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = libgit2/Placeholder.swift; sourceTree = "<group>"; };
-		C65BAA278B01D7B39105A709A7C884EF /* pathspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pathspec.h; sourceTree = "<group>"; };
-		CE2E1F9B15FC9B6ABDFD40B9B621DAD5 /* Pods-libgit2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF114017D8BC7ADCEF619C5722B39F73 /* ignore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ignore.h; sourceTree = "<group>"; };
-		D20FAAFCFBC49867E2C668E63DA5EDFD /* libgit2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libgit2-dummy.m"; sourceTree = "<group>"; };
-		D279D775BE78A983B2E6AF044C8EB53D /* submodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = submodule.h; sourceTree = "<group>"; };
-		D2BCB184D954AB512CEF3C74C2E7F795 /* errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
-		D79B4869A16A84B26CB7893C4890967D /* libgit2-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libgit2-ios.a"; path = "libgit2/libgit2-ios.a"; sourceTree = "<group>"; };
-		D9AFFD6B229682F1C4F798F079422FAE /* Pods_libgit2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libgit2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB7C4F55BC06DFAFA104328DBF463637 /* Pods-libgit2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DD6AB13A22315F8ABC96291EDF253C1B /* libgit2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libgit2.modulemap; sourceTree = "<group>"; };
-		DE02C484F7E4B30977354C023DF2396B /* global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
-		E5D12F3C8FFE0C7313B1F1885EF27FCB /* indexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = indexer.h; sourceTree = "<group>"; };
-		E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libgit2.xcconfig; sourceTree = "<group>"; };
-		E61C2C25875474FD4FA9DA85A54FC3CA /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		F00420BD992A7B8576D26CA6BA8ECB28 /* Pods-libgit2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F39C45BAA1307194D3A48991A4CF0675 /* trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = trace.h; sourceTree = "<group>"; };
-		F874DEBAEB4FC1AF37CBEFC139D81B0E /* proxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
-		F8DFC601C5439442732C3C8E06403BE7 /* Pods-libgit2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FBBAB8872AA484449838E7FA759ACB1C /* pack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
+		61E55882EA42AD712A3D1EB598B21F9D /* net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		63D52E6022C66727BF9AC12F24AD36CF /* Pods-libgit2iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		69B41AB80358E679922F73AB5EB55ECF /* libgit2iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2iOS-umbrella.h"; sourceTree = "<group>"; };
+		7200B618DF3031E13BF0362499990E3F /* Pods-libgit2iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		761521651974C330A0384768C53BB1EA /* oidarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oidarray.h; sourceTree = "<group>"; };
+		78AE87377FB0A9A62D9CC492709519A9 /* Pods-libgit2iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2iOS_Example.modulemap"; sourceTree = "<group>"; };
+		7A28B90007A5F2245E13774FEED01E65 /* cred_helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cred_helpers.h; sourceTree = "<group>"; };
+		7A88DB8231084ABF2BDC03462429AF47 /* libgit2iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libgit2iOS.xcconfig; sourceTree = "<group>"; };
+		7AC91BEBF38D3BA0FD6637B6B366D6B2 /* Pods-libgit2iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		7B959561EC3B68C4FCBE27D6E04DADA8 /* odb_backend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = odb_backend.h; sourceTree = "<group>"; };
+		7E1113C2831247E741735AF2DAB4B704 /* Pods-libgit2iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80AEC06E1E6C257EF0D7006AD310396E /* worktree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = worktree.h; sourceTree = "<group>"; };
+		819A720784B20CC702CB6F5FF4D605A0 /* transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
+		86EB28E34E6E22A982B0A79CB6362A5A /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		87615D6922A0D46B9F8E8192E403699B /* indexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = indexer.h; sourceTree = "<group>"; };
+		8ABD87A5028A4FB051A425B23F4223E8 /* libgit2iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libgit2iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9020DBB80DA38C266DCFACAE5BAC890F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EBA161FDC1F9780CFC935BDCE39D40 /* blame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blame.h; sourceTree = "<group>"; };
+		927B0A6441E031D390A5B800935BB287 /* libgit2iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2iOS-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97465C80F4FB129C38F16975D53C6742 /* Pods-libgit2iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D037BDD1B0E03115C3275D2EBBCD9F7 /* checkout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = checkout.h; sourceTree = "<group>"; };
+		A119B6AC37BECBEF8945D7318B5100D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A3F5C9F8D173EAB5683D158D9ABAA475 /* refspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refspec.h; sourceTree = "<group>"; };
+		A7E7BD00F810A3EDABD2860E3B359B85 /* rebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rebase.h; sourceTree = "<group>"; };
+		AC8BCE783278B1908CA0572DB7D88472 /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
+		AE4A588AB71FDDFA5C44409DF864D014 /* signature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
+		AE6F17FDD9BA3E858FC491F0776E92A8 /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
+		B1ED3F2DB6FB27D0B43FF731346F9C53 /* patch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = patch.h; sourceTree = "<group>"; };
+		B81F5DA23C173EE3333A35ACCBC47101 /* attr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = attr.h; sourceTree = "<group>"; };
+		BC19EC97CC8F712E3D08B9A8EE93F98D /* notes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = notes.h; sourceTree = "<group>"; };
+		BD89ED42DC5B0E6563E0C1356E2DB839 /* refdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refdb.h; sourceTree = "<group>"; };
+		C1035A14925A9A53AC497C369602634E /* tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		C4BBFE58813C937B5B206FA9789037D7 /* proxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
+		C5C5D44E5900FD8801269B01609C2DDA /* errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		C755333288BFCBEB1A96BB707E6A5B21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8448131E29765F569563CED6C4D8D9 /* commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = commit.h; sourceTree = "<group>"; };
+		D4A8BD39A0F21E1C33A461E793296FB2 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		D54F7A23EB293C3B940F3598D414F0C7 /* refs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refs.h; sourceTree = "<group>"; };
+		D5A88FDD4B92AC85E5B8A0E6A489E8FE /* Pods-libgit2iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5BBA5BA3ADD7B7F6D296803FAF0D5FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D7B6A6C25BE64BD5E3588EEEB6810E /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = libgit2iOS/Placeholder.swift; sourceTree = "<group>"; };
+		D7DC5EFC50A80703E963727DE7D01BFD /* global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		E22B117802F39F8BCBC0FB907921BBFB /* ignore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ignore.h; sourceTree = "<group>"; };
+		E40456B2854E23A058B3398E9F6537B6 /* transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transport.h; sourceTree = "<group>"; };
+		E5A8331E7C9C6B95F08F6DCA4E74AF9C /* submodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = submodule.h; sourceTree = "<group>"; };
+		E7053720707ABC7147E5FB750E8841F3 /* describe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = describe.h; sourceTree = "<group>"; };
+		EC34720B701C5397674286E6A8EC0548 /* merge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = merge.h; sourceTree = "<group>"; };
+		ED4803FB2BF72923DB5102E2465BE4AF /* libgit2-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libgit2-ios.a"; path = "libgit2iOS/libgit2-ios.a"; sourceTree = "<group>"; };
+		EED5DB687AD16B4AEF535427D4B186B5 /* repository.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = repository.h; sourceTree = "<group>"; };
+		EF82B10912E0A5D3DA76EEC122342E8F /* message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		F30486BBD986259B68598DF04E1C22CB /* Pods-libgit2iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F39315C3B82F9B772312D786AD0D4301 /* object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		F4C955BCA6412362EFC1C561ED67E3F8 /* Pods-libgit2iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5032DE89154E7537586F28A71E3C121 /* libgit2iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libgit2iOS-dummy.m"; sourceTree = "<group>"; };
+		FA2032BB835982D5A53F8069EBAFA05C /* Pods-libgit2iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA47399BF2DF2D54C01A48094D3C1EB5 /* annotated_commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = annotated_commit.h; sourceTree = "<group>"; };
+		FBC6EDC19D04851202A37E50491D38A7 /* index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = index.h; sourceTree = "<group>"; };
+		FD79E24F276A00EB91C7F58C2ECFD532 /* Pods-libgit2iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74CEEA5250561DC6B468B320129A1296 /* Frameworks */ = {
+		1EC59C317165E2184A4BB9BAB0BF0FFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C8978458EC3BA7C18A0F8A47FFC8AA /* Foundation.framework in Frameworks */,
+				DFC6BB1B2D454CDB4A69C861E54A0ADF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A330874FABEB4DDFC2DD327B5E7552D /* Frameworks */ = {
+		585C363B1EB1F85EB2BBAF8E289A6507 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8C7CACB97B423AD67DBD079A5AD2204 /* Foundation.framework in Frameworks */,
+				E512AD724CAE993A665AC6F7A1F45A18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9216A0A1C831D1891871463156D8FBE0 /* Frameworks */ = {
+		8E3FA90DB01D048BEAAA68078A19A6B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390B02A2298E0A8BD8DE7BDB2C5765C7 /* Foundation.framework in Frameworks */,
+				1ABBE7AF7C1F0A0EF3222868601435C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037A7EA1C2B4FA40B7A08810243417E4 /* Frameworks */ = {
+		0F3033F42E1EB412214C5A5A3BC668A9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D79B4869A16A84B26CB7893C4890967D /* libgit2-ios.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1E275A1BE2A240B923942D3F014623B3 /* libgit2 */ = {
-			isa = PBXGroup;
-			children = (
-				C656A1945117959121F797C5480E3EC2 /* Placeholder.swift */,
-				037A7EA1C2B4FA40B7A08810243417E4 /* Frameworks */,
-				7272952F9962E9D8D4070B38AE8EF0A6 /* git2 */,
-				9E76B2669DC8B8210FB36CB5C2D88B38 /* Pod */,
-				51782DA3F65756F1CAEE0B8B97A329FD /* Support Files */,
-			);
-			name = libgit2;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		51782DA3F65756F1CAEE0B8B97A329FD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AADB840362665488C7A9C2C02DF17ABD /* Info.plist */,
-				DD6AB13A22315F8ABC96291EDF253C1B /* libgit2.modulemap */,
-				E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */,
-				D20FAAFCFBC49867E2C668E63DA5EDFD /* libgit2-dummy.m */,
-				784753D3B33F8C7768D15F8EC48EDA8A /* libgit2-prefix.pch */,
-				1C0BD255E88DD62079DA8FEA85773D99 /* libgit2-umbrella.h */,
+				C755333288BFCBEB1A96BB707E6A5B21 /* Info.plist */,
+				02C8746D6C152B25B6C4B79747148F92 /* libgit2iOS.modulemap */,
+				7A88DB8231084ABF2BDC03462429AF47 /* libgit2iOS.xcconfig */,
+				F5032DE89154E7537586F28A71E3C121 /* libgit2iOS-dummy.m */,
+				927B0A6441E031D390A5B800935BB287 /* libgit2iOS-prefix.pch */,
+				69B41AB80358E679922F73AB5EB55ECF /* libgit2iOS-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/libgit2";
+			path = "Example/Pods/Target Support Files/libgit2iOS";
 			sourceTree = "<group>";
 		};
-		5BEFAD4715121969A5EBCD75D2A5A672 /* Pods-libgit2_Tests */ = {
+		317A11E59E89C27E2B78643A6911A6A5 /* Pods-libgit2iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
-				C23D20AE3E7EF0FB5706C205AF65C9AC /* Info.plist */,
-				07F4B00BF132EA5B5C27BA87A17C2A77 /* Pods-libgit2_Tests.modulemap */,
-				6360EADDED52CC319A77DF6465F8539D /* Pods-libgit2_Tests-acknowledgements.markdown */,
-				1702345826C6CEB3C02D93665A4AA9C0 /* Pods-libgit2_Tests-acknowledgements.plist */,
-				7DF2700A590F2B432D9931ABFC3DE40E /* Pods-libgit2_Tests-dummy.m */,
-				DB7C4F55BC06DFAFA104328DBF463637 /* Pods-libgit2_Tests-frameworks.sh */,
-				77BB9DD472B722A13BBA69D0DEB8DFBC /* Pods-libgit2_Tests-resources.sh */,
-				9C65E9D58AC28981220519D46F4B2843 /* Pods-libgit2_Tests-umbrella.h */,
-				86671F3C71E6E61F935B032A3001E8F6 /* Pods-libgit2_Tests.debug.xcconfig */,
-				78A4FA40FEB79314F2933E08CDF40729 /* Pods-libgit2_Tests.release.xcconfig */,
+				D5BBA5BA3ADD7B7F6D296803FAF0D5FE /* Info.plist */,
+				78AE87377FB0A9A62D9CC492709519A9 /* Pods-libgit2iOS_Example.modulemap */,
+				FA2032BB835982D5A53F8069EBAFA05C /* Pods-libgit2iOS_Example-acknowledgements.markdown */,
+				0C9323BEDBBABACCFE7162AAF6444285 /* Pods-libgit2iOS_Example-acknowledgements.plist */,
+				63D52E6022C66727BF9AC12F24AD36CF /* Pods-libgit2iOS_Example-dummy.m */,
+				F4C955BCA6412362EFC1C561ED67E3F8 /* Pods-libgit2iOS_Example-frameworks.sh */,
+				49B0A48A55F7E9AF712E3046EA860A41 /* Pods-libgit2iOS_Example-resources.sh */,
+				7AC91BEBF38D3BA0FD6637B6B366D6B2 /* Pods-libgit2iOS_Example-umbrella.h */,
+				36E52F6555F63C8B5B4FC41E1A9BA9BF /* Pods-libgit2iOS_Example.debug.xcconfig */,
+				4F0EED8B9B0F8FACD7111E737C5DCCD8 /* Pods-libgit2iOS_Example.release.xcconfig */,
 			);
-			name = "Pods-libgit2_Tests";
-			path = "Target Support Files/Pods-libgit2_Tests";
+			name = "Pods-libgit2iOS_Example";
+			path = "Target Support Files/Pods-libgit2iOS_Example";
+			sourceTree = "<group>";
+		};
+		4911DFAE05EE1EF646C48CDC0E60C874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4803FB2BF72923DB5102E2465BE4AF /* libgit2-ios.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -282,117 +269,90 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7272952F9962E9D8D4070B38AE8EF0A6 /* git2 */ = {
+		6A28A85946497E849185377B1961915A /* git2 */ = {
 			isa = PBXGroup;
 			children = (
-				20CEBCA9BC88735922433E2F890C99D5 /* annotated_commit.h */,
-				5F9EAD863D909E8AF02AEBF6D99E86FB /* attr.h */,
-				B4F1D2D5FA69DD7D7352C6CF973A9866 /* blame.h */,
-				A3952E8ADCF8A5EBFEC27E4F1A492309 /* blob.h */,
-				80F94A30CDDE11294B629AAEB69AA52E /* branch.h */,
-				5C8771819A4FA9AB35368A45DACBA086 /* buffer.h */,
-				353B3E202064BC577A9A78A1189491D9 /* checkout.h */,
-				2E4C0E08BED3EAD684230953457119AE /* cherrypick.h */,
-				7E2A1064C1FFA8CF245B7192DA9A90F2 /* clone.h */,
-				7CFDF86288B6B35ED9695F4AECFDB126 /* commit.h */,
-				9145D4397E2A0E00D380222A5459249D /* common.h */,
-				8334B8037F6D5F860E3719CFA03A170A /* config.h */,
-				2BF4A82BD01CE41E9CCC29E0E5D1B40B /* cred_helpers.h */,
-				13EE7A377CAA7B14D0C0EFFF9951CFAF /* describe.h */,
-				BDD7607895769AB780B202F8AA6C05C6 /* diff.h */,
-				D2BCB184D954AB512CEF3C74C2E7F795 /* errors.h */,
-				95A465F433E5CAE8DCB0577AB7C890B0 /* filter.h */,
-				DE02C484F7E4B30977354C023DF2396B /* global.h */,
-				375B84FF813701281E69314336835F55 /* graph.h */,
-				CF114017D8BC7ADCEF619C5722B39F73 /* ignore.h */,
-				B0C111C6B383C60A85880FF0DE489EA8 /* index.h */,
-				E5D12F3C8FFE0C7313B1F1885EF27FCB /* indexer.h */,
-				ABC1BF8273D56A82EE0D97CCCA1F9937 /* merge.h */,
-				3EFACB003CA684FD74231429FE8788B3 /* message.h */,
-				A09958DDB86A2D285C499D5522D30084 /* net.h */,
-				984924FDD3A38740C92ECA93C9FC969B /* notes.h */,
-				676708C9D19EC64A14E0B777A0D05134 /* object.h */,
-				2CC2DB68F3BD8BE804BBEE68178F11D5 /* odb.h */,
-				9B3402137E14DEA9D86778C3CF36C718 /* odb_backend.h */,
-				30075B7EE8FC11FC7D0D85A7B942FE21 /* oid.h */,
-				434A23857D425AC1635A687C172A6943 /* oidarray.h */,
-				FBBAB8872AA484449838E7FA759ACB1C /* pack.h */,
-				5ED50F4910E075B607A886E9D7A13A22 /* patch.h */,
-				C65BAA278B01D7B39105A709A7C884EF /* pathspec.h */,
-				F874DEBAEB4FC1AF37CBEFC139D81B0E /* proxy.h */,
-				74FE10E35E2F6D93EB6CD767F25A5323 /* rebase.h */,
-				1AAAADA1AF3D34DCCFF4F64F52C28329 /* refdb.h */,
-				464EB02F294653A706D80CCE5F7E1236 /* reflog.h */,
-				71D5A09F0CAC62CB336DDCD5A758439C /* refs.h */,
-				79BF8F4FA87C750B874AE9941914D094 /* refspec.h */,
-				BBAD36CE64B7F1BB8649D2B99341C72F /* remote.h */,
-				47742509615B6713BE43C96B8BA976EE /* repository.h */,
-				06A0939C2322383237EA6A49EC451589 /* reset.h */,
-				9264AEC15EF4C53114AEDD9977E74C27 /* revert.h */,
-				335E2616588FF0EF34B95BF412BADE20 /* revparse.h */,
-				4C28E8AE2A0013FA2A5A6C3410F8FAB1 /* revwalk.h */,
-				98E0161BBCE09BFBFCAA7E3464CF77FB /* signature.h */,
-				33402D9358DAAD946CCF5AABD9C6ED15 /* stash.h */,
-				5A1C6426D799EEA44E7E7E835CF11576 /* status.h */,
-				655E9D2FB693466BB3BC871C71036135 /* strarray.h */,
-				D279D775BE78A983B2E6AF044C8EB53D /* submodule.h */,
-				B53559FFE3C252140D9CA4620B334447 /* tag.h */,
-				F39C45BAA1307194D3A48991A4CF0675 /* trace.h */,
-				A0576FED5233EA3FA980A4F07652192C /* transaction.h */,
-				7F65D6F1285DEB04173A6DD5FCA90C4B /* transport.h */,
-				55979B2DF356FD2BC2E48F7A09F5A996 /* tree.h */,
-				E61C2C25875474FD4FA9DA85A54FC3CA /* types.h */,
-				63D1118CEBAEEEC8955A0CDB1880137B /* version.h */,
-				682F7C6804DFCD4E1A41984F6E9E5B47 /* worktree.h */,
+				FA47399BF2DF2D54C01A48094D3C1EB5 /* annotated_commit.h */,
+				B81F5DA23C173EE3333A35ACCBC47101 /* attr.h */,
+				90EBA161FDC1F9780CFC935BDCE39D40 /* blame.h */,
+				AE6F17FDD9BA3E858FC491F0776E92A8 /* blob.h */,
+				2C2F36404661DAE157327363020C0ED9 /* branch.h */,
+				4881A3B66C2348DCFD220CEC78A94114 /* buffer.h */,
+				9D037BDD1B0E03115C3275D2EBBCD9F7 /* checkout.h */,
+				59C6F74B79D2F26F6F023318E322F5D0 /* cherrypick.h */,
+				0B7293274BF17D455BCCD6A8FD714BD2 /* clone.h */,
+				CF8448131E29765F569563CED6C4D8D9 /* commit.h */,
+				445E2627A086F0C6BD4F89A58A06ACD4 /* common.h */,
+				D4A8BD39A0F21E1C33A461E793296FB2 /* config.h */,
+				7A28B90007A5F2245E13774FEED01E65 /* cred_helpers.h */,
+				E7053720707ABC7147E5FB750E8841F3 /* describe.h */,
+				09E83393A5F492CB38C63B9D12D0392E /* diff.h */,
+				C5C5D44E5900FD8801269B01609C2DDA /* errors.h */,
+				160C5C00AC2420A1859BFD12E31234B7 /* filter.h */,
+				D7DC5EFC50A80703E963727DE7D01BFD /* global.h */,
+				0540948BC3386F9196B331CD0EF83FB8 /* graph.h */,
+				E22B117802F39F8BCBC0FB907921BBFB /* ignore.h */,
+				FBC6EDC19D04851202A37E50491D38A7 /* index.h */,
+				87615D6922A0D46B9F8E8192E403699B /* indexer.h */,
+				EC34720B701C5397674286E6A8EC0548 /* merge.h */,
+				EF82B10912E0A5D3DA76EEC122342E8F /* message.h */,
+				61E55882EA42AD712A3D1EB598B21F9D /* net.h */,
+				BC19EC97CC8F712E3D08B9A8EE93F98D /* notes.h */,
+				F39315C3B82F9B772312D786AD0D4301 /* object.h */,
+				0059335556DAC9218B609701F53D3678 /* odb.h */,
+				7B959561EC3B68C4FCBE27D6E04DADA8 /* odb_backend.h */,
+				1E268FAF7C1F2112DBBAAF6464A3EA11 /* oid.h */,
+				761521651974C330A0384768C53BB1EA /* oidarray.h */,
+				15758A66AB7683CC7E32270F797C2827 /* pack.h */,
+				B1ED3F2DB6FB27D0B43FF731346F9C53 /* patch.h */,
+				362FD8072CDD3210D9B58630776ECDAE /* pathspec.h */,
+				C4BBFE58813C937B5B206FA9789037D7 /* proxy.h */,
+				A7E7BD00F810A3EDABD2860E3B359B85 /* rebase.h */,
+				BD89ED42DC5B0E6563E0C1356E2DB839 /* refdb.h */,
+				4AE09CF45AA9E482261C747908D74FB0 /* reflog.h */,
+				D54F7A23EB293C3B940F3598D414F0C7 /* refs.h */,
+				A3F5C9F8D173EAB5683D158D9ABAA475 /* refspec.h */,
+				4F9DA3FC4F57F5E17E1C9EC3AC5DA614 /* remote.h */,
+				EED5DB687AD16B4AEF535427D4B186B5 /* repository.h */,
+				03C6D39C1BC7F0B591F634D63A1D942F /* reset.h */,
+				45075BDE6402EC3267EC317B48448A41 /* revert.h */,
+				2B89968B46ACA51B4D53BABDAF809E0B /* revparse.h */,
+				48875B0619C5CCE7904C492DD207F775 /* revwalk.h */,
+				AE4A588AB71FDDFA5C44409DF864D014 /* signature.h */,
+				351355CE46F62C3F039895C8CFD9A35F /* stash.h */,
+				AC8BCE783278B1908CA0572DB7D88472 /* status.h */,
+				00645EB6AE80930D46A977BC2E604AC9 /* strarray.h */,
+				E5A8331E7C9C6B95F08F6DCA4E74AF9C /* submodule.h */,
+				C1035A14925A9A53AC497C369602634E /* tag.h */,
+				0FD0AD1232852AABAD7BC33C574DFFAB /* trace.h */,
+				819A720784B20CC702CB6F5FF4D605A0 /* transaction.h */,
+				E40456B2854E23A058B3398E9F6537B6 /* transport.h */,
+				86EB28E34E6E22A982B0A79CB6362A5A /* tree.h */,
+				46E8AB175CEB1C2B033588F34AFF6A4F /* types.h */,
+				300D2DF772E171963B69A5B7D4CF1EE8 /* version.h */,
+				80AEC06E1E6C257EF0D7006AD310396E /* worktree.h */,
 			);
 			name = git2;
-			path = libgit2/git2;
+			path = libgit2iOS/git2;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8D067FB373F359C6DC7A70814562A5CD /* Development Pods */,
+				EADE894A55DA076D6787C9D6899386E4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A28043DB3242CAE03F429F5B555BA404 /* Products */,
-				93B2A5F080D200F383CB829DE7D49764 /* Targets Support Files */,
+				B2320ACFE6E18EB9C3FF41EEA0B3DA43 /* Products */,
+				C73C12DB775A64D16BE8D7F7DC902017 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D067FB373F359C6DC7A70814562A5CD /* Development Pods */ = {
+		B2320ACFE6E18EB9C3FF41EEA0B3DA43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E275A1BE2A240B923942D3F014623B3 /* libgit2 */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		93B2A5F080D200F383CB829DE7D49764 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E7007712BA8683079F2B5633F5D3AE2B /* Pods-libgit2_Example */,
-				5BEFAD4715121969A5EBCD75D2A5A672 /* Pods-libgit2_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9E76B2669DC8B8210FB36CB5C2D88B38 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B506E6D9FF17DD38F068BA05CFB6C533 /* libgit2.podspec */,
-				4937C3EA326E3CB5CF8EB2C38458CE6C /* LICENSE */,
-				5FB7FB43804B30DFE3C01EABC82DAE43 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A28043DB3242CAE03F429F5B555BA404 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				95EEF257C39932C87E7231B0C355332A /* libgit2.framework */,
-				69AC0C4288463E7568B85EC6FF743B64 /* Pods_libgit2_Example.framework */,
-				D9AFFD6B229682F1C4F798F079422FAE /* Pods_libgit2_Tests.framework */,
+				0D62353392F5685A2E0F1148DC1A04A9 /* libgit2iOS.framework */,
+				27EC3C48EDBD913AF25A6069CC0FF67D /* Pods_libgit2iOS_Example.framework */,
+				2D1FC96710E7477C4DF807D8902767D4 /* Pods_libgit2iOS_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -405,167 +365,207 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7007712BA8683079F2B5633F5D3AE2B /* Pods-libgit2_Example */ = {
+		C73C12DB775A64D16BE8D7F7DC902017 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9472ACB835AFD23B3E5786E296359042 /* Info.plist */,
-				69D896B0B25FC3B2EA54BCAE85F7B1BB /* Pods-libgit2_Example.modulemap */,
-				F8DFC601C5439442732C3C8E06403BE7 /* Pods-libgit2_Example-acknowledgements.markdown */,
-				CE2E1F9B15FC9B6ABDFD40B9B621DAD5 /* Pods-libgit2_Example-acknowledgements.plist */,
-				86A0E3F63BD772EFCE4CA7609FDD9A59 /* Pods-libgit2_Example-dummy.m */,
-				7D79CF2B9507CC299B034EE0473F0D28 /* Pods-libgit2_Example-frameworks.sh */,
-				9B0D27A8037712D0869C6B5BCAD161C4 /* Pods-libgit2_Example-resources.sh */,
-				950616C54B3038941EDF246457AF7965 /* Pods-libgit2_Example-umbrella.h */,
-				7F8A48151F3EA7A3667929D49185806E /* Pods-libgit2_Example.debug.xcconfig */,
-				F00420BD992A7B8576D26CA6BA8ECB28 /* Pods-libgit2_Example.release.xcconfig */,
+				317A11E59E89C27E2B78643A6911A6A5 /* Pods-libgit2iOS_Example */,
+				EA055A5B9134F682519CDD21D4D054E3 /* Pods-libgit2iOS_Tests */,
 			);
-			name = "Pods-libgit2_Example";
-			path = "Target Support Files/Pods-libgit2_Example";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E1E1E00C7391DAC6B9E1F5831EE5030A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8ABD87A5028A4FB051A425B23F4223E8 /* libgit2iOS.podspec */,
+				3FA97CF67E392D0A69F3A3C7A0ECA307 /* LICENSE */,
+				A119B6AC37BECBEF8945D7318B5100D2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E74EC33E08B638E7437CC42A20436E77 /* libgit2iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6D7B6A6C25BE64BD5E3588EEEB6810E /* Placeholder.swift */,
+				4911DFAE05EE1EF646C48CDC0E60C874 /* Frameworks */,
+				6A28A85946497E849185377B1961915A /* git2 */,
+				E1E1E00C7391DAC6B9E1F5831EE5030A /* Pod */,
+				0F3033F42E1EB412214C5A5A3BC668A9 /* Support Files */,
+			);
+			name = libgit2iOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA055A5B9134F682519CDD21D4D054E3 /* Pods-libgit2iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9020DBB80DA38C266DCFACAE5BAC890F /* Info.plist */,
+				552DDEE614C1583AD880C2CAC0017256 /* Pods-libgit2iOS_Tests.modulemap */,
+				D5A88FDD4B92AC85E5B8A0E6A489E8FE /* Pods-libgit2iOS_Tests-acknowledgements.markdown */,
+				7200B618DF3031E13BF0362499990E3F /* Pods-libgit2iOS_Tests-acknowledgements.plist */,
+				97465C80F4FB129C38F16975D53C6742 /* Pods-libgit2iOS_Tests-dummy.m */,
+				FD79E24F276A00EB91C7F58C2ECFD532 /* Pods-libgit2iOS_Tests-frameworks.sh */,
+				51F6A0092DD69D7C16BB6968DCA9C114 /* Pods-libgit2iOS_Tests-resources.sh */,
+				2D368B137C0273F33F541B92D600696D /* Pods-libgit2iOS_Tests-umbrella.h */,
+				7E1113C2831247E741735AF2DAB4B704 /* Pods-libgit2iOS_Tests.debug.xcconfig */,
+				F30486BBD986259B68598DF04E1C22CB /* Pods-libgit2iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-libgit2iOS_Tests";
+			path = "Target Support Files/Pods-libgit2iOS_Tests";
+			sourceTree = "<group>";
+		};
+		EADE894A55DA076D6787C9D6899386E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E74EC33E08B638E7437CC42A20436E77 /* libgit2iOS */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36CF6F6962860C2001EDCB959213DD43 /* Headers */ = {
+		528B7559174C9D28562FFC8BACE2094E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AFC0C68C5BCC2F2CA48D4AD7404AC5A /* annotated_commit.h in Headers */,
-				C306EC4E229A97B4B842799CC4B4AC80 /* attr.h in Headers */,
-				458EA6B2C3396EF3930465C825D78449 /* blame.h in Headers */,
-				BF95776AB0083E87583054A20FFA8C2A /* blob.h in Headers */,
-				A1D53D9E563AC5DF86A97B124161A0E3 /* branch.h in Headers */,
-				1B2A0590D26C479F431093AB8EAE6C4B /* buffer.h in Headers */,
-				5B5076E387367E2CB1F7F6416A7E8212 /* checkout.h in Headers */,
-				F850143779F49E5E06A85B464DA25B5F /* cherrypick.h in Headers */,
-				83556689F71CE80CD5629FEEE407BE51 /* clone.h in Headers */,
-				850E59A3CC5D5C41B0A6FD8CE3B01767 /* commit.h in Headers */,
-				A9A1573F2EB4E36B742719A0E38E20E2 /* common.h in Headers */,
-				415DDC6423495A8C2AE244FE5AF0681A /* config.h in Headers */,
-				1069AACD16411EBAC392404B102F68F9 /* cred_helpers.h in Headers */,
-				100FB2754AF3C86BF7CD15676442FAE7 /* describe.h in Headers */,
-				A153E587D7FFD377D7BFA24DA51F2174 /* diff.h in Headers */,
-				B40F5FD70C97BD9E37A98BF2479FDC18 /* errors.h in Headers */,
-				54838A5ADC0DDC92D81E48015A47F70D /* filter.h in Headers */,
-				5FEB636B629B66D561D6B99016ACED8A /* global.h in Headers */,
-				AB20FF1BC8CA2911E761666DE2B91906 /* graph.h in Headers */,
-				937E1ACB3C51BA01293EBE73C4D7600D /* ignore.h in Headers */,
-				C0D685A7F1C0EF5C50F7607D82A94841 /* index.h in Headers */,
-				495D548A30DD904048502B903750608F /* indexer.h in Headers */,
-				3D4B692AB803A07BE14A4A2CE19FC2AB /* libgit2-umbrella.h in Headers */,
-				B778987E1733B850E9546BE5AD56C103 /* merge.h in Headers */,
-				FA2F7B9ECDE08EEC9F83C3A90EAF9B58 /* message.h in Headers */,
-				D70D23B09DB3301EEEC62B6A1D23360C /* net.h in Headers */,
-				6981AB6DF29E51E09DF4CC83040B6335 /* notes.h in Headers */,
-				B9BCE05BD748B3575295271E04A9935E /* object.h in Headers */,
-				13D1326BBACEE0E187BEBC0500744D7B /* odb.h in Headers */,
-				D20FF25CD84AA16280F2679081990574 /* odb_backend.h in Headers */,
-				EB40BE1A5CCADFBD5F96384AD9984D45 /* oid.h in Headers */,
-				6831B01D06A2C833AEE088EEE995AEC1 /* oidarray.h in Headers */,
-				477601B095607B3B09FAD42D485E28F7 /* pack.h in Headers */,
-				8D959CF5A94804FBF277D26DA1A97D04 /* patch.h in Headers */,
-				5AB50F6FA07647EB6F07B695C7715F8D /* pathspec.h in Headers */,
-				8DE8AE1142F0FE4CC2EA670756046A75 /* proxy.h in Headers */,
-				CC6ED1CBF183305CCE0A2917A76D8662 /* rebase.h in Headers */,
-				C8D064427EE9CD9AA8E073A8BED4480F /* refdb.h in Headers */,
-				70BA77E770C947534D74E45B87E31A33 /* reflog.h in Headers */,
-				1B054EDCD47F544F4E3869D0A675EB7E /* refs.h in Headers */,
-				D60870996301A003F882BAF5B68B8BE9 /* refspec.h in Headers */,
-				99E11E97614F3BF884907CE91CCA881E /* remote.h in Headers */,
-				C0EEEA75F688C564836DA2EC56897B2C /* repository.h in Headers */,
-				4D471F45203AECF76C6B4F9D271304E7 /* reset.h in Headers */,
-				83059AEA772BFC83DADCAF373468720A /* revert.h in Headers */,
-				5782FA6D4B1FA94A69B0E105E56E6C77 /* revparse.h in Headers */,
-				EEC2A84B4A0098C85043D9511344DBA5 /* revwalk.h in Headers */,
-				49F4A86B6E9B0B077AEBFC69D51C280B /* signature.h in Headers */,
-				F6072A7DF123B8F518BAE849F9DF85E7 /* stash.h in Headers */,
-				3D92B562D47A8378ABB57DAA9E151DD9 /* status.h in Headers */,
-				04DA80A2A5390E4B6E65342D163B8A49 /* strarray.h in Headers */,
-				D9B4FAB71B06E6537497A5114C1D3F02 /* submodule.h in Headers */,
-				AD3520A7490FD25C5349FEE518516872 /* tag.h in Headers */,
-				323212EE23DB85A42C6CD69510C349A6 /* trace.h in Headers */,
-				D3739458A765D6DD0CD92017D497A4D9 /* transaction.h in Headers */,
-				75D186A9F6F83FDB62D9A3CD296DAD03 /* transport.h in Headers */,
-				8108604759793B358CBCC0FE9743BEFA /* tree.h in Headers */,
-				BF6ECDAF1A692DFA57E4CB7628764541 /* types.h in Headers */,
-				54FE3107DD00B05E3EC41CE073CD56FF /* version.h in Headers */,
-				750DC086B670C5D9FF3CA13A7E1CD474 /* worktree.h in Headers */,
+				2DE63C13A16CF7283C9A2EFC21854ABE /* Pods-libgit2iOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BDE001C94E173099E683B8E1BEFF003 /* Headers */ = {
+		7D7BFD06B17FCD03012644EB7B6708D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C5CC34F55CA64774320DFEE6579BA43 /* Pods-libgit2_Example-umbrella.h in Headers */,
+				0B7687C17C6E50C8A3F8C7A6FB457E47 /* Pods-libgit2iOS_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA13BB89B8C3B91EB6D94C9A8A4ABA1 /* Headers */ = {
+		ABB8C0871316FD456C52C0176627F129 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C2965F51E184F04ADD2C72D8212E49 /* Pods-libgit2_Tests-umbrella.h in Headers */,
+				11C7219226C6C81B73911256203FF091 /* annotated_commit.h in Headers */,
+				4A54C869C75BAA8DF8E4E604488F38A4 /* attr.h in Headers */,
+				885DFCDD24B03E4F61D0800E4F893B65 /* blame.h in Headers */,
+				6FD2D9BA34A1F4B83A6AEEAEA9CFDCF9 /* blob.h in Headers */,
+				533D8021DC5E3109AA8D71B3118580C1 /* branch.h in Headers */,
+				16F5085F0F377E34339F3F105BA6EE94 /* buffer.h in Headers */,
+				E474B9709C8A75BD4873029728C3A67A /* checkout.h in Headers */,
+				6FA50FC88DE4692BCFB573EF3BBE0F30 /* cherrypick.h in Headers */,
+				E9A6EEEC9F396F826B0AE1D157963269 /* clone.h in Headers */,
+				77F8844BD287FDBCBF57846EE7E62348 /* commit.h in Headers */,
+				40C4593C4552D4BF533A0526BFA16CA1 /* common.h in Headers */,
+				8F55EB84F5DE8326B693881010363144 /* config.h in Headers */,
+				480191AB3CE7354D6D2547E94CB1D9F9 /* cred_helpers.h in Headers */,
+				7DCCB25A80370C03CA42AAADDEEA9246 /* describe.h in Headers */,
+				399EC272E9DB1E594D90EB67A43FF9D4 /* diff.h in Headers */,
+				3F925B224D4B1950C73C7E9932B97E46 /* errors.h in Headers */,
+				3576AF9A0AD5175293F7EDA1D74C3CF6 /* filter.h in Headers */,
+				2DAE3EE3060AE0376539851A12D1A6D7 /* global.h in Headers */,
+				4C296C75FC39204E6DD83996EFED137F /* graph.h in Headers */,
+				42248BC633738BBBADB2BA7C3C14ABA7 /* ignore.h in Headers */,
+				A462EE5F214FC446417474CF9D3A450D /* index.h in Headers */,
+				931DFC93D1D1785B62A402D08DE3D58A /* indexer.h in Headers */,
+				E46150DC507941683E16E18511366DEA /* libgit2iOS-umbrella.h in Headers */,
+				8FA4055D7480FD8D19A0913D5DF1548C /* merge.h in Headers */,
+				815CF8C3006432EA285B82EB08C6464A /* message.h in Headers */,
+				0DFB498ACEBF68BC2E01EDE60FA88EF1 /* net.h in Headers */,
+				6A76716EFBF837D8B6B2B6CA070F299E /* notes.h in Headers */,
+				2171BC8FA63DB87C303AF1C11355E347 /* object.h in Headers */,
+				298FB5DE70B7DF098DC590DD0508998E /* odb.h in Headers */,
+				7194B23704127D8A1F3A12CB886502D7 /* odb_backend.h in Headers */,
+				1055D0A811A268157EB2B1D4AF6B8B57 /* oid.h in Headers */,
+				CDD15EFF912151971B27E745F2494DB0 /* oidarray.h in Headers */,
+				AE60FA7EF720CBADD7E7E0619A7CEE9F /* pack.h in Headers */,
+				AEFE3DC689CB981C48E376EB6AE07978 /* patch.h in Headers */,
+				8C61137E7E18D8F93C377CAE939E141E /* pathspec.h in Headers */,
+				E777FA1006D2EF269B9366691EB6A6FD /* proxy.h in Headers */,
+				0C9CBCF31314AE2B3517F712C882D66F /* rebase.h in Headers */,
+				53AC88AD1CEBA36444750CE418D6270D /* refdb.h in Headers */,
+				541B6FC39028AF31AE8700007C7D2857 /* reflog.h in Headers */,
+				1CB8DC257B837385F8D2C0AE57FD0B27 /* refs.h in Headers */,
+				86798B6FCCDA537006DF8CF8F7D91F11 /* refspec.h in Headers */,
+				52EDB5F1A2E70610EF6FCCF6445F021F /* remote.h in Headers */,
+				B09AEA78D5D218BCDA9B5D6C50525006 /* repository.h in Headers */,
+				B8B884085E1E9500EBDC8A6D9468D5F3 /* reset.h in Headers */,
+				5EFA8ACED096E6E6870DB98B32F50EE4 /* revert.h in Headers */,
+				F5A65AC3B07D68E8E8CE854D68CC7899 /* revparse.h in Headers */,
+				50536A0B7E5DE3E25E90F96BE22C85B1 /* revwalk.h in Headers */,
+				BB6ED6457ED688786984B97EB3643CD8 /* signature.h in Headers */,
+				E5547940FD1AC8E576C7824D8246DAED /* stash.h in Headers */,
+				1B1BE3B83479BAA1F6458D53D0B42480 /* status.h in Headers */,
+				F8EDC5E2F51F5FC9B963CED22B4C031C /* strarray.h in Headers */,
+				5B6330C46734BC39D60DFCE61F1273B5 /* submodule.h in Headers */,
+				2D53E1F760CFBC00F1D0F9AF3E318AC8 /* tag.h in Headers */,
+				B15213C834FC4E5233D3B33C1A72E3CB /* trace.h in Headers */,
+				7FC78D783D6E2D5F3D6FAD6D7660A734 /* transaction.h in Headers */,
+				8138D64A1F5208357B4F32B9FF2F7B99 /* transport.h in Headers */,
+				816CCB270220FEC0B580BD9799FA1EC7 /* tree.h in Headers */,
+				491FD8D691D6EECFBB7E8E2D7BD35D8D /* types.h in Headers */,
+				255B66DA23AC07C1CF16962417E64FD7 /* version.h in Headers */,
+				C9256D630327F9901C1E01C6D2083C5B /* worktree.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3CC56E42201FEDDE99EC6650C96DD938 /* Pods-libgit2_Example */ = {
+		1A667C81C408897DB221E9B465EE3D28 /* Pods-libgit2iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40DB43F77EEC49AF4C3C7812005462C6 /* Build configuration list for PBXNativeTarget "Pods-libgit2_Example" */;
+			buildConfigurationList = BED718350026E9081A634546DA3C3B20 /* Build configuration list for PBXNativeTarget "Pods-libgit2iOS_Example" */;
 			buildPhases = (
-				4BDE001C94E173099E683B8E1BEFF003 /* Headers */,
-				C19236B87907F17489D9CEA005E1B641 /* Sources */,
-				9216A0A1C831D1891871463156D8FBE0 /* Frameworks */,
-				A72EB0EDBF5561168AECED3B9957DB18 /* Resources */,
+				528B7559174C9D28562FFC8BACE2094E /* Headers */,
+				6A50416CF36A55B0E480DB50F013A9F5 /* Sources */,
+				8E3FA90DB01D048BEAAA68078A19A6B8 /* Frameworks */,
+				1CA204EC42FAB53E1DBF7C293F93D7AC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				099DEBD3E3BD9ABE132F3E7436BAFCC5 /* PBXTargetDependency */,
+				5D00773556046831CAB0870C51EA9D98 /* PBXTargetDependency */,
 			);
-			name = "Pods-libgit2_Example";
-			productName = "Pods-libgit2_Example";
-			productReference = 69AC0C4288463E7568B85EC6FF743B64 /* Pods_libgit2_Example.framework */;
+			name = "Pods-libgit2iOS_Example";
+			productName = "Pods-libgit2iOS_Example";
+			productReference = 27EC3C48EDBD913AF25A6069CC0FF67D /* Pods_libgit2iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B1CC2A13195DBEB699F2BFBA07873BE4 /* Pods-libgit2_Tests */ = {
+		3555F2401C4BD4BFD31BF6F04D5D19A6 /* Pods-libgit2iOS_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C48DC1616764C5287BBD2CE3948903F5 /* Build configuration list for PBXNativeTarget "Pods-libgit2_Tests" */;
+			buildConfigurationList = A415DD5341CC827369369F2972DAD32E /* Build configuration list for PBXNativeTarget "Pods-libgit2iOS_Tests" */;
 			buildPhases = (
-				DBA13BB89B8C3B91EB6D94C9A8A4ABA1 /* Headers */,
-				93FD0F55242FE36386C5FA3724526F71 /* Sources */,
-				74CEEA5250561DC6B468B320129A1296 /* Frameworks */,
-				E3ACB285F7C12591D33445E8FDD26E9A /* Resources */,
+				7D7BFD06B17FCD03012644EB7B6708D4 /* Headers */,
+				118E6CC1E81574398000F09839BEFB52 /* Sources */,
+				1EC59C317165E2184A4BB9BAB0BF0FFC /* Frameworks */,
+				53E3F360FAAE49D28467F28F8E537D7A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B738BFA96AC22F415FD27CE1C045F28 /* PBXTargetDependency */,
+				15BC6C26C668584ACC5D527B07C192F1 /* PBXTargetDependency */,
 			);
-			name = "Pods-libgit2_Tests";
-			productName = "Pods-libgit2_Tests";
-			productReference = D9AFFD6B229682F1C4F798F079422FAE /* Pods_libgit2_Tests.framework */;
+			name = "Pods-libgit2iOS_Tests";
+			productName = "Pods-libgit2iOS_Tests";
+			productReference = 2D1FC96710E7477C4DF807D8902767D4 /* Pods_libgit2iOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E9AD83D7ED67A8240D21665AF306C793 /* libgit2 */ = {
+		BE3DB82E5DCED57BCC477A5ED45BF855 /* libgit2iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26E69BF0788034084EC6A0556E4B7021 /* Build configuration list for PBXNativeTarget "libgit2" */;
+			buildConfigurationList = 177ACDED534CEE9BD1810202736C727F /* Build configuration list for PBXNativeTarget "libgit2iOS" */;
 			buildPhases = (
-				36CF6F6962860C2001EDCB959213DD43 /* Headers */,
-				F7FB43C403C5E8019B8AAFC8D9BC1A6C /* Sources */,
-				8A330874FABEB4DDFC2DD327B5E7552D /* Frameworks */,
-				75E4E49F122005E20B2F9CB040C384FC /* Resources */,
+				ABB8C0871316FD456C52C0176627F129 /* Headers */,
+				A8FF43CBDFDF45C62607AEA9D448C31A /* Sources */,
+				585C363B1EB1F85EB2BBAF8E289A6507 /* Frameworks */,
+				ACDDD295A46B4748F962011C9F9BD99F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = libgit2;
-			productName = libgit2;
-			productReference = 95EEF257C39932C87E7231B0C355332A /* libgit2.framework */;
+			name = libgit2iOS;
+			productName = libgit2iOS;
+			productReference = 0D62353392F5685A2E0F1148DC1A04A9 /* libgit2iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -575,12 +575,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
-				TargetAttributes = {
-					E9AD83D7ED67A8240D21665AF306C793 = {
-						LastSwiftMigration = 1010;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -590,33 +585,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A28043DB3242CAE03F429F5B555BA404 /* Products */;
+			productRefGroup = B2320ACFE6E18EB9C3FF41EEA0B3DA43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9AD83D7ED67A8240D21665AF306C793 /* libgit2 */,
-				3CC56E42201FEDDE99EC6650C96DD938 /* Pods-libgit2_Example */,
-				B1CC2A13195DBEB699F2BFBA07873BE4 /* Pods-libgit2_Tests */,
+				BE3DB82E5DCED57BCC477A5ED45BF855 /* libgit2iOS */,
+				1A667C81C408897DB221E9B465EE3D28 /* Pods-libgit2iOS_Example */,
+				3555F2401C4BD4BFD31BF6F04D5D19A6 /* Pods-libgit2iOS_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		75E4E49F122005E20B2F9CB040C384FC /* Resources */ = {
+		1CA204EC42FAB53E1DBF7C293F93D7AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A72EB0EDBF5561168AECED3B9957DB18 /* Resources */ = {
+		53E3F360FAAE49D28467F28F8E537D7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3ACB285F7C12591D33445E8FDD26E9A /* Resources */ = {
+		ACDDD295A46B4748F962011C9F9BD99F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -626,150 +621,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93FD0F55242FE36386C5FA3724526F71 /* Sources */ = {
+		118E6CC1E81574398000F09839BEFB52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB9CA81958E3A32BB97EC4BFD7BE002 /* Pods-libgit2_Tests-dummy.m in Sources */,
+				E83678D341D1D4599E00F0F939099375 /* Pods-libgit2iOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C19236B87907F17489D9CEA005E1B641 /* Sources */ = {
+		6A50416CF36A55B0E480DB50F013A9F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36962D783FFAB5294C27003620D03DBB /* Pods-libgit2_Example-dummy.m in Sources */,
+				56AED5B990125C0DF4B2BDF839475FCB /* Pods-libgit2iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7FB43C403C5E8019B8AAFC8D9BC1A6C /* Sources */ = {
+		A8FF43CBDFDF45C62607AEA9D448C31A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BCC34AD439DB5FE434B61743CB0CDE /* libgit2-dummy.m in Sources */,
-				2DCE2638327858C56A852E85649504F7 /* Placeholder.swift in Sources */,
+				8A3A754577C560B4DE8AB24C6F0F36A9 /* libgit2iOS-dummy.m in Sources */,
+				99795BE266388BDB82B282F013EB8596 /* Placeholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		099DEBD3E3BD9ABE132F3E7436BAFCC5 /* PBXTargetDependency */ = {
+		15BC6C26C668584ACC5D527B07C192F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = libgit2;
-			target = E9AD83D7ED67A8240D21665AF306C793 /* libgit2 */;
-			targetProxy = 53405D3FC9063EF2EE6D732439C9EF8C /* PBXContainerItemProxy */;
+			name = "Pods-libgit2iOS_Example";
+			target = 1A667C81C408897DB221E9B465EE3D28 /* Pods-libgit2iOS_Example */;
+			targetProxy = 6AE5CAAA96DE9BB5C087C0A22E68AC08 /* PBXContainerItemProxy */;
 		};
-		3B738BFA96AC22F415FD27CE1C045F28 /* PBXTargetDependency */ = {
+		5D00773556046831CAB0870C51EA9D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-libgit2_Example";
-			target = 3CC56E42201FEDDE99EC6650C96DD938 /* Pods-libgit2_Example */;
-			targetProxy = 3175066B37C4B3055493FB77035519F2 /* PBXContainerItemProxy */;
+			name = libgit2iOS;
+			target = BE3DB82E5DCED57BCC477A5ED45BF855 /* libgit2iOS */;
+			targetProxy = 32F41E0277AF6F9575A49A716F4AA445 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		27312640D80DA3928BDD0FAEAC3005B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78A4FA40FEB79314F2933E08CDF40729 /* Pods-libgit2_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Tests/Pods-libgit2_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4A99818315FD2C786FEDFA652A9A552D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libgit2/libgit2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libgit2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libgit2/libgit2.modulemap";
-				PRODUCT_MODULE_NAME = libgit2;
-				PRODUCT_NAME = libgit2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D9D044B7EEF872D9ECD084C9128E27A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F00420BD992A7B8576D26CA6BA8ECB28 /* Pods-libgit2_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Example/Pods-libgit2_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -825,14 +719,13 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		5F808E189145290CCC7FBA994987CC78 /* Debug */ = {
+		7069AA1D36CF810B1F03A6E446361DE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F8A48151F3EA7A3667929D49185806E /* Pods-libgit2_Example.debug.xcconfig */;
+			baseConfigurationReference = 4F0EED8B9B0F8FACD7111E737C5DCCD8 /* Pods-libgit2iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -844,12 +737,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-libgit2iOS_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Example/Pods-libgit2_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-libgit2iOS_Example/Pods-libgit2iOS_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -857,17 +750,18 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		630604A4E848A2789E153C11BE0296B4 /* Debug */ = {
+		AEDCF833ED6B0491B076CCE0B6F22C18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86671F3C71E6E61F935B032A3001E8F6 /* Pods-libgit2_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7E1113C2831247E741735AF2DAB4B704 /* Pods-libgit2iOS_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -879,12 +773,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libgit2_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-libgit2iOS_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libgit2_Tests/Pods-libgit2_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-libgit2iOS_Tests/Pods-libgit2iOS_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -898,9 +792,9 @@
 			};
 			name = Debug;
 		};
-		B158AA75BCC55B3AFE0C9A0089B1CF05 /* Release */ = {
+		B169A936847919E1EE30D049496FDEB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5E00405983F04E08BFEF2EA1EF76F8A /* libgit2.xcconfig */;
+			baseConfigurationReference = 7A88DB8231084ABF2BDC03462429AF47 /* libgit2iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -911,19 +805,54 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libgit2/libgit2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libgit2/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/libgit2iOS/libgit2iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libgit2iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libgit2/libgit2.modulemap";
-				PRODUCT_MODULE_NAME = libgit2;
-				PRODUCT_NAME = libgit2;
+				MODULEMAP_FILE = "Target Support Files/libgit2iOS/libgit2iOS.modulemap";
+				PRODUCT_MODULE_NAME = libgit2iOS;
+				PRODUCT_NAME = libgit2iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B18E9F40C9CFEA9FDA94D992D1406703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30486BBD986259B68598DF04E1C22CB /* Pods-libgit2iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libgit2iOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libgit2iOS_Tests/Pods-libgit2iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -995,14 +924,81 @@
 			};
 			name = Debug;
 		};
+		E09CCF71EDFAFE60E8C476419B99BB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E52F6555F63C8B5B4FC41E1A9BA9BF /* Pods-libgit2iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libgit2iOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libgit2iOS_Example/Pods-libgit2iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED62D4D9831B69047D174778304C021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A88DB8231084ABF2BDC03462429AF47 /* libgit2iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libgit2iOS/libgit2iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libgit2iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libgit2iOS/libgit2iOS.modulemap";
+				PRODUCT_MODULE_NAME = libgit2iOS;
+				PRODUCT_NAME = libgit2iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26E69BF0788034084EC6A0556E4B7021 /* Build configuration list for PBXNativeTarget "libgit2" */ = {
+		177ACDED534CEE9BD1810202736C727F /* Build configuration list for PBXNativeTarget "libgit2iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A99818315FD2C786FEDFA652A9A552D /* Debug */,
-				B158AA75BCC55B3AFE0C9A0089B1CF05 /* Release */,
+				ED62D4D9831B69047D174778304C021D /* Debug */,
+				B169A936847919E1EE30D049496FDEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1016,20 +1012,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40DB43F77EEC49AF4C3C7812005462C6 /* Build configuration list for PBXNativeTarget "Pods-libgit2_Example" */ = {
+		A415DD5341CC827369369F2972DAD32E /* Build configuration list for PBXNativeTarget "Pods-libgit2iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F808E189145290CCC7FBA994987CC78 /* Debug */,
-				4D9D044B7EEF872D9ECD084C9128E27A /* Release */,
+				AEDCF833ED6B0491B076CCE0B6F22C18 /* Debug */,
+				B18E9F40C9CFEA9FDA94D992D1406703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C48DC1616764C5287BBD2CE3948903F5 /* Build configuration list for PBXNativeTarget "Pods-libgit2_Tests" */ = {
+		BED718350026E9081A634546DA3C3B20 /* Build configuration list for PBXNativeTarget "Pods-libgit2iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				630604A4E848A2789E153C11BE0296B4 /* Debug */,
-				27312640D80DA3928BDD0FAEAC3005B3 /* Release */,
+				E09CCF71EDFAFE60E8C476419B99BB1A /* Debug */,
+				7069AA1D36CF810B1F03A6E446361DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
