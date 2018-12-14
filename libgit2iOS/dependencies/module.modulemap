@@ -1,0 +1,5 @@
+module libgit2 {
+    header "git2/libgit2.h"
+
+    export *
+}

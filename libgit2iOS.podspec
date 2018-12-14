@@ -36,10 +36,17 @@ libgit2 iOS pod.
   #s.public_header_files = 'libgit2iOS/git2/*.h'
 
   # s.source_files = 'libgit2iOS/libgit2iOS.framework/Headers/*.h'
-  s.vendored_frameworks = 'libgit2iOS/libgit2iOS.framework'
+  #s.vendored_frameworks = 'libgit2iOS/libgit2iOS.framework'
   #s.preserve_paths = 'libgit2iOS/libgit2iOS.framework/*'
   #s.public_header_files = 'libgit2iOS/libgit2iOS.framework/Headers/*.h'
 
+  s.source_files = 'libgit2iOS/*.{swift,m,h}'
+  s.preserve_paths = 'libgit2iOS/dependencies'
+  s.ios.pod_target_xcconfig = {
+      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/libgit2iOS/dependencies $(PODS_ROOT)/libgit2iOS/dependencies/git2',
+      'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/libgit2iOS/dependencies/',
+      'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/libgit2iOS/dependencies/git2'
+  }
   # s.resource_bundles = {
   #   'libgit2' => ['libgit2/Assets/*.png']
   # }

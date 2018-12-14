@@ -1,5 +1,5 @@
 import XCTest
-import libgit2iOS
+import libgit2
 
 class Tests: XCTestCase {
     

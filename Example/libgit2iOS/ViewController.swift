@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import libgit2iOS
+import libgit2
 
 class ViewController: UIViewController {
 

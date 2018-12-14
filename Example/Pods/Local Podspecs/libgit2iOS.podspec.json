@@ -1,6 +1,6 @@
 {
   "name": "libgit2iOS",
-  "version": "0.1.2.2",
+  "version": "0.1.2.3",
   "summary": "libgit2 for iOS",
   "swift_version": "4.0",
   "description": "libgit2 iOS pod.",
@@ -14,10 +14,18 @@
   },
   "source": {
     "git": "https://github.com/mewehk/libgit2.git",
-    "tag": "0.1.2.2"
+    "tag": "0.1.2.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "vendored_frameworks": "libgit2iOS/libgit2iOS.framework"
+  "source_files": "libgit2iOS/*.{swift,m,h}",
+  "preserve_paths": "libgit2iOS/dependencies",
+  "ios": {
+    "pod_target_xcconfig": {
+      "SWIFT_INCLUDE_PATHS": "$(PODS_ROOT)/libgit2iOS/dependencies $(PODS_ROOT)/libgit2iOS/dependencies/git2",
+      "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/libgit2iOS/dependencies/",
+      "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/libgit2iOS/dependencies/git2"
+    }
+  }
 }

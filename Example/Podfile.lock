@@ -1,5 +1,5 @@
 PODS:
-  - libgit2iOS (0.1.2.2)
+  - libgit2iOS (0.1.2.3)
 
 DEPENDENCIES:
   - libgit2iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  libgit2iOS: caf9f56df47c3ac0ace9148e6c3df7c45e284844
+  libgit2iOS: d87414bf2ac7b52637ce51cc8239de3fb61bb304
 
 PODFILE CHECKSUM: 46aebb0a25d9a7c17c8c4c653c73ace7108827f7
 
