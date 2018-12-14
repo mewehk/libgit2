@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libgit2iOS'
-  s.version          = '0.1.2.2'
+  s.version          = '0.1.2.3'
   s.summary          = 'libgit2 for iOS'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
@@ -35,10 +35,10 @@ libgit2 iOS pod.
   #s.preserve_paths = 'libgit2iOS/libgit2-ios.a'
   #s.public_header_files = 'libgit2iOS/git2/*.h'
 
-  s.source_files = 'libgit2iOS/libgit2iOS.framework/Headers/*.h'
+  # s.source_files = 'libgit2iOS/libgit2iOS.framework/Headers/*.h'
   s.vendored_frameworks = 'libgit2iOS/libgit2iOS.framework'
-  s.preserve_paths = 'libgit2iOS/libgit2iOS.framework/*'
-  s.public_header_files = 'libgit2iOS/libgit2iOS.framework/Headers/*.h'
+  #s.preserve_paths = 'libgit2iOS/libgit2iOS.framework/*'
+  #s.public_header_files = 'libgit2iOS/libgit2iOS.framework/Headers/*.h'
 
   # s.resource_bundles = {
   #   'libgit2' => ['libgit2/Assets/*.png']

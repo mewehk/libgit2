@@ -26,92 +26,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001EB47B8E0B006C3EDF6CC7B1B55A7D /* attr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attr.h; path = libgit2iOS/libgit2iOS.framework/Headers/attr.h; sourceTree = "<group>"; };
-		02C19C05C293A53B5CEB8CE24EC9BA45 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = libgit2iOS/libgit2iOS.framework/Headers/tree.h; sourceTree = "<group>"; };
-		0641A7EE514A7480FB84C5FADBA4FDA5 /* filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filter.h; path = libgit2iOS/libgit2iOS.framework/Headers/filter.h; sourceTree = "<group>"; };
-		0A95EFA66F790ABF3547CCAB6F42F91D /* errors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errors.h; path = libgit2iOS/libgit2iOS.framework/Headers/errors.h; sourceTree = "<group>"; };
 		0C9323BEDBBABACCFE7162AAF6444285 /* Pods-libgit2iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0CA7502C0E1799FA19DD40376E9EB00E /* repository.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = repository.h; path = libgit2iOS/libgit2iOS.framework/Headers/repository.h; sourceTree = "<group>"; };
-		0DFCC5CC267D2E807036E97425C629DF /* message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message.h; path = libgit2iOS/libgit2iOS.framework/Headers/message.h; sourceTree = "<group>"; };
-		14B49D76F485C31240206952C5FF4E0D /* odb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = odb.h; path = libgit2iOS/libgit2iOS.framework/Headers/odb.h; sourceTree = "<group>"; };
-		1BBA28EA28AFCF5067A7AD42D15C8B3D /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = libgit2iOS/libgit2iOS.framework/Headers/version.h; sourceTree = "<group>"; };
-		1D6ACA7904835E160FD3750D43C97602 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = libgit2iOS/libgit2iOS.framework/Headers/config.h; sourceTree = "<group>"; };
-		1F1CE0F9B739E3E71CE571983F903ECF /* graph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = graph.h; path = libgit2iOS/libgit2iOS.framework/Headers/graph.h; sourceTree = "<group>"; };
-		220E00BC3C04645240CFEE058C1B55F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2908EB468FB3B019E8A7C4A65B9B2376 /* Pods_libgit2iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2iOS_Tests.framework; path = "Pods-libgit2iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BEAD2DADD92807174E19354E82BD7B2 /* revwalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = revwalk.h; path = libgit2iOS/libgit2iOS.framework/Headers/revwalk.h; sourceTree = "<group>"; };
-		2C0A76AE1197DA8D405FAD22D26120C7 /* cherrypick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cherrypick.h; path = libgit2iOS/libgit2iOS.framework/Headers/cherrypick.h; sourceTree = "<group>"; };
 		2D368B137C0273F33F541B92D600696D /* Pods-libgit2iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2DB0A6A92C6567E3DA0F1DE741DDDF5C /* trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trace.h; path = libgit2iOS/libgit2iOS.framework/Headers/trace.h; sourceTree = "<group>"; };
-		2E2D7FC09F12E2761BFAE3F3222C925B /* refs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = refs.h; path = libgit2iOS/libgit2iOS.framework/Headers/refs.h; sourceTree = "<group>"; };
-		32EA63A2A18D698FFB8B4F22B42D1AC1 /* oid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oid.h; path = libgit2iOS/libgit2iOS.framework/Headers/oid.h; sourceTree = "<group>"; };
 		36E52F6555F63C8B5B4FC41E1A9BA9BF /* Pods-libgit2iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		395EA9F24913898B2E5B8E24E750956C /* Pods_libgit2iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2iOS_Example.framework; path = "Pods-libgit2iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F85370F6EA39423E5ED26A0EBAB61CD /* worktree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = worktree.h; path = libgit2iOS/libgit2iOS.framework/Headers/worktree.h; sourceTree = "<group>"; };
-		421151CBE562836FDA43F6D88E7E7D49 /* reset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reset.h; path = libgit2iOS/libgit2iOS.framework/Headers/reset.h; sourceTree = "<group>"; };
-		42BC1E41FCA742F260064D3EDD85CFBE /* net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = net.h; path = libgit2iOS/libgit2iOS.framework/Headers/net.h; sourceTree = "<group>"; };
-		43957B7F0B5F2DDE7B78DA63E15AE574 /* tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tag.h; path = libgit2iOS/libgit2iOS.framework/Headers/tag.h; sourceTree = "<group>"; };
-		4972BCF792D67DBF2C408B90FC6383EF /* commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commit.h; path = libgit2iOS/libgit2iOS.framework/Headers/commit.h; sourceTree = "<group>"; };
 		49B0A48A55F7E9AF712E3046EA860A41 /* Pods-libgit2iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Example-resources.sh"; sourceTree = "<group>"; };
-		49E41F27241CB3D5ED73855A234E00D9 /* refspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = refspec.h; path = libgit2iOS/libgit2iOS.framework/Headers/refspec.h; sourceTree = "<group>"; };
-		4CE97279AEDE3ECDC6EE492DFEC633E9 /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = status.h; path = libgit2iOS/libgit2iOS.framework/Headers/status.h; sourceTree = "<group>"; };
 		4F0EED8B9B0F8FACD7111E737C5DCCD8 /* Pods-libgit2iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5106673ED93D926245FEDE92354B1913 /* object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = object.h; path = libgit2iOS/libgit2iOS.framework/Headers/object.h; sourceTree = "<group>"; };
 		51F6A0092DD69D7C16BB6968DCA9C114 /* Pods-libgit2iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Tests-resources.sh"; sourceTree = "<group>"; };
 		552DDEE614C1583AD880C2CAC0017256 /* Pods-libgit2iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2iOS_Tests.modulemap"; sourceTree = "<group>"; };
-		56FE6E2A9B05FB2E5CF5D918BBA4D9B9 /* submodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = submodule.h; path = libgit2iOS/libgit2iOS.framework/Headers/submodule.h; sourceTree = "<group>"; };
-		589088A09274799FA4E24C0A7C848A31 /* ignore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ignore.h; path = libgit2iOS/libgit2iOS.framework/Headers/ignore.h; sourceTree = "<group>"; };
-		5973AAE9D71E79C3BCE43CAC0224452E /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = libgit2iOS/libgit2iOS.framework/Headers/types.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BCBE689F5C6070933B6798A17014E54 /* index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = index.h; path = libgit2iOS/libgit2iOS.framework/Headers/index.h; sourceTree = "<group>"; };
-		5DF571307ED5201AE9B7AA801C0DE9D4 /* strarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strarray.h; path = libgit2iOS/libgit2iOS.framework/Headers/strarray.h; sourceTree = "<group>"; };
+		62EEE818ABBBBA9C163125792FE08BD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		63D52E6022C66727BF9AC12F24AD36CF /* Pods-libgit2iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2iOS_Example-dummy.m"; sourceTree = "<group>"; };
-		67B8BF4C9E7E54D41E0EAB17C0827E7D /* libgit2iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libgit2iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6C47385B8691B6F83E277F5F2C358966 /* blame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blame.h; path = libgit2iOS/libgit2iOS.framework/Headers/blame.h; sourceTree = "<group>"; };
-		6ED82D54685409AB03D05356E55D65CA /* transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transaction.h; path = libgit2iOS/libgit2iOS.framework/Headers/transaction.h; sourceTree = "<group>"; };
-		7069756148DF4428F47C3E9FAF92B418 /* indexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = indexer.h; path = libgit2iOS/libgit2iOS.framework/Headers/indexer.h; sourceTree = "<group>"; };
 		7200B618DF3031E13BF0362499990E3F /* Pods-libgit2iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7293D25811CC864F92B1F5EFFE47491D /* branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = branch.h; path = libgit2iOS/libgit2iOS.framework/Headers/branch.h; sourceTree = "<group>"; };
-		73BCEE1B100A7C43F0CA20954C01BF21 /* pathspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pathspec.h; path = libgit2iOS/libgit2iOS.framework/Headers/pathspec.h; sourceTree = "<group>"; };
 		78AE87377FB0A9A62D9CC492709519A9 /* Pods-libgit2iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2iOS_Example.modulemap"; sourceTree = "<group>"; };
 		7AC91BEBF38D3BA0FD6637B6B366D6B2 /* Pods-libgit2iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		7CF0903C59A6299FD6D354D54711B985 /* merge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = merge.h; path = libgit2iOS/libgit2iOS.framework/Headers/merge.h; sourceTree = "<group>"; };
-		7D9409520E9DD65562BB0A5828FA2DCA /* reflog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reflog.h; path = libgit2iOS/libgit2iOS.framework/Headers/reflog.h; sourceTree = "<group>"; };
 		7E1113C2831247E741735AF2DAB4B704 /* Pods-libgit2iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		854B9370A3E8484DCD90A6454F65E5B5 /* proxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = proxy.h; path = libgit2iOS/libgit2iOS.framework/Headers/proxy.h; sourceTree = "<group>"; };
-		88B2DAD357302F43D263CDCB31A9AE20 /* global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = global.h; path = libgit2iOS/libgit2iOS.framework/Headers/global.h; sourceTree = "<group>"; };
-		8AA5320EE9BB7A79D9C8D1531B293A94 /* transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport.h; path = libgit2iOS/libgit2iOS.framework/Headers/transport.h; sourceTree = "<group>"; };
 		9020DBB80DA38C266DCFACAE5BAC890F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		907A5B049568D8BF7E7C2E3C499A6CEA /* notes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = notes.h; path = libgit2iOS/libgit2iOS.framework/Headers/notes.h; sourceTree = "<group>"; };
-		90DBAE6D6BDBD8C5D3ADF7BA93D795E2 /* diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = diff.h; path = libgit2iOS/libgit2iOS.framework/Headers/diff.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9402CB8DD6B929EB069D5557BBA5290E /* signature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = signature.h; path = libgit2iOS/libgit2iOS.framework/Headers/signature.h; sourceTree = "<group>"; };
 		97465C80F4FB129C38F16975D53C6742 /* Pods-libgit2iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		983AD39F7F1EA000A68DC6CEEDE28F8B /* libgit2iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgit2iOS.framework; path = libgit2iOS/libgit2iOS.framework; sourceTree = "<group>"; };
-		9D2B5FDEAB28E1EBC23F81993A644AA2 /* refdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = refdb.h; path = libgit2iOS/libgit2iOS.framework/Headers/refdb.h; sourceTree = "<group>"; };
-		A880A789B4FFC45E2AEEDF45A258F57E /* describe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = describe.h; path = libgit2iOS/libgit2iOS.framework/Headers/describe.h; sourceTree = "<group>"; };
-		AA038D481C201D0BF54AB54E49C52A77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AF306C104FFBC5A0A17AEA415E20A59F /* revparse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = revparse.h; path = libgit2iOS/libgit2iOS.framework/Headers/revparse.h; sourceTree = "<group>"; };
-		B21A7C90ED4BD70C8BBE60175136ABC2 /* libgit2iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libgit2iOS.h; path = libgit2iOS/libgit2iOS.framework/Headers/libgit2iOS.h; sourceTree = "<group>"; };
-		B276E9A34E2FF5B8D5C3DAC9983E99A3 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = libgit2iOS/libgit2iOS.framework/Headers/common.h; sourceTree = "<group>"; };
-		B2E18B7E7534AA63EBCEB6C4A0CD6E8F /* odb_backend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = odb_backend.h; path = libgit2iOS/libgit2iOS.framework/Headers/odb_backend.h; sourceTree = "<group>"; };
-		B799E275A90B0137D9EE809A6F36F2DD /* annotated_commit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = annotated_commit.h; path = libgit2iOS/libgit2iOS.framework/Headers/annotated_commit.h; sourceTree = "<group>"; };
-		BC6884AB60018EABEB19801FAB233798 /* checkout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = checkout.h; path = libgit2iOS/libgit2iOS.framework/Headers/checkout.h; sourceTree = "<group>"; };
-		BD98263A160FFEB24C765C11FD9B9B62 /* rebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rebase.h; path = libgit2iOS/libgit2iOS.framework/Headers/rebase.h; sourceTree = "<group>"; };
-		C7ED7C8F6F1D49FBE6CB169D9AA52B1A /* stash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stash.h; path = libgit2iOS/libgit2iOS.framework/Headers/stash.h; sourceTree = "<group>"; };
-		C8A7E558BAFDDC455CD369DF3388DDE6 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = libgit2iOS/libgit2iOS.framework/Headers/buffer.h; sourceTree = "<group>"; };
-		D57AFCF1C02F1B2B6557C3F6694B19D5 /* remote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = remote.h; path = libgit2iOS/libgit2iOS.framework/Headers/remote.h; sourceTree = "<group>"; };
+		98F4AC8CB80B81600841CBE838D177B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE68524B9AF7F0E8289F9F31400AB452 /* libgit2iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libgit2iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D5A88FDD4B92AC85E5B8A0E6A489E8FE /* Pods-libgit2iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5BBA5BA3ADD7B7F6D296803FAF0D5FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D78EC0AA3524FA63BE7C3B091352A19E /* pack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pack.h; path = libgit2iOS/libgit2iOS.framework/Headers/pack.h; sourceTree = "<group>"; };
-		DC73B275A220CA5711B31DA194D31799 /* revert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = revert.h; path = libgit2iOS/libgit2iOS.framework/Headers/revert.h; sourceTree = "<group>"; };
-		E402058091777F0741F38535EB3F8CD4 /* patch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = patch.h; path = libgit2iOS/libgit2iOS.framework/Headers/patch.h; sourceTree = "<group>"; };
-		E72AF17ACC815EC91EDE9EAD8E31FD75 /* oidarray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oidarray.h; path = libgit2iOS/libgit2iOS.framework/Headers/oidarray.h; sourceTree = "<group>"; };
-		F159FE1B8B96AB64002153785910F8C2 /* cred_helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cred_helpers.h; path = libgit2iOS/libgit2iOS.framework/Headers/cred_helpers.h; sourceTree = "<group>"; };
+		F25FA529098DA700769AF338C0F11E55 /* libgit2iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgit2iOS.framework; path = libgit2iOS/libgit2iOS.framework; sourceTree = "<group>"; };
 		F30486BBD986259B68598DF04E1C22CB /* Pods-libgit2iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F4C955BCA6412362EFC1C561ED67E3F8 /* Pods-libgit2iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F50C7045726C5A34559BAADE7CB3B6E8 /* clone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clone.h; path = libgit2iOS/libgit2iOS.framework/Headers/clone.h; sourceTree = "<group>"; };
-		F9D4BF3523DF874C558B6F0BDAA81DD9 /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blob.h; path = libgit2iOS/libgit2iOS.framework/Headers/blob.h; sourceTree = "<group>"; };
 		FA2032BB835982D5A53F8069EBAFA05C /* Pods-libgit2iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FD79E24F276A00EB91C7F58C2ECFD532 /* Pods-libgit2iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BB56FF48F6C82841D754E732FA3AE7E /* libgit2iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D03FD74B2D845C1040C8F43CFACD12F4 /* Frameworks */,
+				59E01AAC79D0E03F9655507FA87C863D /* Pod */,
+			);
+			name = libgit2iOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		317A11E59E89C27E2B78643A6911A6A5 /* Pods-libgit2iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,82 +104,22 @@
 			path = "Target Support Files/Pods-libgit2iOS_Example";
 			sourceTree = "<group>";
 		};
+		59E01AAC79D0E03F9655507FA87C863D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AE68524B9AF7F0E8289F9F31400AB452 /* libgit2iOS.podspec */,
+				62EEE818ABBBBA9C163125792FE08BD8 /* LICENSE */,
+				98F4AC8CB80B81600841CBE838D177B1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6089AAAAC1CA9E04C439612963047437 /* libgit2iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B799E275A90B0137D9EE809A6F36F2DD /* annotated_commit.h */,
-				001EB47B8E0B006C3EDF6CC7B1B55A7D /* attr.h */,
-				6C47385B8691B6F83E277F5F2C358966 /* blame.h */,
-				F9D4BF3523DF874C558B6F0BDAA81DD9 /* blob.h */,
-				7293D25811CC864F92B1F5EFFE47491D /* branch.h */,
-				C8A7E558BAFDDC455CD369DF3388DDE6 /* buffer.h */,
-				BC6884AB60018EABEB19801FAB233798 /* checkout.h */,
-				2C0A76AE1197DA8D405FAD22D26120C7 /* cherrypick.h */,
-				F50C7045726C5A34559BAADE7CB3B6E8 /* clone.h */,
-				4972BCF792D67DBF2C408B90FC6383EF /* commit.h */,
-				B276E9A34E2FF5B8D5C3DAC9983E99A3 /* common.h */,
-				1D6ACA7904835E160FD3750D43C97602 /* config.h */,
-				F159FE1B8B96AB64002153785910F8C2 /* cred_helpers.h */,
-				A880A789B4FFC45E2AEEDF45A258F57E /* describe.h */,
-				90DBAE6D6BDBD8C5D3ADF7BA93D795E2 /* diff.h */,
-				0A95EFA66F790ABF3547CCAB6F42F91D /* errors.h */,
-				0641A7EE514A7480FB84C5FADBA4FDA5 /* filter.h */,
-				88B2DAD357302F43D263CDCB31A9AE20 /* global.h */,
-				1F1CE0F9B739E3E71CE571983F903ECF /* graph.h */,
-				589088A09274799FA4E24C0A7C848A31 /* ignore.h */,
-				5BCBE689F5C6070933B6798A17014E54 /* index.h */,
-				7069756148DF4428F47C3E9FAF92B418 /* indexer.h */,
-				B21A7C90ED4BD70C8BBE60175136ABC2 /* libgit2iOS.h */,
-				7CF0903C59A6299FD6D354D54711B985 /* merge.h */,
-				0DFCC5CC267D2E807036E97425C629DF /* message.h */,
-				42BC1E41FCA742F260064D3EDD85CFBE /* net.h */,
-				907A5B049568D8BF7E7C2E3C499A6CEA /* notes.h */,
-				5106673ED93D926245FEDE92354B1913 /* object.h */,
-				14B49D76F485C31240206952C5FF4E0D /* odb.h */,
-				B2E18B7E7534AA63EBCEB6C4A0CD6E8F /* odb_backend.h */,
-				32EA63A2A18D698FFB8B4F22B42D1AC1 /* oid.h */,
-				E72AF17ACC815EC91EDE9EAD8E31FD75 /* oidarray.h */,
-				D78EC0AA3524FA63BE7C3B091352A19E /* pack.h */,
-				E402058091777F0741F38535EB3F8CD4 /* patch.h */,
-				73BCEE1B100A7C43F0CA20954C01BF21 /* pathspec.h */,
-				854B9370A3E8484DCD90A6454F65E5B5 /* proxy.h */,
-				BD98263A160FFEB24C765C11FD9B9B62 /* rebase.h */,
-				9D2B5FDEAB28E1EBC23F81993A644AA2 /* refdb.h */,
-				7D9409520E9DD65562BB0A5828FA2DCA /* reflog.h */,
-				2E2D7FC09F12E2761BFAE3F3222C925B /* refs.h */,
-				49E41F27241CB3D5ED73855A234E00D9 /* refspec.h */,
-				D57AFCF1C02F1B2B6557C3F6694B19D5 /* remote.h */,
-				0CA7502C0E1799FA19DD40376E9EB00E /* repository.h */,
-				421151CBE562836FDA43F6D88E7E7D49 /* reset.h */,
-				DC73B275A220CA5711B31DA194D31799 /* revert.h */,
-				AF306C104FFBC5A0A17AEA415E20A59F /* revparse.h */,
-				2BEAD2DADD92807174E19354E82BD7B2 /* revwalk.h */,
-				9402CB8DD6B929EB069D5557BBA5290E /* signature.h */,
-				C7ED7C8F6F1D49FBE6CB169D9AA52B1A /* stash.h */,
-				4CE97279AEDE3ECDC6EE492DFEC633E9 /* status.h */,
-				5DF571307ED5201AE9B7AA801C0DE9D4 /* strarray.h */,
-				56FE6E2A9B05FB2E5CF5D918BBA4D9B9 /* submodule.h */,
-				43957B7F0B5F2DDE7B78DA63E15AE574 /* tag.h */,
-				2DB0A6A92C6567E3DA0F1DE741DDDF5C /* trace.h */,
-				6ED82D54685409AB03D05356E55D65CA /* transaction.h */,
-				8AA5320EE9BB7A79D9C8D1531B293A94 /* transport.h */,
-				02C19C05C293A53B5CEB8CE24EC9BA45 /* tree.h */,
-				5973AAE9D71E79C3BCE43CAC0224452E /* types.h */,
-				1BBA28EA28AFCF5067A7AD42D15C8B3D /* version.h */,
-				3F85370F6EA39423E5ED26A0EBAB61CD /* worktree.h */,
-				D2C4BA91486505683957C19CE1AFF16C /* Frameworks */,
-				C78A2B2B88520933F26A9DACA99BBC04 /* Pod */,
-			);
-			name = libgit2iOS;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6DEA37C124C4C76FF5EDE71776353BBB /* Products */ = {
@@ -245,11 +135,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CA2EDEBEBC4274855909E63F0B4178C1 /* Development Pods */,
+				A30E3B3099E80DE836292202A4F36267 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				6DEA37C124C4C76FF5EDE71776353BBB /* Products */,
 				C73C12DB775A64D16BE8D7F7DC902017 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A30E3B3099E80DE836292202A4F36267 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56FF48F6C82841D754E732FA3AE7E /* libgit2iOS */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -269,28 +167,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C78A2B2B88520933F26A9DACA99BBC04 /* Pod */ = {
+		D03FD74B2D845C1040C8F43CFACD12F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				67B8BF4C9E7E54D41E0EAB17C0827E7D /* libgit2iOS.podspec */,
-				220E00BC3C04645240CFEE058C1B55F5 /* LICENSE */,
-				AA038D481C201D0BF54AB54E49C52A77 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CA2EDEBEBC4274855909E63F0B4178C1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6089AAAAC1CA9E04C439612963047437 /* libgit2iOS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D2C4BA91486505683957C19CE1AFF16C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				983AD39F7F1EA000A68DC6CEEDE28F8B /* libgit2iOS.framework */,
+				F25FA529098DA700769AF338C0F11E55 /* libgit2iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
