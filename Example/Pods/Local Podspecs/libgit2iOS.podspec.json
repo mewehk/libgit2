@@ -1,7 +1,8 @@
 {
   "name": "libgit2iOS",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "libgit2 for iOS",
+  "swift_version": "4.0",
   "description": "libgit2 iOS pod.",
   "homepage": "https://github.com/mewehk/libgit2",
   "license": {
@@ -13,14 +14,13 @@
   },
   "source": {
     "git": "https://github.com/mewehk/libgit2.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "libgit2iOS/**/*.{swift,h}",
-  "ios": {
-    "vendored_libraries": "libgit2iOS/libgit2-ios.a"
-  },
-  "public_header_files": "libgit2iOS/**/*.h"
+  "source_files": "libgit2iOS/libgit2iOS.framework/Headers/*.h",
+  "vendored_frameworks": "libgit2iOS/libgit2iOS.framework",
+  "preserve_paths": "libgit2iOS.framework/*",
+  "public_header_files": "libgit2iOS/libgit2iOS.framework/Headers/*.h"
 }
