@@ -23,9 +23,14 @@
   "preserve_paths": "libgit2iOS/dependencies",
   "ios": {
     "pod_target_xcconfig": {
-      "SWIFT_INCLUDE_PATHS": "$(PODS_ROOT)/libgit2iOS/dependencies $(PODS_ROOT)/libgit2iOS/dependencies/git2",
-      "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/libgit2iOS/dependencies/",
-      "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/libgit2iOS/dependencies/git2"
+      "SWIFT_INCLUDE_PATHS": "\"$(SRCROOT)/../../libgit2iOS/dependencies\" \"$(SRCROOT)/../../libgit2iOS/dependencies/git2\"",
+      "LIBRARY_SEARCH_PATHS": "\"$(SRCROOT)/../../libgit2iOS/dependencies\"",
+      "HEADER_SEARCH_PATHS": "\"$(SRCROOT)/../../libgit2iOS/dependencies/git2\""
     }
-  }
+  },
+  "libraries": [
+    "git2",
+    "z",
+    "iconv"
+  ]
 }

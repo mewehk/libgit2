@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libgit2iOS'
-  s.version          = '0.1.2.3'
+  s.version          = '0.1.2.4'
   s.summary          = 'libgit2 for iOS'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
@@ -43,10 +43,12 @@ libgit2 iOS pod.
   s.source_files = 'libgit2iOS/*.{swift,m,h}'
   s.preserve_paths = 'libgit2iOS/dependencies'
   s.ios.pod_target_xcconfig = {
-      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/libgit2iOS/dependencies $(PODS_ROOT)/libgit2iOS/dependencies/git2',
-      'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/libgit2iOS/dependencies/',
-      'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/libgit2iOS/dependencies/git2'
+      
+      'SWIFT_INCLUDE_PATHS' => '"$(SRCROOT)/../../libgit2iOS/dependencies" "$(SRCROOT)/../../libgit2iOS/dependencies/git2"',
+      'LIBRARY_SEARCH_PATHS' => '"$(SRCROOT)/../../libgit2iOS/dependencies"',
+      'HEADER_SEARCH_PATHS' => '"$(SRCROOT)/../../libgit2iOS/dependencies/git2"'
   }
+  s.libraries = 'git2', 'z', 'iconv'
   # s.resource_bundles = {
   #   'libgit2' => ['libgit2/Assets/*.png']
   # }

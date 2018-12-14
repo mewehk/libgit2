@@ -7,34 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0035AFFF9A248C19E4AB01327BD25AAF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921BF1626D948A10882DF0F64139703E /* Result.swift */; };
-		0988944618F72F9C66ED44F1452353B3 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A8E2568B42AAD92BB5FF3308DFBF8F /* Objects.swift */; };
 		0B7687C17C6E50C8A3F8C7A6FB457E47 /* Pods-libgit2iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D368B137C0273F33F541B92D600696D /* Pods-libgit2iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15C3BD836CCE583D80FE7E64237BA6FE /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF2AFA19D527224A4B61C8204E4628 /* Errors.swift */; };
+		121086EC0DD78EC7270A40FEA7C80B7A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20793B8CD121DB2EA1256F867F428ABB /* Result.swift */; };
+		161AA0C80DBED726AE2D904BCABA03F2 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6667B9C7593CF1203A24E93262EEE /* Credentials.swift */; };
 		1ABBE7AF7C1F0A0EF3222868601435C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		1EF10EBA7A1AEDB280881B43BF698104 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895401A9819D5334760DDF8665C9F9D9 /* AnyError.swift */; };
-		232A68AE70240AC79F3E9ED77CE9B2F2 /* Libgit2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285D58FDFC84E414D97FC7F42A0360D /* Libgit2.swift */; };
-		285319CCC62EA165E140F0F2761EE5A0 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BD5FFB9E055EC572FDC27642E6BB47 /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A10CBB1DC95283D9EF82944476F32AA /* CommitIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D73658AE220C5934D8AA2D57BA8C2 /* CommitIterator.swift */; };
+		1D52871A089EAB1ECE1061B82AF3C17F /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B520906B6103FC58B4287EF91D93A20C /* Objects.swift */; };
+		21E8DC1599593F2F5A5E339582629CBF /* Remotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC8276D5073C9E148D78CF334C3A9C /* Remotes.swift */; };
+		24B0669EDD7ED066F72AF14F3BB67BC7 /* GitInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECD865415CEE5849E7E5188D650F0A /* GitInit.swift */; };
+		24CC763983CDBF739D912B6CB7C7EF9A /* SwiftGit2.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747EA18749281D290E96C742F40821 /* SwiftGit2.m */; };
+		29BE910A2756CA58D17DC8D3D516676F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2DE63C13A16CF7283C9A2EFC21854ABE /* Pods-libgit2iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC91BEBF38D3BA0FD6637B6B366D6B2 /* Pods-libgit2iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		315004B314DB2F798B029135F4494C00 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB124B97BF4C2DF8ACAB133DBF5AFD00 /* Repository.swift */; };
-		38279ED6B2AF25C510E83E64EF5092C6 /* Remotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788DAC55ED2857D153C76834FB0B80D /* Remotes.swift */; };
-		46D25FA806D852D6BA77EE5195502D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		491D60667AC05FCA5D2F942429D012A4 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4A2C76913DAB2C3F7DFBFDFACEC72 /* NoError.swift */; };
+		39D712777F7CD5AFA146AAB74527E247 /* CommitIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CB6F0611462E34075F958B8B17190 /* CommitIterator.swift */; };
+		3BE72E397136D6F81083CF9FCA4086D5 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA84E2FFABD3765284B0F3B38D34B5E /* NoError.swift */; };
+		505079C9169029B0725750D9EB4796A8 /* CheckoutStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202D6AC5BD3FBED79654B45BFE9FC121 /* CheckoutStrategy.swift */; };
 		56AED5B990125C0DF4B2BDF839475FCB /* Pods-libgit2iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D52E6022C66727BF9AC12F24AD36CF /* Pods-libgit2iOS_Example-dummy.m */; };
-		5E0F4F7F054007FB3FEABF72F0CA265F /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6D94F64733E0DD7390D3A5B30DD5F /* ResultProtocol.swift */; };
-		629AC3651201140DE493E7B13D128767 /* Pointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606396D7F5F23028573739D06E8D98CC /* Pointers.swift */; };
-		7693604D8F8D6EB5E5C6771E59C94197 /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF4A9A0872068A71048CC6B4CBDC76 /* References.swift */; };
-		76AD9EB2360906A018A574C34FC21E6E /* OID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EF53795F6E99CF301019E0D481B2C /* OID.swift */; };
-		A3F156CC916238B107B4AA3B4FF48742 /* SwiftGit2.m in Sources */ = {isa = PBXBuildFile; fileRef = 774F4388569274ED8DAE7D392F8AF902 /* SwiftGit2.m */; };
-		B27608BD3D7A06DBA361C40C770D556E /* SwiftGit2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6079EA2642CD8E08083AB3D11BF970F1 /* SwiftGit2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B66FA1A02B00686045F0C3FC68B62E06 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394502BBDF7C07157CE32ADBA28DBCD2 /* Credentials.swift */; };
-		BFE897105D3E5AD20863A99E90C1FD64 /* Diffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC4E1E21C08D6E4BD1ED1B35319A86 /* Diffs.swift */; };
+		672025F250A11351D7ED00ADDCD6F353 /* Libgit2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58003882DF7BCCBB9529FF8571C424D /* Libgit2.swift */; };
+		6B95C83BE2EF42FE3D923AC19312B98F /* SwiftGit2.h in Headers */ = {isa = PBXBuildFile; fileRef = F241F4272A465A867CF751204A2BF29A /* SwiftGit2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7110172DA4CD473A24C2F87EAFF57B57 /* libgit2iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E9C9E14B0DF9839EF1D7E85B046110 /* libgit2iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B3A828CD79D05BC39FE91883E0C72C /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B350B119254A3944705F6F1FADA651 /* AnyError.swift */; };
+		B4372B9938859D6AA442180DEE9031EB /* Pointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED25DD426BB5BAC1B35B9B40BDA9CA2 /* Pointers.swift */; };
+		BC60E770D530CC2BBBD536CADB2E49DF /* Diffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF22A495979BD60550EF9D42046EECF /* Diffs.swift */; };
+		C09BA9385413B311872F3A9D0727F808 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = CB41B7B52E0F3F223998A2FDB7CE5FAF /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCEB91DB103281878EA9B6E74B46FC1E /* libgit2iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AF6A5C7E62884CC977C0DC33E4DA0E /* libgit2iOS-dummy.m */; };
+		D02CF274C38F450334C53363D1A4ECD6 /* OID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44081C976822EBFC71C87C1CAADBE5 /* OID.swift */; };
+		D148C79547354FEBC23E56BE09CB6897 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32AEB796652C9A6137D09C60D18ACE /* Errors.swift */; };
+		D4EA906B4D20B5166A41FF5A94FD9824 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C321E66B244AF662F93CD3708DD64E /* Repository.swift */; };
+		D64785707D700F81EEE75533FC1ED6CF /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98A564A0358552FF34472E49DE3E40 /* References.swift */; };
 		DFC6BB1B2D454CDB4A69C861E54A0ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E2A1B3EF37F491FFD5556E6076D42541 /* libgit2iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B8C797A8CC6BCCA27CF9EA0124D885 /* libgit2iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E83678D341D1D4599E00F0F939099375 /* Pods-libgit2iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97465C80F4FB129C38F16975D53C6742 /* Pods-libgit2iOS_Tests-dummy.m */; };
-		EC03222ED03F5AE17E0F5EB820115763 /* libgit2iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2599EAA2EA89F7E7855AC14DCFC9689 /* libgit2iOS-dummy.m */; };
-		F92D7EEEE2A17A24F07AAFF2DEB8937E /* CheckoutStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CACEF0351900C3957094E4DEF14AFE /* CheckoutStrategy.swift */; };
+		FE4B90B219D4F226A693FE5377F1D704 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAF23BBA3D6AC62BBA0EAA507DCE55 /* ResultProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 397681F19C54EEFC28548B94D4A05938;
+			remoteGlobalIDString = 2AA3CC22DECFDA49B1C35A0FA9742928;
 			remoteInfo = libgit2iOS;
 		};
 		6AE5CAAA96DE9BB5C087C0A22E68AC08 /* PBXContainerItemProxy */ = {
@@ -55,58 +56,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0285D58FDFC84E414D97FC7F42A0360D /* Libgit2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Libgit2.swift; path = libgit2iOS/Libgit2.swift; sourceTree = "<group>"; };
-		0746D28F6342C2B225D2D383BED5D193 /* libgit2iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libgit2iOS.modulemap; sourceTree = "<group>"; };
+		05B350B119254A3944705F6F1FADA651 /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = libgit2iOS/AnyError.swift; sourceTree = "<group>"; };
 		0C9323BEDBBABACCFE7162AAF6444285 /* Pods-libgit2iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D62353392F5685A2E0F1148DC1A04A9 /* libgit2iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libgit2iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F745432BD8406297D374633A1869716 /* libgit2iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2iOS-prefix.pch"; sourceTree = "<group>"; };
-		27EC3C48EDBD913AF25A6069CC0FF67D /* Pods_libgit2iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libgit2iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D1FC96710E7477C4DF807D8902767D4 /* Pods_libgit2iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libgit2iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D62353392F5685A2E0F1148DC1A04A9 /* libgit2iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libgit2iOS.framework; path = libgit2iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BECD865415CEE5849E7E5188D650F0A /* GitInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GitInit.swift; path = libgit2iOS/GitInit.swift; sourceTree = "<group>"; };
+		202D6AC5BD3FBED79654B45BFE9FC121 /* CheckoutStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutStrategy.swift; path = libgit2iOS/CheckoutStrategy.swift; sourceTree = "<group>"; };
+		20793B8CD121DB2EA1256F867F428ABB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = libgit2iOS/Result.swift; sourceTree = "<group>"; };
+		27EC3C48EDBD913AF25A6069CC0FF67D /* Pods_libgit2iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2iOS_Example.framework; path = "Pods-libgit2iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1FC96710E7477C4DF807D8902767D4 /* Pods_libgit2iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libgit2iOS_Tests.framework; path = "Pods-libgit2iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D368B137C0273F33F541B92D600696D /* Pods-libgit2iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		36E52F6555F63C8B5B4FC41E1A9BA9BF /* Pods-libgit2iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		394502BBDF7C07157CE32ADBA28DBCD2 /* Credentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = libgit2iOS/Credentials.swift; sourceTree = "<group>"; };
-		3D8D17E85A282CFAC09FDFEBAE76705C /* libgit2iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libgit2iOS.xcconfig; sourceTree = "<group>"; };
-		4330C27E3606F04BC680C403AB6652AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		380CED18C173329AD197E97A33330159 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B98A564A0358552FF34472E49DE3E40 /* References.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = References.swift; path = libgit2iOS/References.swift; sourceTree = "<group>"; };
+		3EFAF23BBA3D6AC62BBA0EAA507DCE55 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = libgit2iOS/ResultProtocol.swift; sourceTree = "<group>"; };
+		41EE577ACF5137DE4CE3BCCFB5EA6FC1 /* libgit2iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libgit2iOS.xcconfig; sourceTree = "<group>"; };
+		42E9C9E14B0DF9839EF1D7E85B046110 /* libgit2iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2iOS-umbrella.h"; sourceTree = "<group>"; };
 		49B0A48A55F7E9AF712E3046EA860A41 /* Pods-libgit2iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Example-resources.sh"; sourceTree = "<group>"; };
-		4CB4A2C76913DAB2C3F7DFBFDFACEC72 /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = libgit2iOS/NoError.swift; sourceTree = "<group>"; };
+		4E04B28E9493969BF9E5415DA0F86907 /* libgit2iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2iOS-prefix.pch"; sourceTree = "<group>"; };
 		4F0EED8B9B0F8FACD7111E737C5DCCD8 /* Pods-libgit2iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		51F6A0092DD69D7C16BB6968DCA9C114 /* Pods-libgit2iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Tests-resources.sh"; sourceTree = "<group>"; };
 		552DDEE614C1583AD880C2CAC0017256 /* Pods-libgit2iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2iOS_Tests.modulemap"; sourceTree = "<group>"; };
-		585EF53795F6E99CF301019E0D481B2C /* OID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OID.swift; path = libgit2iOS/OID.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		606396D7F5F23028573739D06E8D98CC /* Pointers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pointers.swift; path = libgit2iOS/Pointers.swift; sourceTree = "<group>"; };
-		6079EA2642CD8E08083AB3D11BF970F1 /* SwiftGit2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftGit2.h; path = libgit2iOS/SwiftGit2.h; sourceTree = "<group>"; };
-		63CF4A9A0872068A71048CC6B4CBDC76 /* References.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = References.swift; path = libgit2iOS/References.swift; sourceTree = "<group>"; };
+		5D44081C976822EBFC71C87C1CAADBE5 /* OID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OID.swift; path = libgit2iOS/OID.swift; sourceTree = "<group>"; };
+		5ED25DD426BB5BAC1B35B9B40BDA9CA2 /* Pointers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pointers.swift; path = libgit2iOS/Pointers.swift; sourceTree = "<group>"; };
 		63D52E6022C66727BF9AC12F24AD36CF /* Pods-libgit2iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2iOS_Example-dummy.m"; sourceTree = "<group>"; };
 		7200B618DF3031E13BF0362499990E3F /* Pods-libgit2iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libgit2iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		774F4388569274ED8DAE7D392F8AF902 /* SwiftGit2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwiftGit2.m; path = libgit2iOS/SwiftGit2.m; sourceTree = "<group>"; };
-		77B8C797A8CC6BCCA27CF9EA0124D885 /* libgit2iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libgit2iOS-umbrella.h"; sourceTree = "<group>"; };
+		72747EA18749281D290E96C742F40821 /* SwiftGit2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwiftGit2.m; path = libgit2iOS/SwiftGit2.m; sourceTree = "<group>"; };
 		78AE87377FB0A9A62D9CC492709519A9 /* Pods-libgit2iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libgit2iOS_Example.modulemap"; sourceTree = "<group>"; };
+		78FC8276D5073C9E148D78CF334C3A9C /* Remotes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Remotes.swift; path = libgit2iOS/Remotes.swift; sourceTree = "<group>"; };
 		7AC91BEBF38D3BA0FD6637B6B366D6B2 /* Pods-libgit2iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libgit2iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		7D32AEB796652C9A6137D09C60D18ACE /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = libgit2iOS/Errors.swift; sourceTree = "<group>"; };
 		7E1113C2831247E741735AF2DAB4B704 /* Pods-libgit2iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		86A7D02D08FBA6A7FC891EDBA027940D /* libgit2iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = libgit2iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		87A8E2568B42AAD92BB5FF3308DFBF8F /* Objects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Objects.swift; path = libgit2iOS/Objects.swift; sourceTree = "<group>"; };
-		894E6B559126B9A4849F7FCE4D64378B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		895401A9819D5334760DDF8665C9F9D9 /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = libgit2iOS/AnyError.swift; sourceTree = "<group>"; };
+		82244E07E528493B45E822CC75E8A282 /* libgit2iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libgit2iOS.modulemap; sourceTree = "<group>"; };
 		9020DBB80DA38C266DCFACAE5BAC890F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		921BF1626D948A10882DF0F64139703E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = libgit2iOS/Result.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97465C80F4FB129C38F16975D53C6742 /* Pods-libgit2iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libgit2iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		9CDC4E1E21C08D6E4BD1ED1B35319A86 /* Diffs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diffs.swift; path = libgit2iOS/Diffs.swift; sourceTree = "<group>"; };
-		A5CACEF0351900C3957094E4DEF14AFE /* CheckoutStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutStrategy.swift; path = libgit2iOS/CheckoutStrategy.swift; sourceTree = "<group>"; };
-		A788DAC55ED2857D153C76834FB0B80D /* Remotes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Remotes.swift; path = libgit2iOS/Remotes.swift; sourceTree = "<group>"; };
-		AAF09D94F782778299B96E860A5AA9E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2EF2AFA19D527224A4B61C8204E4628 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = libgit2iOS/Errors.swift; sourceTree = "<group>"; };
-		C23D73658AE220C5934D8AA2D57BA8C2 /* CommitIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommitIterator.swift; path = libgit2iOS/CommitIterator.swift; sourceTree = "<group>"; };
-		C3BD5FFB9E055EC572FDC27642E6BB47 /* Result.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Result.h; path = libgit2iOS/Result.h; sourceTree = "<group>"; };
-		C6F6D94F64733E0DD7390D3A5B30DD5F /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = libgit2iOS/ResultProtocol.swift; sourceTree = "<group>"; };
-		CB124B97BF4C2DF8ACAB133DBF5AFD00 /* Repository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = libgit2iOS/Repository.swift; sourceTree = "<group>"; };
+		99AF6A5C7E62884CC977C0DC33E4DA0E /* libgit2iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libgit2iOS-dummy.m"; sourceTree = "<group>"; };
+		A55CB6F0611462E34075F958B8B17190 /* CommitIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommitIterator.swift; path = libgit2iOS/CommitIterator.swift; sourceTree = "<group>"; };
+		AEA84E2FFABD3765284B0F3B38D34B5E /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = libgit2iOS/NoError.swift; sourceTree = "<group>"; };
+		B520906B6103FC58B4287EF91D93A20C /* Objects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Objects.swift; path = libgit2iOS/Objects.swift; sourceTree = "<group>"; };
+		B58003882DF7BCCBB9529FF8571C424D /* Libgit2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Libgit2.swift; path = libgit2iOS/Libgit2.swift; sourceTree = "<group>"; };
+		C62982C7E4B84D383E760B6DA1AE7F07 /* libgit2iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libgit2iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB41B7B52E0F3F223998A2FDB7CE5FAF /* Result.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Result.h; path = libgit2iOS/Result.h; sourceTree = "<group>"; };
+		D2D6667B9C7593CF1203A24E93262EEE /* Credentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = libgit2iOS/Credentials.swift; sourceTree = "<group>"; };
 		D5A88FDD4B92AC85E5B8A0E6A489E8FE /* Pods-libgit2iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5BBA5BA3ADD7B7F6D296803FAF0D5FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2599EAA2EA89F7E7855AC14DCFC9689 /* libgit2iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libgit2iOS-dummy.m"; sourceTree = "<group>"; };
+		D5C321E66B244AF662F93CD3708DD64E /* Repository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = libgit2iOS/Repository.swift; sourceTree = "<group>"; };
+		F00AAC82C8870B4E161623206354A734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F241F4272A465A867CF751204A2BF29A /* SwiftGit2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftGit2.h; path = libgit2iOS/SwiftGit2.h; sourceTree = "<group>"; };
 		F30486BBD986259B68598DF04E1C22CB /* Pods-libgit2iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libgit2iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F4C955BCA6412362EFC1C561ED67E3F8 /* Pods-libgit2iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F72A4498C0C043DD3507444E10CE130A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2032BB835982D5A53F8069EBAFA05C /* Pods-libgit2iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libgit2iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBF22A495979BD60550EF9D42046EECF /* Diffs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diffs.swift; path = libgit2iOS/Diffs.swift; sourceTree = "<group>"; };
 		FD79E24F276A00EB91C7F58C2ECFD532 /* Pods-libgit2iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libgit2iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,19 +121,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430346E8783A5034B8A5AA5644178EF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46D25FA806D852D6BA77EE5195502D65 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8E3FA90DB01D048BEAAA68078A19A6B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1ABBE7AF7C1F0A0EF3222868601435C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1889E4875AF69596FC31F66135E3E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BE910A2756CA58D17DC8D3D516676F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +158,12 @@
 			path = "Target Support Files/Pods-libgit2iOS_Example";
 			sourceTree = "<group>";
 		};
-		3C9838EB09D02B3DE72DD64DF52035E6 /* Pod */ = {
+		3507D2A5773F7A342BB02373CCB788EC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				86A7D02D08FBA6A7FC891EDBA027940D /* libgit2iOS.podspec */,
-				894E6B559126B9A4849F7FCE4D64378B /* LICENSE */,
-				4330C27E3606F04BC680C403AB6652AC /* README.md */,
+				A6D0AEBFC356214698D26B8AC3247A1D /* libgit2iOS */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -178,33 +178,65 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				95C8879ACE1DF6C7F74FF75CE77D579C /* Development Pods */,
+				3507D2A5773F7A342BB02373CCB788EC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B2320ACFE6E18EB9C3FF41EEA0B3DA43 /* Products */,
 				C73C12DB775A64D16BE8D7F7DC902017 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		858A20462FF794AF82FF2901DC903850 /* Support Files */ = {
+		90D73B66F761316B0337EF999ADAE105 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAF09D94F782778299B96E860A5AA9E5 /* Info.plist */,
-				0746D28F6342C2B225D2D383BED5D193 /* libgit2iOS.modulemap */,
-				3D8D17E85A282CFAC09FDFEBAE76705C /* libgit2iOS.xcconfig */,
-				F2599EAA2EA89F7E7855AC14DCFC9689 /* libgit2iOS-dummy.m */,
-				1F745432BD8406297D374633A1869716 /* libgit2iOS-prefix.pch */,
-				77B8C797A8CC6BCCA27CF9EA0124D885 /* libgit2iOS-umbrella.h */,
+				F72A4498C0C043DD3507444E10CE130A /* Info.plist */,
+				82244E07E528493B45E822CC75E8A282 /* libgit2iOS.modulemap */,
+				41EE577ACF5137DE4CE3BCCFB5EA6FC1 /* libgit2iOS.xcconfig */,
+				99AF6A5C7E62884CC977C0DC33E4DA0E /* libgit2iOS-dummy.m */,
+				4E04B28E9493969BF9E5415DA0F86907 /* libgit2iOS-prefix.pch */,
+				42E9C9E14B0DF9839EF1D7E85B046110 /* libgit2iOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/libgit2iOS";
 			sourceTree = "<group>";
 		};
-		95C8879ACE1DF6C7F74FF75CE77D579C /* Development Pods */ = {
+		A6D0AEBFC356214698D26B8AC3247A1D /* libgit2iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E585DF7CE6B51DB0115C317691C4B20C /* libgit2iOS */,
+				05B350B119254A3944705F6F1FADA651 /* AnyError.swift */,
+				202D6AC5BD3FBED79654B45BFE9FC121 /* CheckoutStrategy.swift */,
+				A55CB6F0611462E34075F958B8B17190 /* CommitIterator.swift */,
+				D2D6667B9C7593CF1203A24E93262EEE /* Credentials.swift */,
+				FBF22A495979BD60550EF9D42046EECF /* Diffs.swift */,
+				7D32AEB796652C9A6137D09C60D18ACE /* Errors.swift */,
+				1BECD865415CEE5849E7E5188D650F0A /* GitInit.swift */,
+				B58003882DF7BCCBB9529FF8571C424D /* Libgit2.swift */,
+				AEA84E2FFABD3765284B0F3B38D34B5E /* NoError.swift */,
+				B520906B6103FC58B4287EF91D93A20C /* Objects.swift */,
+				5D44081C976822EBFC71C87C1CAADBE5 /* OID.swift */,
+				5ED25DD426BB5BAC1B35B9B40BDA9CA2 /* Pointers.swift */,
+				3B98A564A0358552FF34472E49DE3E40 /* References.swift */,
+				78FC8276D5073C9E148D78CF334C3A9C /* Remotes.swift */,
+				D5C321E66B244AF662F93CD3708DD64E /* Repository.swift */,
+				CB41B7B52E0F3F223998A2FDB7CE5FAF /* Result.h */,
+				20793B8CD121DB2EA1256F867F428ABB /* Result.swift */,
+				3EFAF23BBA3D6AC62BBA0EAA507DCE55 /* ResultProtocol.swift */,
+				F241F4272A465A867CF751204A2BF29A /* SwiftGit2.h */,
+				72747EA18749281D290E96C742F40821 /* SwiftGit2.m */,
+				B1DACFBBE2E16CFFAE9E8ADAF3710473 /* Pod */,
+				90D73B66F761316B0337EF999ADAE105 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = libgit2iOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B1DACFBBE2E16CFFAE9E8ADAF3710473 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C62982C7E4B84D383E760B6DA1AE7F07 /* libgit2iOS.podspec */,
+				F00AAC82C8870B4E161623206354A734 /* LICENSE */,
+				380CED18C173329AD197E97A33330159 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B2320ACFE6E18EB9C3FF41EEA0B3DA43 /* Products */ = {
@@ -234,35 +266,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E585DF7CE6B51DB0115C317691C4B20C /* libgit2iOS */ = {
-			isa = PBXGroup;
-			children = (
-				895401A9819D5334760DDF8665C9F9D9 /* AnyError.swift */,
-				A5CACEF0351900C3957094E4DEF14AFE /* CheckoutStrategy.swift */,
-				C23D73658AE220C5934D8AA2D57BA8C2 /* CommitIterator.swift */,
-				394502BBDF7C07157CE32ADBA28DBCD2 /* Credentials.swift */,
-				9CDC4E1E21C08D6E4BD1ED1B35319A86 /* Diffs.swift */,
-				B2EF2AFA19D527224A4B61C8204E4628 /* Errors.swift */,
-				0285D58FDFC84E414D97FC7F42A0360D /* Libgit2.swift */,
-				4CB4A2C76913DAB2C3F7DFBFDFACEC72 /* NoError.swift */,
-				87A8E2568B42AAD92BB5FF3308DFBF8F /* Objects.swift */,
-				585EF53795F6E99CF301019E0D481B2C /* OID.swift */,
-				606396D7F5F23028573739D06E8D98CC /* Pointers.swift */,
-				63CF4A9A0872068A71048CC6B4CBDC76 /* References.swift */,
-				A788DAC55ED2857D153C76834FB0B80D /* Remotes.swift */,
-				CB124B97BF4C2DF8ACAB133DBF5AFD00 /* Repository.swift */,
-				C3BD5FFB9E055EC572FDC27642E6BB47 /* Result.h */,
-				921BF1626D948A10882DF0F64139703E /* Result.swift */,
-				C6F6D94F64733E0DD7390D3A5B30DD5F /* ResultProtocol.swift */,
-				6079EA2642CD8E08083AB3D11BF970F1 /* SwiftGit2.h */,
-				774F4388569274ED8DAE7D392F8AF902 /* SwiftGit2.m */,
-				3C9838EB09D02B3DE72DD64DF52035E6 /* Pod */,
-				858A20462FF794AF82FF2901DC903850 /* Support Files */,
-			);
-			name = libgit2iOS;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		EA055A5B9134F682519CDD21D4D054E3 /* Pods-libgit2iOS_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +287,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4CD4D49521B39CC90EB1777261C10DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7110172DA4CD473A24C2F87EAFF57B57 /* libgit2iOS-umbrella.h in Headers */,
+				C09BA9385413B311872F3A9D0727F808 /* Result.h in Headers */,
+				6B95C83BE2EF42FE3D923AC19312B98F /* SwiftGit2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		528B7559174C9D28562FFC8BACE2094E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,16 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B7687C17C6E50C8A3F8C7A6FB457E47 /* Pods-libgit2iOS_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E96EB74FB4A2EFE49563BA3643A3E14 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2A1B3EF37F491FFD5556E6076D42541 /* libgit2iOS-umbrella.h in Headers */,
-				285319CCC62EA165E140F0F2761EE5A0 /* Result.h in Headers */,
-				B27608BD3D7A06DBA361C40C770D556E /* SwiftGit2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +335,24 @@
 			productReference = 27EC3C48EDBD913AF25A6069CC0FF67D /* Pods_libgit2iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		2AA3CC22DECFDA49B1C35A0FA9742928 /* libgit2iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B10C1D94888DE6E7BCB93ED1050F6F /* Build configuration list for PBXNativeTarget "libgit2iOS" */;
+			buildPhases = (
+				4CD4D49521B39CC90EB1777261C10DB8 /* Headers */,
+				9A8312A33D145D9BBA060057BB10748A /* Sources */,
+				E1889E4875AF69596FC31F66135E3E40 /* Frameworks */,
+				153CCDCCC93FCB4F6D5B682F95731BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libgit2iOS;
+			productName = libgit2iOS;
+			productReference = 0D62353392F5685A2E0F1148DC1A04A9 /* libgit2iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3555F2401C4BD4BFD31BF6F04D5D19A6 /* Pods-libgit2iOS_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A415DD5341CC827369369F2972DAD32E /* Build configuration list for PBXNativeTarget "Pods-libgit2iOS_Tests" */;
@@ -349,24 +370,6 @@
 			name = "Pods-libgit2iOS_Tests";
 			productName = "Pods-libgit2iOS_Tests";
 			productReference = 2D1FC96710E7477C4DF807D8902767D4 /* Pods_libgit2iOS_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		397681F19C54EEFC28548B94D4A05938 /* libgit2iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 424658BA16D5BE514994FFB94D63D872 /* Build configuration list for PBXNativeTarget "libgit2iOS" */;
-			buildPhases = (
-				7E96EB74FB4A2EFE49563BA3643A3E14 /* Headers */,
-				2720037C2D2F740EDBC5A1F5D826465B /* Sources */,
-				430346E8783A5034B8A5AA5644178EF2 /* Frameworks */,
-				5ADBA3FA395D302834762721C76F3BA0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = libgit2iOS;
-			productName = libgit2iOS;
-			productReference = 0D62353392F5685A2E0F1148DC1A04A9 /* libgit2iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -390,7 +393,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				397681F19C54EEFC28548B94D4A05938 /* libgit2iOS */,
+				2AA3CC22DECFDA49B1C35A0FA9742928 /* libgit2iOS */,
 				1A667C81C408897DB221E9B465EE3D28 /* Pods-libgit2iOS_Example */,
 				3555F2401C4BD4BFD31BF6F04D5D19A6 /* Pods-libgit2iOS_Tests */,
 			);
@@ -398,6 +401,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		153CCDCCC93FCB4F6D5B682F95731BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CA204EC42FAB53E1DBF7C293F93D7AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,13 +416,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		53E3F360FAAE49D28467F28F8E537D7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5ADBA3FA395D302834762721C76F3BA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,36 +433,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2720037C2D2F740EDBC5A1F5D826465B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EF10EBA7A1AEDB280881B43BF698104 /* AnyError.swift in Sources */,
-				F92D7EEEE2A17A24F07AAFF2DEB8937E /* CheckoutStrategy.swift in Sources */,
-				2A10CBB1DC95283D9EF82944476F32AA /* CommitIterator.swift in Sources */,
-				B66FA1A02B00686045F0C3FC68B62E06 /* Credentials.swift in Sources */,
-				BFE897105D3E5AD20863A99E90C1FD64 /* Diffs.swift in Sources */,
-				15C3BD836CCE583D80FE7E64237BA6FE /* Errors.swift in Sources */,
-				232A68AE70240AC79F3E9ED77CE9B2F2 /* Libgit2.swift in Sources */,
-				EC03222ED03F5AE17E0F5EB820115763 /* libgit2iOS-dummy.m in Sources */,
-				491D60667AC05FCA5D2F942429D012A4 /* NoError.swift in Sources */,
-				0988944618F72F9C66ED44F1452353B3 /* Objects.swift in Sources */,
-				76AD9EB2360906A018A574C34FC21E6E /* OID.swift in Sources */,
-				629AC3651201140DE493E7B13D128767 /* Pointers.swift in Sources */,
-				7693604D8F8D6EB5E5C6771E59C94197 /* References.swift in Sources */,
-				38279ED6B2AF25C510E83E64EF5092C6 /* Remotes.swift in Sources */,
-				315004B314DB2F798B029135F4494C00 /* Repository.swift in Sources */,
-				0035AFFF9A248C19E4AB01327BD25AAF /* Result.swift in Sources */,
-				5E0F4F7F054007FB3FEABF72F0CA265F /* ResultProtocol.swift in Sources */,
-				A3F156CC916238B107B4AA3B4FF48742 /* SwiftGit2.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A50416CF36A55B0E480DB50F013A9F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				56AED5B990125C0DF4B2BDF839475FCB /* Pods-libgit2iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8312A33D145D9BBA060057BB10748A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B3A828CD79D05BC39FE91883E0C72C /* AnyError.swift in Sources */,
+				505079C9169029B0725750D9EB4796A8 /* CheckoutStrategy.swift in Sources */,
+				39D712777F7CD5AFA146AAB74527E247 /* CommitIterator.swift in Sources */,
+				161AA0C80DBED726AE2D904BCABA03F2 /* Credentials.swift in Sources */,
+				BC60E770D530CC2BBBD536CADB2E49DF /* Diffs.swift in Sources */,
+				D148C79547354FEBC23E56BE09CB6897 /* Errors.swift in Sources */,
+				24B0669EDD7ED066F72AF14F3BB67BC7 /* GitInit.swift in Sources */,
+				672025F250A11351D7ED00ADDCD6F353 /* Libgit2.swift in Sources */,
+				CCEB91DB103281878EA9B6E74B46FC1E /* libgit2iOS-dummy.m in Sources */,
+				3BE72E397136D6F81083CF9FCA4086D5 /* NoError.swift in Sources */,
+				1D52871A089EAB1ECE1061B82AF3C17F /* Objects.swift in Sources */,
+				D02CF274C38F450334C53363D1A4ECD6 /* OID.swift in Sources */,
+				B4372B9938859D6AA442180DEE9031EB /* Pointers.swift in Sources */,
+				D64785707D700F81EEE75533FC1ED6CF /* References.swift in Sources */,
+				21E8DC1599593F2F5A5E339582629CBF /* Remotes.swift in Sources */,
+				D4EA906B4D20B5166A41FF5A94FD9824 /* Repository.swift in Sources */,
+				121086EC0DD78EC7270A40FEA7C80B7A /* Result.swift in Sources */,
+				FE4B90B219D4F226A693FE5377F1D704 /* ResultProtocol.swift in Sources */,
+				24CC763983CDBF739D912B6CB7C7EF9A /* SwiftGit2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,12 +479,46 @@
 		5D00773556046831CAB0870C51EA9D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libgit2iOS;
-			target = 397681F19C54EEFC28548B94D4A05938 /* libgit2iOS */;
+			target = 2AA3CC22DECFDA49B1C35A0FA9742928 /* libgit2iOS */;
 			targetProxy = 32F41E0277AF6F9575A49A716F4AA445 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3996A99C3D5B88CFC9CAB97DCD696D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41EE577ACF5137DE4CE3BCCFB5EA6FC1 /* libgit2iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libgit2iOS/libgit2iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libgit2iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libgit2iOS/libgit2iOS.modulemap";
+				PRODUCT_MODULE_NAME = libgit2iOS;
+				PRODUCT_NAME = libgit2iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -540,6 +578,38 @@
 			};
 			name = Release;
 		};
+		5B79D350E2EE3F69A28506B6DA538727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41EE577ACF5137DE4CE3BCCFB5EA6FC1 /* libgit2iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libgit2iOS/libgit2iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libgit2iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libgit2iOS/libgit2iOS.modulemap";
+				PRODUCT_MODULE_NAME = libgit2iOS;
+				PRODUCT_NAME = libgit2iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7069AA1D36CF810B1F03A6E446361DE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F0EED8B9B0F8FACD7111E737C5DCCD8 /* Pods-libgit2iOS_Example.release.xcconfig */;
@@ -567,41 +637,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A57D0FBD8CAE5190ABD96F00B4AD725D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D8D17E85A282CFAC09FDFEBAE76705C /* libgit2iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libgit2iOS/libgit2iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libgit2iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libgit2iOS/libgit2iOS.modulemap";
-				PRODUCT_MODULE_NAME = libgit2iOS;
-				PRODUCT_NAME = libgit2iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INCLUDE_PATHS = "$(inherited) $(PODS_ROOT)/libgit2iOS/dependencies $(PODS_ROOT)/libgit2iOS/dependencies/git2 \"$(SRCROOT)/../../libgit2iOS/dependencies\"";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -740,39 +777,6 @@
 			};
 			name = Debug;
 		};
-		C0FB6CCAA6D2EF02F6CA2AA00C4CBAF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D8D17E85A282CFAC09FDFEBAE76705C /* libgit2iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libgit2iOS/libgit2iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libgit2iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libgit2iOS/libgit2iOS.modulemap";
-				PRODUCT_MODULE_NAME = libgit2iOS;
-				PRODUCT_NAME = libgit2iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INCLUDE_PATHS = "$(inherited) $(PODS_ROOT)/libgit2iOS/dependencies $(PODS_ROOT)/libgit2iOS/dependencies/git2 \"$(SRCROOT)/../../libgit2iOS/dependencies\"";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E09CCF71EDFAFE60E8C476419B99BB1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36E52F6555F63C8B5B4FC41E1A9BA9BF /* Pods-libgit2iOS_Example.debug.xcconfig */;
@@ -820,11 +824,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		424658BA16D5BE514994FFB94D63D872 /* Build configuration list for PBXNativeTarget "libgit2iOS" */ = {
+		52B10C1D94888DE6E7BCB93ED1050F6F /* Build configuration list for PBXNativeTarget "libgit2iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0FB6CCAA6D2EF02F6CA2AA00C4CBAF4 /* Debug */,
-				A57D0FBD8CAE5190ABD96F00B4AD725D /* Release */,
+				5B79D350E2EE3F69A28506B6DA538727 /* Debug */,
+				3996A99C3D5B88CFC9CAB97DCD696D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
